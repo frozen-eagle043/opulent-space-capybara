@@ -27,9 +27,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
