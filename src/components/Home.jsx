@@ -25,7 +25,7 @@ const Home = () => {
       </h1>
       <Body />
 
-      <div className={`content ${scrollPosition > 600 ? "ease-in" : ""}`}>
+      <div className={`content ${scrollPosition > 100 ? "ease-in" : ""}`}>
         {/* Your content goes here */}
         <h2>Welcome to Our Website</h2>
         <p>
