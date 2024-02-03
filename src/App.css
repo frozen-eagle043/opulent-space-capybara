@@ -6,13 +6,23 @@
 }
 /* Home.css */
 /* Home.css */
-/* .parallax-content {
-  height: 100vh;
+.parallax-bg {
+  background-image: url('./pexels-miguel-á-padriñán-255379.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This is what creates the parallax effect */
+  height: 100vh; /* Adjust the height as needed */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-} */
+  color: white; /* Adjust the color for text on top of the background */
+  position: relative; /* Set position to relative */
+}
+
+.parallax-content {
+  z-index: 1; /* Set a higher z-index to bring the content to the front */
+}
+
 
 
 .content.ease-in {
@@ -64,15 +74,25 @@ body {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 /* Navbar.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Change font family as needed */
+}
+
 .navbar {
-  background-color: rgba(0, 255, 255, 0.2);
+  background-color: rgba(0, 150, 255, 0.8); /* Slightly darker and more vibrant blue */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem;
-  height: 80px; /* Or any other value that suits your design */
+  padding: 1rem 2rem; /* Increased padding for better spacing */
+  height: 70px; /* Slightly reduced height */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar stays on top of other elements */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
-
 
 .nav-links {
   list-style: none;
@@ -83,7 +103,7 @@ body {
 
 .nav-links li {
   margin-left: 20px;
-  position: relative; /* For dropdown positioning */
+  position: relative;
 }
 
 .nav-links li:first-child {
@@ -92,14 +112,15 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: black; /* Adjust if needed */
+  color: white; /* Changed text color to white */
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: white; /* Solid color on hover */
-  background-color: cyan; /* Adjust if you want a background color change on hover */
-  padding: 5px; /* Add padding to make the hover effect more noticeable */
+  color: #f0f0f0; /* Lighter color on hover for better contrast */
+  background-color: #007acc; /* Darker blue background on hover */
+  padding: 10px 15px; /* Increased padding for a more prominent hover effect */
+  border-radius: 5px; /* Add a subtle border-radius for a softer look */
 }
 
 .dropdown {
@@ -107,8 +128,8 @@ body {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: rgba(0, 255, 255, 0.9); /* Slightly less transparent or solid for dropdown */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: rgba(0, 150, 255, 0.9); /* Slightly less transparent for dropdown */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -117,22 +138,141 @@ body {
 }
 
 .dropdown li {
-  margin-left: 0; /* Reset margin for dropdown items */
+  margin-left: 0;
 }
 
-/* Adjust the logo placement */
+/* Example logo - ensure you add your own */
 .logo {
   flex-grow: 1;
 }
 
-/* Example logo - ensure you add your own */
 .logo img {
-  height: 50px; /* Adjust based on your logo's size */
+  height: 50px;
 }
 
 /* Align items to the right */
 .nav-links {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
-/* When using the logo, wrap it in a div with class "logo" */
+/* Make the navbar transparent on top and solid on scroll */
+body.scrolled .navbar {
+  background-color: rgba(0, 150, 255, 1);
+}
+
+/* Footer.css */
+.footer {
+  background-color: #007acc; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-content {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width: 48%; /* Adjust the width as needed */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  width: 48%; /* Adjust the width as needed */
+  text-align: right;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff; /* White text color for links */
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-links a,
+.footer-copyright strong {
+  color: #fff; /* White text color for links and strong */
+}
+
+.footer-links a:hover,
+.footer-copyright strong:hover {
+  text-decoration: underline; /* Underline on hover for links and strong */
+}
+/* Speakers.css */
+
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker-card {
+  width: 33.33%; /* Display 3 speakers in a row */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.speaker-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.speaker-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.speaker-card:hover .curtain {
+  opacity: 1;
+}
+
+.speaker-info {
+  text-align: center;
+  color: #fff;
+}
+
+.speaker-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.speaker-info a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.speaker-info a:hover {
+  text-decoration: none;
+}

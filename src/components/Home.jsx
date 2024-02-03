@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
+//import Header from "./Header";
 import Footer from "./Footer";
-import Body from "./Body";
-import { Parallax } from "react-parallax";
+// import Body from "./Body";
+// import { Parallax } from "react-parallax";
 import Slider from "react-slick"; // Importing the Slider component
+import Navbar from "./Navbar";
+//import { Speaker } from "@mui/icons-material";
+import Speakers from "./Speaker";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
 
 // Sample images. Replace these URLs with your own image URLs.
@@ -38,27 +41,28 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <Header />
-      <h1>
-        Intelligent Signal Processing and Effective Communication Technologies
-        (INSPECT 2024)
-      </h1>
+    <div className="parallax-content">
+      <Navbar />
       <Slider {...sliderSettings}>
         {images.map((img, index) => (
           <div key={index}>
             <img
               src={img}
               alt="Slide"
-              style={{ width: "100%", height: "250px", objectFit: "cover" }}
+              style={{ width: "100%", height: "500px", objectFit: "cover" }}
             />
           </div>
         ))}
       </Slider>
-
-      <div>
+      <h1>
+        Intelligent Signal Processing and Effective Communication Technologies
+        (INSPECT 2024)
+      </h1>
+      <div className="parallax-bg">
         <h2>Welcome to Our Website</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <div>
+          <Speakers />
+        </div>
       </div>
 
       <Footer />
