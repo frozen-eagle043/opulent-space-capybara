@@ -1,40 +1,14 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+//import "./ImageCard.css"; // Assuming you have a CSS file for styling
 
 const ImageCard = ({ images }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
   return (
-    <div
-      style={{
-        // position: "fixed",
-        left: 0,
-        width: "100%",
-        height: "20%", // Adjust the height as needed
-        backgroundColor: "white",
-      }}
-    >
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index} style={{ width: "100%" }}>
-            <img
-              src={image}
-              alt={`Slide ${index + 1}`}
-              style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            />
-          </div>
-        ))}
-      </Slider>
+    <div className="image-grid">
+      {images.map((image, index) => (
+        <div key={index} className="image-card">
+          <img src={image} alt={`Gallery ${index}`} />
+        </div>
+      ))}
     </div>
   );
 };

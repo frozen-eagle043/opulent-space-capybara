@@ -1,42 +1,138 @@
+/* Assuming this is in HomeStyle.css or a similar CSS file */
 .content {
+  transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
 }
+/* Home.css */
+/* Home.css */
+/* .parallax-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} */
 
-.ease-in {
+
+.content.ease-in {
   opacity: 1;
   transform: translateY(0);
 }
 
-.App {
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Additional styling for smooth scrolling and visual appeal */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Styling for header and footer to make them more visually appealing */
+header, footer {
+  background-color: #f5f5f5;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for the main content for better readability */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  color: #333;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+  transition: transform 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.image-card img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+/* Navbar.css */
+.navbar {
+  background-color: rgba(0, 255, 255, 0.2);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem 1rem;
+  height: 80px; /* Or any other value that suits your design */
 }
 
-.App-link {
-  color: #61dafb;
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.heart {
-  color: #ff0000;
+.nav-links li {
+  margin-left: 20px;
+  position: relative; /* For dropdown positioning */
 }
 
-.small {
-  font-size: 0.75rem;
+.nav-links li:first-child {
+  margin-left: 0;
 }
+
+.nav-links a {
+  text-decoration: none;
+  color: black; /* Adjust if needed */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: white; /* Solid color on hover */
+  background-color: cyan; /* Adjust if you want a background color change on hover */
+  padding: 5px; /* Add padding to make the hover effect more noticeable */
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: rgba(0, 255, 255, 0.9); /* Slightly less transparent or solid for dropdown */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  margin-left: 0; /* Reset margin for dropdown items */
+}
+
+/* Adjust the logo placement */
+.logo {
+  flex-grow: 1;
+}
+
+/* Example logo - ensure you add your own */
+.logo img {
+  height: 50px; /* Adjust based on your logo's size */
+}
+
+/* Align items to the right */
+.nav-links {
+  justify-content: end;
+}
+
+/* When using the logo, wrap it in a div with class "logo" */

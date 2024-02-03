@@ -2,6 +2,17 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Body from "./Body";
+import { Parallax } from "react-parallax";
+import Slider from "react-slick"; // Importing the Slider component
+//import "./HomeStyle.css"; // Ensure you have imported your CSS styles
+
+// Sample images. Replace these URLs with your own image URLs.
+const images = [
+  "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
+  "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
+  "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
+];
+
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -11,43 +22,43 @@ const Home = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Settings for the slider
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
     <div>
       <Header />
       <h1>
-        {" "}
         Intelligent Signal Processing and Effective Communication Technologies
-        (INSPECT 2024){" "}
+        (INSPECT 2024)
       </h1>
-      <Body />
+      <Slider {...sliderSettings}>
+        {images.map((img, index) => (
+          <div key={index}>
+            <img
+              src={img}
+              alt="Slide"
+              style={{ width: "100%", height: "250px", objectFit: "cover" }}
+            />
+          </div>
+        ))}
+      </Slider>
 
-      <div className={`content ${scrollPosition > 100 ? "ease-in" : ""}`}>
-        {/* Your content goes here */}
+      <div>
         <h2>Welcome to Our Website</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          aliquam, odio a consectetur vehicula, mi elit fermentum risus, nec
-          tincidunt ligula justo ut ligula. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam aliquam, odio a consectetur
-          vehicula, mi elit fermentum risus, nec tincidunt ligula justo ut
-          ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nullam aliquam, odio a consectetur vehicula, mi elit fermentum risus,
-          nec tincidunt ligula justo ut ligula. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam aliquam, odio a consectetur
-          vehicula, mi elit fermentum risus, nec tincidunt ligula justo ut
-          ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nullam aliquam, odio a consectetur vehicula, mi elit fermentum risus,
-          nec tincidunt ligula justo ut ligula. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam aliquam, odio a consectetur
-          vehicula, mi elit fermentum risus, nec tincidunt ligula justo ut
-          ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nullam aliquam, odio a consectetur vehicula, mi elit fermentum risus,
-          nec tincidunt ligula justo ut ligula.
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
       </div>
 
       <Footer />
