@@ -16,8 +16,8 @@ export default function Dates() {
 
   return (
     <div>
-      <div style={{ margin: "4px" }}>
-        <h1>Important Dates</h1>
+      <div style={{ margin: "5px", padding: "20px" }}>
+        <h1 style={{ padding: "10px" }}>Important Dates</h1>
         <div
           style={{
             fontSize: "25px",
@@ -25,10 +25,10 @@ export default function Dates() {
             color: "red",
             textAlign: "center",
             margin: "2px",
-            padding: "2px",
+            padding: "8px",
           }}
         >
-          Conference Dates: December 07-09, 2024
+          Conference Dates: December 07-09,2024
         </div>
       </div>
       <Box

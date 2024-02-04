@@ -1,6 +1,6 @@
 import React from "react";
-import about1 from "../assets/images/about1.jpeg";
-import about2 from "../assets/images/about2.jpeg";
+import about1 from "../assets/images/about/about1.jpeg";
+import about2 from "../assets/images/about/about2.jpeg";
 // import ImageCard from "./ImageCard";
 //import "./Body.css"; // Only if you have specific styles for Body
 
@@ -12,9 +12,9 @@ const About = () => {
   //   ];
 
   return (
-    <div>
+    <div style={{ margin: "4px", padding: "20px" }}>
       <h1>About Us</h1>
-      <div className="about" style={{ margin: "2px" }}>
+      <div className="about" style={{ margin: "10px", padding: "20px" }}>
         <div className="about-text">
           <p>
             Indian Institute of Information Technology and Management (IIITM) in
