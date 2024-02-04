@@ -8,6 +8,9 @@ import Navbar from "./Navbar";
 //import { Speaker } from "@mui/icons-material";
 import Speakers from "./Speaker";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
+import EndorsedBy from "./EndorsedBy";
+import SponsoredBy from "./SponsoredBy";
+import Container from 'react-bootstrap/Container';
 
 // Sample images. Replace these URLs with your own image URLs.
 const images = [
@@ -43,7 +46,7 @@ const Home = () => {
   return (
     <div className="parallax-content">
       <Navbar />
-      <Slider {...sliderSettings}>
+      <Slider {...sliderSettings} st>
         {images.map((img, index) => (
           <div key={index}>
             <img
@@ -58,8 +61,17 @@ const Home = () => {
         Intelligent Signal Processing and Effective Communication Technologies
         (INSPECT 2024)
       </h1>
+          
+      <Container fluid style={{padding: 0}}>
+        <EndorsedBy />
+      </Container>
+    
+      <Container fluid style={{padding: 0}}>
+        <SponsoredBy />
+      </Container>
+
       <div className="parallax-bg">
-        <h2>Welcome to Our Website</h2>
+      
         <div>
           <Speakers />
         </div>

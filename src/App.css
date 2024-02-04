@@ -13,6 +13,7 @@
   background-attachment: fixed; /* This is what creates the parallax effect */
   height: 100vh; /* Adjust the height as needed */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white; /* Adjust the color for text on top of the background */
@@ -52,8 +53,6 @@ header, footer {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 0 20px;
   color: #333;
 }
 .image-grid {
@@ -276,3 +275,15 @@ body.scrolled .navbar {
 .speaker-info a:hover {
   text-decoration: none;
 }
+
+.section-bg-1 {
+  background-image: url('./assets/images/bg/5.jpg');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  min-height: 600px; /* Adjust as needed */
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+}
+

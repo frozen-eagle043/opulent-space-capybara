@@ -10,7 +10,7 @@ const Speakers = () => {
       designation: "Professor",
       institute: "University A",
       imageUrl:
-        'F:IEEEopulent-space-capybarasrcistockphoto-1223671392-612x612.jpg', // Replace with actual image URL
+        'https://iitjammu.ac.in/cvip2023/images/speakers/Prof.%20Tsachy%20Weissman.jpg', // Replace with actual image URL
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Speakers = () => {
       designation: "Researcher",
       institute: "Institute B",
       imageUrl:
-        "F:IEEEopulent-space-capybarasrcistockphoto-1223671392-612x612.jpg", // Replace with actual image URL
+        "https://iitjammu.ac.in/cvip2023/images/speakers/Prof.%20Tsachy%20Weissman.jpg", // Replace with actual image URL
     },
     // Add more speakers as needed
   ];
