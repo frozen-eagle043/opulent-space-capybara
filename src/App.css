@@ -7,7 +7,7 @@
 /* Home.css */
 /* Home.css */
 .parallax-bg {
-  background-image: url('./pexels-miguel-á-padriñán-255379.jpg'); /* Replace with your image path */
+  background-image: url("./pexels-miguel-á-padriñán-255379.jpg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* This is what creates the parallax effect */
@@ -23,8 +23,6 @@
   z-index: 1; /* Set a higher z-index to bring the content to the front */
 }
 
-
-
 .content.ease-in {
   opacity: 1;
   transform: translateY(0);
@@ -39,10 +37,14 @@ h1 {
 /* Additional styling for smooth scrolling and visual appeal */
 body {
   scroll-behavior: smooth;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
 }
 
 /* Styling for header and footer to make them more visually appealing */
-header, footer {
+header,
+footer {
   background-color: #f5f5f5;
   padding: 20px;
   text-align: center;
@@ -77,11 +79,16 @@ body {
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif; /* Change font family as needed */
+  font-family: "Arial", sans-serif; /* Change font family as needed */
 }
 
 .navbar {
-  background-color: rgba(0, 150, 255, 0.8); /* Slightly darker and more vibrant blue */
+  background-color: rgba(
+    0,
+    150,
+    255,
+    0.8
+  ); /* Slightly darker and more vibrant blue */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +135,12 @@ body {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: rgba(0, 150, 255, 0.9); /* Slightly less transparent for dropdown */
+  background-color: rgba(
+    0,
+    150,
+    255,
+    0.9
+  ); /* Slightly less transparent for dropdown */
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -275,4 +287,46 @@ body.scrolled .navbar {
 
 .speaker-info a:hover {
   text-decoration: none;
+}
+.tab-body {
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tab-body-content {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 30px 0;
+  border-bottom: solid 1px #eee;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* .tablist-outer-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+} */
+
+.tablist-inner-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+}
+
+.about-text {
+  /* width: 50%; */
+  font-size: 16px;
+}
+
+.about-img {
+  margin: 20px;
+  width: 100%;
 }

@@ -7,6 +7,8 @@ import Slider from "react-slick"; // Importing the Slider component
 import Navbar from "./Navbar";
 //import { Speaker } from "@mui/icons-material";
 import Speakers from "./Speaker";
+import About from "./About";
+import Dates from "./Dates";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
 
 // Sample images. Replace these URLs with your own image URLs.
@@ -64,7 +66,12 @@ const Home = () => {
           <Speakers />
         </div>
       </div>
-
+      <div>
+        <About />
+      </div>
+      <div>
+        <Dates />
+      </div>
       <Footer />
     </div>
   );
