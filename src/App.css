@@ -173,7 +173,15 @@ body.scrolled .navbar {
 
 /* Footer.css */
 .footer {
-  background-color: #007acc; /* Blue background color */
+  background-color: black; /* Blue background color #007acc */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(27, 26, 26, 0.6475840336134453) 100%,
+    rgba(0, 4, 8, 0.5243347338935574) 100%
+  );
   color: #fff; /* White text color */
   padding: 2rem;
   display: flex;
@@ -326,9 +334,18 @@ body.scrolled .navbar {
   font-size: 16px;
 }
 
-.about-img {
+.about-img-sec {
   margin: 20px;
   width: 100%;
+}
+
+@media screen and (max-width: 915px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .about-img {
+    width: 100%;
+  }
 }
 
 .section-bg-1 {

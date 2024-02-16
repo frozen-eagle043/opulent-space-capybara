@@ -12,14 +12,20 @@ import Dates from "./Dates";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
 import EndorsedBy from "./EndorsedBy";
 import SponsoredBy from "./SponsoredBy";
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
+import CallForPapers from "./CallForPapers";
+import AuthGuidelines from "./AuthGuidelines";
+import Awards from "./Awards";
+import AdvisoryCommittee from "./AdvisoryCommittee";
+import OrganizingCommittee from "./OrganizingCommittee";
 
 // Sample images. Replace these URLs with your own image URLs.
 const images = [
   "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
-  "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
-  "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
+  "https://static.toiimg.com/photo/103983634.cms",
 ];
+
+// "D:\Projects\INSPECT 2024\opulent-space-capybara\src\assets\images\home_page\Gwalior_Fort_front.jpg"
 
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -54,7 +60,7 @@ const Home = () => {
             <img
               src={img}
               alt="Slide"
-              style={{ width: "100%", height: "500px", objectFit: "cover" }}
+              style={{ width: "100%", height: "500px" }} // {, objectFit: "cover"}
             />
           </div>
         ))}
@@ -63,17 +69,16 @@ const Home = () => {
         Intelligent Signal Processing and Effective Communication Technologies
         (INSPECT 2024)
       </h1>
-          
-      <Container fluid style={{padding: 0}}>
+
+      <Container fluid style={{ padding: 0 }}>
         <EndorsedBy />
       </Container>
-    
-      <Container fluid style={{padding: 0}}>
+
+      <Container fluid style={{ padding: 0 }}>
         <SponsoredBy />
       </Container>
 
       <div className="parallax-bg">
-      
         <div>
           <Speakers />
         </div>
@@ -83,6 +88,21 @@ const Home = () => {
       </div>
       <div>
         <Dates />
+      </div>
+      <div>
+        <CallForPapers />
+      </div>
+      <div>
+        <AuthGuidelines />
+      </div>
+      <div>
+        <Awards />
+      </div>
+      <div>
+        <AdvisoryCommittee />
+      </div>
+      <div>
+        <OrganizingCommittee />
       </div>
       <Footer />
     </div>

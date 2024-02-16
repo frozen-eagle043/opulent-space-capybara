@@ -47,8 +47,8 @@ const About = () => {
             driving distance away.
           </p>
         </div>
-        <div className="about-img">
-          <img src={about2} alt="ABV-IIITM Gwalior" />
+        <div className="about-img-sec">
+          <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" />
           {/* <img src={about1} alt="ABV-IIITM Gwalior" /> */}
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CallForPapers from "./CallForPapers";
 //import "./Navbar.css"; // Make sure to create a corresponding CSS file
 
 const Navbar = () => {
