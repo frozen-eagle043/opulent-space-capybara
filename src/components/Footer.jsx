@@ -16,7 +16,7 @@ const Footer = () => (
     </p>
     <ul className="footer-links">
       <li>
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
         <a href="/author-guidelines">Author Guidelines</a>

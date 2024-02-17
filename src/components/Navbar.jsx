@@ -1,119 +1,63 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import CallForPapers from "./CallForPapers";
-//import "./Navbar.css"; // Make sure to create a corresponding CSS file
 
-const Navbar = () => {
-  const [isSubmissionOpen, setSubmissionOpen] = useState(false);
-  const [isChallengesOpen, setChallengesOpen] = useState(false);
-  const [isCommitteeOpen, setCommitteeOpen] = useState(false);
-  const [isProgrammeOpen, setProgrammeOpen] = useState(false);
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
+const NavbarComponent = () => {
   return (
-    <nav className="navbar">
-      <div className="logo">
-        <Link to="/">
-          <img src="/path-to-your-logo.png" alt="Logo" />{" "}
-          {/* Adjust the src to your logo's path */}
-        </Link>
-      </div>
+    <Navbar
+      style={{
+        // background: "rgb(229,0,66)",
+        // background:
+        //   "linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
+        background: "rgb(229,0,66)",
+        background:
+          "linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
+      }}
+      bg="light"
+      expand="lg"
+      className="py-3"
+    >
+      <Container fluid>
+        <Navbar.Brand href="#" className="me-auto fw-bold">
+          INSPECT 2024
+        </Navbar.Brand>
+        <Nav>
+          <Nav.Link href="/" className="px-2">
+            Home
+          </Nav.Link>
+          <Nav.Link href="/submission" className="px-2">
+            Submission
+          </Nav.Link>
+          <Nav.Link href="/dates" className="px-2">
+            Important Details
+          </Nav.Link>
+          <Nav.Link href="/call-for-paper" className="px-2">
+            Call For Paper
+          </Nav.Link>
+          {/* Updated Committee Link to include sub-links */}
+          <NavDropdown
+            title="Committee"
+            id="navbarScrollingDropdown"
+            className="px-2"
+          >
+            <NavDropdown.Item href="/speaker1">
+              Organizing Committee
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/speaker2">
+              Advisory Committee
+            </NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/registration" className="px-2">
+            Registration
+          </Nav.Link>
 
-      <ul className="nav-links">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-
-        {/* Submission Dropdown */}
-        <li onClick={() => setSubmissionOpen(!isSubmissionOpen)}>
-          <Link>Submission +</Link>
-          {isSubmissionOpen && (
-            <ul className="dropdown">
-              <li>
-                <Link to="/call-for-paper">Call For Paper</Link>
-              </li>
-              <li>
-                <Link to="/important-dates">Important Dates</Link>
-              </li>
-              <li>
-                <Link to="/author-guidelines">Author Guidelines</Link>
-              </li>
-              <li>
-                <Link to="/camera-ready-submission">
-                  Camera Ready Submission
-                </Link>
-              </li>
-              <li>
-                <Link to="/presentation-guidelines">
-                  Presentation Guidelines
-                </Link>
-              </li>
-            </ul>
-          )}
-        </li>
-
-        {/* Challenges Dropdown */}
-        <li onClick={() => setChallengesOpen(!isChallengesOpen)}>
-          <Link>Challenges +</Link>
-          {isChallengesOpen && (
-            <ul className="dropdown">
-              <li>
-                <Link to="/call-for-challenge">Call For Challenge</Link>
-              </li>
-              <li>
-                <Link to="/important-dates-challenge">Important Dates</Link>
-              </li>
-              <li>
-                <Link to="/challenge-author-guidelines">Author Guidelines</Link>
-              </li>
-            </ul>
-          )}
-        </li>
-
-        {/* Committee Dropdown */}
-        <li onClick={() => setCommitteeOpen(!isCommitteeOpen)}>
-          <Link>Committee +</Link>
-          {isCommitteeOpen && (
-            <ul className="dropdown">
-              <li>
-                <Link to="/organizing-committee">Organizing committee</Link>
-              </li>
-              <li>
-                <Link to="/advisory-committee">Advisory Committee</Link>
-              </li>
-            </ul>
-          )}
-        </li>
-
-        {/* Programme Dropdown */}
-        <li onClick={() => setProgrammeOpen(!isProgrammeOpen)}>
-          <Link>Programme +</Link>
-          {isProgrammeOpen && (
-            <ul className="dropdown">
-              <li>
-                <Link to="/our-speakers">Our Speakers</Link>
-              </li>
-              <li>
-                <Link to="/travel-grant">Travel Grant</Link>
-              </li>
-              <li>
-                <Link to="/program-schedule">Program Schedule</Link>
-              </li>
-            </ul>
-          )}
-        </li>
-
-        <li>
-          <Link to="/registration">Registration</Link>
-        </li>
-        <li>
-          <Link to="/accommodation">Accommodation</Link>
-        </li>
-        <li>
-          <Link to="/award">Award</Link>
-        </li>
-      </ul>
-    </nav>
+          <Nav.Link href="/award" className="px-2">
+            Award
+          </Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default NavbarComponent;

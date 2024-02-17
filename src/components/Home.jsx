@@ -53,7 +53,6 @@ const Home = () => {
 
   return (
     <div className="parallax-content">
-      <Navbar />
       <Slider {...sliderSettings} st>
         {images.map((img, index) => (
           <div key={index}>
@@ -65,46 +64,49 @@ const Home = () => {
           </div>
         ))}
       </Slider>
-      <h1>
-        Intelligent Signal Processing and Effective Communication Technologies
-        (INSPECT 2024)
-      </h1>
 
-      <Container fluid style={{ padding: 0 }}>
+      {/* <Container fluid style={{ padding: 0 }}>
         <EndorsedBy />
       </Container>
 
       <Container fluid style={{ padding: 0 }}>
         <SponsoredBy />
-      </Container>
+      </Container> */}
 
-      <div className="parallax-bg">
+      {/* <div className="parallax-bg">
         <div>
           <Speakers />
         </div>
+      </div> */}
+      <div
+        style={{
+          fontWeight: "bold",
+          // background: "rgb(213,223,241)",
+          // background:
+          //   "linear-gradient(90deg, rgba(213,223,241,1) 100%, rgba(114,155,228,1) 100%, rgba(222,225,231,1) 100%, rgba(0,6,8,0.4823179271708683) 100%, rgba(78,131,242,1) 100%, rgba(0,0,0,1) 100%, rgba(27,26,26,0.6475840336134453) 100%)",
+        }}
+      >
+        <h1
+          style={{
+            color: "rgb(235,76,122)",
+            color:
+              "linear-gradient(90deg, rgba(235,76,122,1) 0%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
+            fontWeight: "bold",
+          }}
+        >
+          Intelligent Signal Processing and Effective Communication Technologies
+        </h1>
+        <h1
+          style={{
+            fontWeight: "bold",
+          }}
+        >
+          (INSPECT 2024)
+        </h1>
       </div>
       <div>
         <About />
       </div>
-      <div>
-        <Dates />
-      </div>
-      <div>
-        <CallForPapers />
-      </div>
-      <div>
-        <AuthGuidelines />
-      </div>
-      <div>
-        <Awards />
-      </div>
-      <div>
-        <AdvisoryCommittee />
-      </div>
-      <div>
-        <OrganizingCommittee />
-      </div>
-      <Footer />
     </div>
   );
 };

@@ -15,12 +15,12 @@ export default function Dates() {
   };
 
   return (
-    <div>
+    <div style={{ minHeight: "80vh" }}>
       <div style={{ margin: "5px", padding: "20px" }}>
         <h1 style={{ padding: "10px" }}>Important Dates</h1>
         <div
           style={{
-            fontSize: "25px",
+            fontSize: "30px",
             fontWeight: "bold",
             color: "red",
             textAlign: "center",
@@ -28,7 +28,11 @@ export default function Dates() {
             padding: "8px",
           }}
         >
-          Conference Dates: December 07-09,2024
+          <marquee>
+            The INSPECT-2024 (Intelligent Signal Processing and Effective
+            Communication Technologies) conference will be held at ABV-IIITM,
+            Gwalior from 7 to 9 December 2024.
+          </marquee>
         </div>
       </div>
       <Box
@@ -94,9 +98,12 @@ export default function Dates() {
                   style={{
                     width: "100%",
                     textAlign: "center",
-                    background: "rgb(255,255,255)",
+                    // background: "rgb(255,255,255)",
+                    // background:
+                    //   "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                    background: "rgb(229,0,66)",
                     background:
-                      "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                      "linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(40,163,247,1) 0%, rgba(245,64,113,0.7008053221288515) 0%, rgba(183,181,232,1) 63%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
                   }}
                 >
                   Notification of Acceptance: July 15, 2024
@@ -115,9 +122,12 @@ export default function Dates() {
                   style={{
                     width: "100%",
                     textAlign: "center",
-                    background: "rgb(255,255,255)",
+                    // background: "rgb(255,255,255)",
+                    // background:
+                    //   "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                    background: "rgb(229,0,66)",
                     background:
-                      "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                      "linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(40,163,247,1) 0%, rgba(245,64,113,0.7008053221288515) 0%, rgba(183,181,232,1) 63%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
                   }}
                 >
                   Notification of Acceptance: October 15, 2024
@@ -136,9 +146,12 @@ export default function Dates() {
                   style={{
                     width: "100%",
                     textAlign: "center",
-                    background: "rgb(255,255,255)",
+                    // background: "rgb(255,255,255)",
+                    // background:
+                    //   "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                    background: "rgb(229,0,66)",
                     background:
-                      "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,227,230,1) 50%, rgba(255,255,255,1) 100%)",
+                      "linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(40,163,247,1) 0%, rgba(245,64,113,0.7008053221288515) 0%, rgba(183,181,232,1) 63%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%)",
                   }}
                 >
                   Early Bird Registration: November 15, 2024
