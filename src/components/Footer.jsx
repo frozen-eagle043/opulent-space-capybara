@@ -22,7 +22,7 @@ const Footer = () => (
         <a href="/author-guidelines">Author Guidelines</a>
       </li>
       <li>
-        <a href="/our-speakers">Our Speakers</a>
+        <a href="/speaker2">Our Speakers</a>
       </li>
       <li>
         <a href="https://iiitm.ac.in/index.php/en/">

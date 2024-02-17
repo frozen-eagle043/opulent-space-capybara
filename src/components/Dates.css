@@ -87,20 +87,30 @@
 }
 @media (max-width: 600px) {
   .dates-tabs-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    max-width: 100%;
+    padding: 16px; /* Add padding for better spacing */
   }
 
-  .MuiTabs-scrollable {
-    flex-wrap: nowrap;
-    overflow-x: auto; /* Enable horizontal scrolling for the tabs */
+  .MuiTabs-flexContainer {
+    width: 100%;
+    flex-direction: column; /* Change to column layout for tabs */
+    align-items: center;
+  }
+
+  .MuiTabs-scrollableX {
+    flex-wrap: nowrap; /* Prevent tabs from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
   }
 
   .MuiTab-root {
-    flex: 0 0 auto; /* Let the tabs shrink to fit content */
-    white-space: nowrap; /* Prevent text wrapping */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px; /* Add margin between tabs for better spacing */
+  }
+
+  .tab-panel-background {
+    width: 100%; /* Make the TabPanel take full width */
   }
 }
-
