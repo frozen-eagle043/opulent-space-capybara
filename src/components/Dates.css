@@ -85,4 +85,22 @@
   background-color: #007bff;
   color: #fff;
 }
+@media (max-width: 600px) {
+  .dates-tabs-container {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    max-width: 100%;
+  }
+
+  .MuiTabs-scrollable {
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling for the tabs */
+  }
+
+  .MuiTab-root {
+    flex: 0 0 auto; /* Let the tabs shrink to fit content */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+}
 

@@ -29,10 +29,10 @@ const NavbarComponent = () => {
               id="committee-dropdown"
               className="nav-item"
             >
-              <NavDropdown.Item href="/organizing-committee">
+              <NavDropdown.Item href="/speaker1">
                 Organizing Committee
               </NavDropdown.Item>
-              <NavDropdown.Item href="/advisory-committee">
+              <NavDropdown.Item href="/speaker2">
                 Advisory Committee
               </NavDropdown.Item>
             </NavDropdown>
