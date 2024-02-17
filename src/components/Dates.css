@@ -1,0 +1,88 @@
+/* Dates.css */
+
+.tab-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tablist-inner-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-body-content {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.tab-panel-background {
+  background: rgb(229, 0, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(229, 0, 66, 1) 0%,
+    rgba(245, 111, 201, 1) 0%,
+    rgba(40, 163, 247, 1) 0%,
+    rgba(245, 64, 113, 0.7008053221288515) 0%,
+    rgba(183, 181, 232, 1) 63%,
+    rgba(114, 155, 228, 1) 100%,
+    rgba(236, 50, 50, 0.6475840336134453) 100%
+  );
+}
+.dates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.dates-header {
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.marquee {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin: 2px;
+  padding: 8px;
+}
+
+.dates-tabs-container {
+  width: 100%;
+  max-width: 70%; /* Adjust the max-width as needed */
+  background-color: #fff; /* Set background color for the tabs container */
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* Centering the tabs */
+.MuiTabs-flexContainer {
+  justify-content: center !important;
+}
+
+/* Style for the selected tab */
+.Mui-selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: center !important;
+}
+
+/* Style for the selected tab */
+.Mui-selected {
+  background-color: #007bff;
+  color: #fff;
+}
+

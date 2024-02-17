@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from "react";
 //import Header from "./Header";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 // import Body from "./Body";
 // import { Parallax } from "react-parallax";
 import Slider from "react-slick"; // Importing the Slider component
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 //import { Speaker } from "@mui/icons-material";
-import Speakers from "./Speaker";
+// import Speakers from "./Speaker";
 import About from "./About";
-import Dates from "./Dates";
+// import Dates from "./Dates";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
-import EndorsedBy from "./EndorsedBy";
-import SponsoredBy from "./SponsoredBy";
-import Container from "react-bootstrap/Container";
-import CallForPapers from "./CallForPapers";
-import AuthGuidelines from "./AuthGuidelines";
-import Awards from "./Awards";
-import AdvisoryCommittee from "./AdvisoryCommittee";
-import OrganizingCommittee from "./OrganizingCommittee";
+// import EndorsedBy from "./EndorsedBy";
+// import SponsoredBy from "./SponsoredBy";
+// import Container from "react-bootstrap/Container";
+// import CallForPapers from "./CallForPapers";
+// import AuthGuidelines from "./AuthGuidelines";
+// import Awards from "./Awards";
+// import AdvisoryCommittee from "./AdvisoryCommittee";
+// import OrganizingCommittee from "./OrganizingCommittee";
 
 // Sample images. Replace these URLs with your own image URLs.
 const images = [

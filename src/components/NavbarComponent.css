@@ -1,67 +1,76 @@
-.custom-navbar {
-  background: linear-gradient(to right, #505152, #93b2db);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  align-items: center;
+.navbar {
+  background: linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%);
+  padding: 1rem;
 }
 
-.custom-navbar .navbar-brand {
-  color: #fff;
+.navbar-brand {
+  font-size: 1.5rem;
   font-weight: bold;
-}
-
-.custom-navbar .logo-text {
-  font-size: 1.5em;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-evenly; /* Evenly spaced items */
-  align-items: center;
-}
-
-.nav-item-custom {
   color: #fff;
-  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.nav-item-custom:hover {
-  color: #f8f9fa;
-  transform: translateY(-5px);
-}
-
-.custom-navbar .nav-link {
-  font-weight: 500;
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   color: #fff;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease-in-out;
 }
 
-.custom-navbar .nav-link:hover {
-  color: #f8f9fa;
-  transform: translateY(-5px);
+.navbar-nav .nav-link:hover {
+  color: #007bff;
 }
 
-.custom-navbar .dropdown-menu {
-  border-radius: 8px;
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.navbar-toggler {
+  border: none;
+  color: #fff;
 }
 
-.custom-navbar .dropdown-item {
-  color: #93b2db;
-  transition: background-color 0.3s ease;
+/* Responsive styles */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
 }
 
-.custom-navbar .dropdown-item:hover {
-  background-color: #f8f9fa;
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.8rem;
+  }
 }
 
-.custom-navbar .nav-text {
-  display: inline-block;
-  transition: transform 0.3s ease;
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.7rem;
+  }
 }
 
-.custom-navbar .nav-text:hover {
-  transform: translateY(-2px);
+/* Improved color scheme and hover animations */
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #46193c;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
