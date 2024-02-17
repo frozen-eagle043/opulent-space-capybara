@@ -8,6 +8,7 @@ import Slider from "react-slick"; // Importing the Slider component
 //import { Speaker } from "@mui/icons-material";
 // import Speakers from "./Speaker";
 import About from "./About";
+import GeneralChairs from "./GeneralChairs";
 // import Dates from "./Dates";
 //import "./HomeStyle.css"; // Ensure you have imported your CSS styles
 // import EndorsedBy from "./EndorsedBy";
@@ -22,7 +23,10 @@ import About from "./About";
 // Sample images. Replace these URLs with your own image URLs.
 const images = [
   "https://media.licdn.com/dms/image/C5116AQGJS3IC-758ZQ/profile-displaybackgroundimage-shrink_350_1400/0/1579180318391?e=1712188800&v=beta&t=JpZPS4T0hN94saBELFhd6NMvTu1wkr-i-bL8UMZd3H4",
+  "https://iiitm.ac.in/images/2023/07/14/13.jpg",
   "https://static.toiimg.com/photo/103983634.cms",
+
+  "https://iiitm.ac.in/images/2023/07/14/61.jpg",
 ];
 
 // "D:\Projects\INSPECT 2024\opulent-space-capybara\src\assets\images\home_page\Gwalior_Fort_front.jpg"
@@ -43,7 +47,7 @@ const Home = () => {
   const sliderSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -59,7 +63,7 @@ const Home = () => {
             <img
               src={img}
               alt="Slide"
-              style={{ width: "100%", height: "500px" }} // {, objectFit: "cover"}
+              style={{ width: "100%", height: "600px" }} // {, objectFit: "cover"}
             />
           </div>
         ))}
@@ -106,6 +110,9 @@ const Home = () => {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <GeneralChairs />
       </div>
     </div>
   );

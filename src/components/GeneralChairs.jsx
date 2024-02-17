@@ -5,29 +5,43 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import iaa from "../assets/images/committee/IAA.png";
-import vp from "../assets/images/committee/vp.jpg";
+import director from "../assets/images/committee/director.jpg";
 
-const OrganizingCommittee = () => {
+const GeneralChairs = () => {
   return (
     <div>
-      <div style={{ margin: "5px", padding: "20px" }}>
-        <h1 style={{ padding: "10px" }}>Organizing Committee</h1>
+      <div style={{ marginTop: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Patreon & General Chairs</h1>
       </div>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
+      <div
+        style={{
+          margin: "60px",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 300,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
           <CardMedia
             component="img"
-            alt="Dr. Vinal Patel"
+            alt="Prof. S. N. Singh"
             height="300"
-            image={vp}
+            image={director}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Vinal Patel
+              Prof. S. N. Singh
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
+              Director, ABV-IIITM Gwalior, India
             </Typography>
           </CardContent>
           <CardActions>
@@ -35,7 +49,7 @@ const OrganizingCommittee = () => {
               size="small"
               onClick={() => {
                 window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
+                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
                 );
               }}
             >
@@ -43,19 +57,27 @@ const OrganizingCommittee = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 300,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
           <CardMedia
             component="img"
-            alt="Dr. Irshad Ahmad Ansari"
+            alt="Prof. S. N. Singh"
             height="300"
-            image={iaa}
+            image={director}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Irshad Ahmad Ansari
+              Prof. S. N. Singh
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
+              Director, ABV-IIITM Gwalior, India
             </Typography>
           </CardContent>
           <CardActions>
@@ -63,7 +85,7 @@ const OrganizingCommittee = () => {
               size="small"
               onClick={() => {
                 window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.IrshadAhmad"
+                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
                 );
               }}
             >
@@ -71,19 +93,27 @@ const OrganizingCommittee = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 300,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
           <CardMedia
             component="img"
-            alt="Dr. Vinal Patel"
+            alt="Prof. S. N. Singh"
             height="300"
-            image={vp}
+            image={director}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Vinal Patel
+              Prof. S. N. Singh
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
+              Director, ABV-IIITM Gwalior, India
             </Typography>
           </CardContent>
           <CardActions>
@@ -91,7 +121,7 @@ const OrganizingCommittee = () => {
               size="small"
               onClick={() => {
                 window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
+                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
                 );
               }}
             >
@@ -99,19 +129,27 @@ const OrganizingCommittee = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 300,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
           <CardMedia
             component="img"
-            alt="Dr. Irshad Ahmad Ansari"
+            alt="Prof. S. N. Singh"
             height="300"
-            image={iaa}
+            image={director}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Irshad Ahmad Ansari
+              Prof. S. N. Singh
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
+              Director, ABV-IIITM Gwalior, India
             </Typography>
           </CardContent>
           <CardActions>
@@ -119,7 +157,7 @@ const OrganizingCommittee = () => {
               size="small"
               onClick={() => {
                 window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.IrshadAhmad"
+                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
                 );
               }}
             >
@@ -127,19 +165,27 @@ const OrganizingCommittee = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 300,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
           <CardMedia
             component="img"
-            alt="Dr. Vinal Patel"
+            alt="Prof. S. N. Singh"
             height="300"
-            image={vp}
+            image={director}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Vinal Patel
+              Prof. S. N. Singh
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
+              Director, ABV-IIITM Gwalior, India
             </Typography>
           </CardContent>
           <CardActions>
@@ -147,35 +193,7 @@ const OrganizingCommittee = () => {
               size="small"
               onClick={() => {
                 window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
-                );
-              }}
-            >
-              Read More
-            </Button>
-          </CardActions>
-        </Card>
-        <Card sx={{ maxWidth: 345, margin: "15px", padding: "25px" }}>
-          <CardMedia
-            component="img"
-            alt="Dr. Irshad Ahmad Ansari"
-            height="300"
-            image={iaa}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div" center>
-              Dr. Irshad Ahmad Ansari
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Assistant Professor, ABV-IIITM Gwalior, India
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button
-              size="small"
-              onClick={() => {
-                window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.IrshadAhmad"
+                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
                 );
               }}
             >
@@ -188,4 +206,4 @@ const OrganizingCommittee = () => {
   );
 };
 
-export default OrganizingCommittee;
+export default GeneralChairs;

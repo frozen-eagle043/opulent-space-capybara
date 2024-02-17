@@ -88,11 +88,7 @@ body {
 .footer {
   background-color: black; /* Blue background color #007acc */
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    #505152 100%,
-    #93b2db 100%
-  );
+  background: linear-gradient(90deg, #505152 100%, #93b2db 100%);
   color: #fff; /* White text color */
   padding: 2rem;
   display: flex;
@@ -269,4 +265,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-

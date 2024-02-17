@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => (
   <div className="footer">
     <p className="footer-content">
-      विद्याधनं सर्वधन प्रधानम् <br />
+      विश्वजीवनामृतं ज्ञानम् <br />
       <strong>
         अटल बिहरी वाजपेयी भारतीय सूचना प्रौद्योगिकी एवं प्रबंधन संस्थान,
         ग्वालियर

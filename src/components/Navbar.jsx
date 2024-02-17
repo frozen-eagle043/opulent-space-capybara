@@ -6,7 +6,7 @@ const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" className="custom-navbar">
       <Container fluid>
-        <Navbar.Brand href="#" className="ml-2 logo">
+        <Navbar.Brand href="/" className="ml-2 logo">
           INSPECT 2024
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
