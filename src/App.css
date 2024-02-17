@@ -90,10 +90,8 @@ body {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(27, 26, 26, 0.6475840336134453) 100%,
-    rgba(0, 4, 8, 0.5243347338935574) 100%
+    #505152 100%,
+    #93b2db 100%
   );
   color: #fff; /* White text color */
   padding: 2rem;
@@ -271,3 +269,4 @@ body {
   display: flex;
   flex-direction: column;
 }
+
