@@ -1,45 +1,61 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./NavbarComponent.css"; // Assuming your custom CSS is here
 
 const NavbarComponent = () => {
   return (
-    <Navbar bg="light" expand="lg" className="py-3">
-      <Container fluid>
-        <Navbar.Brand href="#" className="me-auto fw-bold">
-          CVIP 2023
-        </Navbar.Brand>
-        <Nav>
-          <Nav.Link href="#" className="px-2">
+    <Navbar bg="light" expand="lg" fixed="top" className="custom-navbar">
+      <Navbar.Brand href="#home" className="ml-2">
+        <span className="logo-text">INSPECT</span>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto nav-container">
+          <Nav.Link href="#home" className="nav-item-custom">
             Home
           </Nav.Link>
-          <Nav.Link href="#" className="px-2">
-            Submission
+          <Nav.Link href="#call-for-papers" className="nav-item-custom">
+            Call for papers
           </Nav.Link>
-          {/* Updated Challenges Link to include sub-links */}
           <NavDropdown
-            title="Challenges"
-            id="navbarScrollingDropdown"
-            className="px-2"
+            title="Guidelines"
+            id="guideline-dropdown"
+            className="nav-item-custom"
           >
-            <NavDropdown.Item href="#action3">A Challenge</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">B Challenge</NavDropdown.Item>
+            <NavDropdown.Item href="#author-guidelines">
+              Author guidelines
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#camera-ready-submission">
+              Camera ready submission
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#presentation-guidelines">
+              Presentation guidelines
+            </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#" className="px-2">
-            Committee
+          <Nav.Link href="#important-details" className="nav-item-custom">
+            Important details
           </Nav.Link>
-          <Nav.Link href="#" className="px-2">
-            Programme
+          <Nav.Link href="#regulations" className="nav-item-custom">
+            Regulations
           </Nav.Link>
-          <Nav.Link href="#" className="px-2">
-            Registration
+          <Nav.Link href="#awards" className="nav-item-custom">
+            Awards
           </Nav.Link>
-          <Nav.Link href="#" className="px-2">
-            Accommodation
-          </Nav.Link>
-          <Nav.Link href="#" className="px-2">
-            Award
-          </Nav.Link>
+          <NavDropdown
+            title="Committee"
+            id="committee-dropdown"
+            className="nav-item-custom"
+          >
+            <NavDropdown.Item href="#administrator-committee">
+              Administrator committee
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#organizing-committee">
+              Organizing Committee
+            </NavDropdown.Item>
+          </NavDropdown>
         </Nav>
-      </Container>
+      </Navbar.Collapse>
     </Navbar>
   );
 };

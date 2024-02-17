@@ -262,3 +262,45 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.custom-navbar {
+  background: linear-gradient(to right, #56CCF2, #2F80ED); /* Stylish gradient background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly elevated shadow */
+  border-radius: 10px; /* Rounded corners for a modern touch */
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff; /* White color for contrast */
+  font-weight: bold;
+}
+
+.custom-navbar .logo-text {
+  font-size: 1.5em; /* Increase logo text size */
+}
+
+.nav-item-custom {
+  color: #fff !important; /* White text color */
+  margin-right: 15px;
+}
+
+.nav-item-custom:hover {
+  color: #f8f9fa !important; /* Light gray on hover */
+}
+
+.custom-navbar .nav-link {
+  font-weight: 500;
+}
+
+.custom-navbar .dropdown-menu {
+  border-radius: 8px; /* Rounded corners for dropdown */
+  background: #fff; /* White background for dropdown */
+  border: 1px solid #ccc; /* Border for dropdown */
+}
+
+.custom-navbar .dropdown-item {
+  color: #333;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #f8f9fa; /* Light gray on dropdown item hover */
+}
