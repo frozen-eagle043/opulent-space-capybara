@@ -6,12 +6,12 @@ import "./NavbarComponent.css"; // Assuming your custom CSS is here
 const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" fixed="top" className="custom-navbar">
-      <Navbar.Brand href="#home" className="ml-2">
+      <Navbar.Brand href="#home" className="mx-auto">
         <span className="logo-text">INSPECT</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto nav-container">
+        <Nav className="mx-auto">
           <Nav.Link href="#home" className="nav-item-custom">
             Home
           </Nav.Link>

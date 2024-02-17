@@ -1,7 +1,8 @@
 .custom-navbar {
-  background: linear-gradient(to right, #56CCF2, #2F80ED);
+  background: linear-gradient(to right, #505152, #93b2db);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  align-items: center;
 }
 
 .custom-navbar .navbar-brand {
@@ -48,7 +49,7 @@
 }
 
 .custom-navbar .dropdown-item {
-  color: #333;
+  color: #93b2db;
   transition: background-color 0.3s ease;
 }
 
