@@ -24,7 +24,10 @@ const NavbarComponent = () => {
             <Nav.Link href="/call-for-paper" className="nav-item">
               Call For Paper
             </Nav.Link>
-            <NavDropdown
+            <Nav.Link href="/committee" className="nav-item">
+              Committee
+            </Nav.Link>
+            {/* <NavDropdown
               title="Committee"
               id="committee-dropdown"
               className="nav-item"
@@ -35,7 +38,7 @@ const NavbarComponent = () => {
               <NavDropdown.Item href="/speaker2">
                 Advisory Committee
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
             <Nav.Link href="/registration" className="nav-item">
               Registration
             </Nav.Link>

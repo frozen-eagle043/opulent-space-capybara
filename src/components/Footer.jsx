@@ -21,9 +21,9 @@ const Footer = () => (
       <li>
         <a href="/author-guidelines">Author Guidelines</a>
       </li>
-      <li>
+      {/* <li>
         <a href="/speaker2">Our Speakers</a>
-      </li>
+      </li> */}
       <li>
         <a href="https://iiitm.ac.in/index.php/en/">
           ABV-IIITM Gwalior Website
