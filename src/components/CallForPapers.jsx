@@ -35,180 +35,83 @@ const CallForPapers = () => {
         >
           <div>
             <h2 style={{ fontWeight: "bold" }}>
-              Track 1: Innovative Solutions for Healthcare
+              Track 1: Signal and Image Processing
             </h2>
             <ul>
-              <li>Biomedical Instrumentation and Sensors;</li>
-
-              <li>
-                Bioengineering, Bioinformatics, Infection biology, Environmental
-              </li>
-              <li>
-                Biotechnology; IoT and Soft Computing Applications in
-                Healthcare;
-              </li>
-              <li>
-                AI, Blockchain and Cloud computing in Healthcare; Healthcare
-                Mobile
-              </li>
-              <li>
-                and Web Applications & Telemedicine; Accelerating Healthcare
-                with
-              </li>
-              <li>
-                Data and AI to Meet COVID-19 Challenges; Ethics, Privacy, and
-              </li>
-              <li>
-                Security in Healthcare; Technology and Digital Health; AI,
-              </li>
-              <li>
-                Blockchain and Cloud computing in Healthcare; Technology and
-                Digital
-              </li>
-              <li>Health; Other Related areas of Healthcare.</li>
+              Digital Signal Processing (DSP) Image Enhancement and Restoration,
+              Image Compression Pattern Recognition, Computer Vision, Medical
+              Image Processing, Biomedical Signal Processing, Remote Sensing,
+              Speech Processing, Multimedia Signal Processing, Sparse Signal
+              Processing, Hyperspectral Imaging, Geospatial Image Processing,
+              Biometric Signal and Image Processing, Deep Learning for Signal
+              and Image Processing, Real-Time Signal and Image Processing,
+              Sensor Array Processing, Nonlinear Signal Processing, Adaptive
+              Signal Processing.
             </ul>
           </div>
           <div>
             <h2 style={{ fontWeight: "bold" }}>
-              Track 2: Power, Control, Energy and Intelligent Transportation
-              Technologies
+              Track 2: Communication Systems & Networking
             </h2>
             <ul>
-              <li>Biomedical Instrumentation and Sensors;</li>
-
-              <li>
-                Bioengineering, Bioinformatics, Infection biology, Environmental
-              </li>
-              <li>
-                Biotechnology; IoT and Soft Computing Applications in
-                Healthcare;
-              </li>
-              <li>
-                AI, Blockchain and Cloud computing in Healthcare; Healthcare
-                Mobile
-              </li>
-              <li>
-                and Web Applications & Telemedicine; Accelerating Healthcare
-                with
-              </li>
-              <li>
-                Data and AI to Meet COVID-19 Challenges; Ethics, Privacy, and
-              </li>
-              <li>
-                Security in Healthcare; Technology and Digital Health; AI,
-              </li>
-              <li>
-                Blockchain and Cloud computing in Healthcare; Technology and
-                Digital
-              </li>
-              <li>Health; Other Related areas of Healthcare.</li>
+              Wireless Communication Systems, Mobile Networking, 5G and Beyond,
+              Satellite Communication Systems, Network Security, Cognitive Radio
+              Networks, Software-Defined Networking (SDN), Information Theory,
+              Cloud Computing, Network Protocols, Communication Hardware Design,
+              Social Networks Analysis, Multimedia Communication Systems, Edge
+              Computing, Network Virtualization, Quantum Communication, Network
+              Performance Optimization, Green Networking Technologies, Deep
+              Learning for communication
             </ul>
           </div>
           <div>
             <h2 style={{ fontWeight: "bold" }}>
-              Track 3: Artificial Intelligence (AI), IOT and Computer Vision
-              Enabled Technologies
+              Track 3: IoT, Smart Grid, Robotics & Control Systems
             </h2>
             <ul>
-              <li>Biomedical Instrumentation and Sensors;</li>
-
-              <li>
-                Bioengineering, Bioinformatics, Infection biology, Environmental
-              </li>
-              <li>
-                Biotechnology; IoT and Soft Computing Applications in
-                Healthcare;
-              </li>
-              <li>
-                AI, Blockchain and Cloud computing in Healthcare; Healthcare
-                Mobile
-              </li>
-              <li>
-                and Web Applications & Telemedicine; Accelerating Healthcare
-                with
-              </li>
-              <li>
-                Data and AI to Meet COVID-19 Challenges; Ethics, Privacy, and
-              </li>
-              <li>
-                Security in Healthcare; Technology and Digital Health; AI,
-              </li>
-              <li>
-                Blockchain and Cloud computing in Healthcare; Technology and
-                Digital
-              </li>
-              <li>Health; Other Related areas of Healthcare.</li>
+              Internet of Things (IoT), Smart Grid Technologies, Industrial
+              Automation, Robotics and Automation, Control Systems Engineering,
+              Cyber-Physical Systems, Energy Management Systems, Sensor
+              Networks, Autonomous Vehicles, Human-Robot Interaction,
+              Distributed Control Systems, Embedded Systems Design, Renewable
+              Energy Integration, Smart Cities Infrastructure, Home Automation,
+              Intelligent Transportation Systems, Swarm Robotics, Wearable
+              Technology, Teleoperation and Telepresence, Adaptive Control
+              Algorithms, Intelligent Robotics and Control
             </ul>
           </div>
           <div>
             <h2 style={{ fontWeight: "bold" }}>
-              Track 4: Green Electronics, VLSI, Communication and Sensor Based
-              Technologies
+              Track 4: RF, Microwave & Optical Communication
             </h2>
             <ul>
-              <li>Biomedical Instrumentation and Sensors;</li>
-
-              <li>
-                Bioengineering, Bioinformatics, Infection biology, Environmental
-              </li>
-              <li>
-                Biotechnology; IoT and Soft Computing Applications in
-                Healthcare;
-              </li>
-              <li>
-                AI, Blockchain and Cloud computing in Healthcare; Healthcare
-                Mobile
-              </li>
-              <li>
-                and Web Applications & Telemedicine; Accelerating Healthcare
-                with
-              </li>
-              <li>
-                Data and AI to Meet COVID-19 Challenges; Ethics, Privacy, and
-              </li>
-              <li>
-                Security in Healthcare; Technology and Digital Health; AI,
-              </li>
-              <li>
-                Blockchain and Cloud computing in Healthcare; Technology and
-                Digital
-              </li>
-              <li>Health; Other Related areas of Healthcare.</li>
+              Smart Radio Frequency (RF) Engineering, Microwave Engineering,
+              Antenna Design, Radar Systems, Wireless Sensor Networks,
+              Millimeter-Wave Communication, Optical Fiber Communication,
+              Free-Space Optical Communication, Microwave Photonics, RF MEMS
+              (Microelectromechanical Systems), Radio Wave Propagation, RF
+              Circuit Design, Optical Networks, Microwave Remote Sensing,
+              Terahertz Communication, RF Power Amplifiers, Photonic Integrated
+              Circuits, Waveguide Components, RF Filters and Duplexers, Optical
+              Switching and Routing.
             </ul>
           </div>
           <div>
             <h2 style={{ fontWeight: "bold" }}>
-              Track 5: IT enabled Management for Social Change
+              Track 5: VLSI for Signal Processing & Communication
             </h2>
             <ul>
-              <li>Biomedical Instrumentation and Sensors;</li>
-
-              <li>
-                Bioengineering, Bioinformatics, Infection biology, Environmental
-              </li>
-              <li>
-                Biotechnology; IoT and Soft Computing Applications in
-                Healthcare;
-              </li>
-              <li>
-                AI, Blockchain and Cloud computing in Healthcare; Healthcare
-                Mobile
-              </li>
-              <li>
-                and Web Applications & Telemedicine; Accelerating Healthcare
-                with
-              </li>
-              <li>
-                Data and AI to Meet COVID-19 Challenges; Ethics, Privacy, and
-              </li>
-              <li>
-                Security in Healthcare; Technology and Digital Health; AI,
-              </li>
-              <li>
-                Blockchain and Cloud computing in Healthcare; Technology and
-                Digital
-              </li>
-              <li>Health; Other Related areas of Healthcare.</li>
+              Digital VLSI Design, Analog VLSI Design, Mixed-Signal VLSI Design,
+              RF Circuit Design, Low-Power VLSI Design, ASIC
+              (Application-Specific Integrated Circuit) Design, FPGA
+              (Field-Programmable Gate Array) Design, VLSI Testing and
+              Verification, SoC (System-on-Chip) Design, Hardware Security,
+              Reconfigurable Computing, VLSI CAD (Computer-Aided Design),
+              High-Level Synthesis, Hardware Acceleration for Signal Processing
+              Algorithms, Clock and Power Distribution Network Design, VLSI
+              Architectures for Communication Systems, RF Front-End Design,
+              Advanced CMOS Technologies, VLSI Design for Wireless
+              Communication, Neuromorphic Engineering.
             </ul>
           </div>
         </div>
