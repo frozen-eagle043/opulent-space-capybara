@@ -6,8 +6,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import director from "../assets/images/committee/director.jpg";
-import secChair from "../assets/images/committee/geetam.png";
-import mp from "../assets/images/committee/manishapattanaik.jpg";
+import mgc from "../assets/images/committee/mads_chris.jpg";
+import rkm from "../assets/images/committee/ranjan_malik.JPG";
 
 const GeneralChairs = () => {
   return (
@@ -27,7 +27,7 @@ const GeneralChairs = () => {
           sx={{
             borderRadius: "10px",
             boxShadow: "4px 4px #888888",
-            maxWidth: 300,
+            maxWidth: 345,
             margin: "25px",
             padding: "25px",
           }}
@@ -63,32 +63,30 @@ const GeneralChairs = () => {
           sx={{
             borderRadius: "10px",
             boxShadow: "4px 4px #888888",
-            maxWidth: 300,
+            maxWidth: 345,
             margin: "25px",
             padding: "25px",
           }}
         >
           <CardMedia
             component="img"
-            alt="Prof. Geetam Tomar"
+            alt="Prof. Mads Græsbøll Christensen"
             height="300"
-            image={secChair}
+            image={mgc}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Prof. Geetam Tomar
+              Prof. Mads Græsbøll Christensen
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              MP Section Chair
+              Aalborg University, Denmark
             </Typography>
           </CardContent>
           <CardActions>
             <Button
               size="small"
               onClick={() => {
-                window.open(
-                  "http://recsonbhadra.ac.in/college/directorprofile"
-                );
+                window.open("https://vbn.aau.dk/en/persons/109164");
               }}
             >
               Read More
@@ -99,32 +97,30 @@ const GeneralChairs = () => {
           sx={{
             borderRadius: "10px",
             boxShadow: "4px 4px #888888",
-            maxWidth: 300,
+            maxWidth: 345,
             margin: "25px",
             padding: "25px",
           }}
         >
           <CardMedia
             component="img"
-            alt="Prof. Manisha Pattnaik"
+            alt="Prof. Ranjan Kumar Mallik"
             height="300"
-            image={mp}
+            image={rkm}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Prof. Manisha Pattnaik
+              Prof. Ranjan Kumar Mallik
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              ABV-IIITM, India
+              IIT Delhi
             </Typography>
           </CardContent>
           <CardActions>
             <Button
               size="small"
               onClick={() => {
-                window.open(
-                  "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik"
-                );
+                window.open("https://ee.iitd.ac.in/faculty-profile/10");
               }}
             >
               Read More
