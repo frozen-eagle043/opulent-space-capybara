@@ -68,12 +68,7 @@ const Committee = () => {
           img={mgc}
           link="https://vbn.aau.dk/en/persons/109164"
         />
-        <CardBox
-          name="Prof. Ranjan Kumar Mallik"
-          designation="IIT Delhi"
-          img={rkm}
-          link="https://ee.iitd.ac.in/faculty-profile/10"
-        />
+        <CardBox name="Prof. XYZ" designation="India" img={userPic} link="" />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Advisory Committee </h1>

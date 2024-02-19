@@ -61,7 +61,7 @@ const Home = () => {
     cssEase: "linear",
   };
 
-  const loc_images = [inspect_home, abv_iiitm, conv, fort1, fort2];
+  const loc_images = [inspect_home, abv_iiitm, fort2];
 
   return (
     <div>

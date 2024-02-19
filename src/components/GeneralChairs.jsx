@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import director from "../assets/images/committee/director.jpg";
 import mgc from "../assets/images/committee/mads_chris.jpg";
 import rkm from "../assets/images/committee/ranjan_malik.JPG";
-
+import userPic from "../assets/images/committee/user.jpg";
 const GeneralChairs = () => {
   return (
     <div>
@@ -104,23 +104,23 @@ const GeneralChairs = () => {
         >
           <CardMedia
             component="img"
-            alt="Prof. Ranjan Kumar Mallik"
+            alt="Prof. XYZ"
             height="300"
-            image={rkm}
+            image={userPic}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Prof. Ranjan Kumar Mallik
+              Prof. XYZ
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              IIT Delhi
+              India
             </Typography>
           </CardContent>
           <CardActions>
             <Button
               size="small"
               onClick={() => {
-                window.open("https://ee.iitd.ac.in/faculty-profile/10");
+                window.open("");
               }}
             >
               Read More

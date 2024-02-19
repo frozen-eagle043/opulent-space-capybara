@@ -16,14 +16,25 @@ const CallForPapers = () => {
           style={{
             fontSize: "18px",
 
-            margin: "2px",
+            margin: "4px 40px 5px 40px",
             padding: "8px",
           }}
         >
-          INSPECT-2024 will serve as a dynamic platform, facilitating the
-          convergence of researchers, academics, and industry practitioners.
-          This event aims to foster the exchange of ideas and the sharing of
-          recent research breakthroughs across a multitude of domains.
+          <b>INSPECT-2024</b>, or{" "}
+          <b>
+            Intelligent Signal Processing and Effective Communication
+            Technologies
+          </b>
+          , is a multidisciplinary event bringing together researchers,
+          academics, and industry professionals. It aims to facilitate the
+          exchange of ideas and recent research findings across various domains.
+          The event covers five main tracks: Signal and Image Processing,
+          Communication Systems & Networking, IoT, Smart Grid, Robotics &
+          Control Systems, RF, Microwave & Optical Communication, and VLSI for
+          Signal Processing & Communication. Each track delves into specific
+          areas such as digital signal processing, wireless communication,
+          robotics, and VLSI design, offering a dynamic platform for
+          collaboration and knowledge sharing among experts in these fields.
         </div>
         <div
           style={{
@@ -33,85 +44,143 @@ const CallForPapers = () => {
             padding: "8px",
           }}
         >
-          <div>
+          <div style={{ margin: "40px" }}>
             <h2 style={{ fontWeight: "bold" }}>
               Track 1: Signal and Image Processing
             </h2>
-            <ul>
-              Digital Signal Processing (DSP) Image Enhancement and Restoration,
-              Image Compression Pattern Recognition, Computer Vision, Medical
-              Image Processing, Biomedical Signal Processing, Remote Sensing,
-              Speech Processing, Multimedia Signal Processing, Sparse Signal
-              Processing, Hyperspectral Imaging, Geospatial Image Processing,
-              Biometric Signal and Image Processing, Deep Learning for Signal
-              and Image Processing, Real-Time Signal and Image Processing,
-              Sensor Array Processing, Nonlinear Signal Processing, Adaptive
-              Signal Processing.
+            <ul style={{ listStyle: "square", display: "flex" }}>
+              <div style={{ minWidth: "50%" }}>
+                <li>Digital Signal Processing (DSP)</li>
+                <li>Image Enhancement and Restoration, Image Compression</li>
+                <li>Pattern Recognition, Computer Vision</li>
+                <li>Medical Image Processing, Biomedical Signal Processing</li>
+                <li>Remote Sensing, Speech Processing</li>
+                <li>Multimedia Signal Processing, Sparse Signal Processing</li>
+                <li>Hyperspectral Imaging, Geospatial Image Processing</li>
+              </div>
+              <div>
+                <li>Biometric Signal and Image Processing</li>
+
+                <li>Deep Learning for Signal and Image Processing</li>
+                <li>Real-Time Signal and Image Processing</li>
+                <li>Sensor Array Processing</li>
+                <li>Nonlinear Signal Processing</li>
+                <li> Adaptive Signal Processing</li>
+                <li>Audio Signal Processing, and Speech Processing</li>
+              </div>
             </ul>
           </div>
-          <div>
+          <div style={{ margin: "40px" }}>
             <h2 style={{ fontWeight: "bold" }}>
               Track 2: Communication Systems & Networking
             </h2>
-            <ul>
-              Wireless Communication Systems, Mobile Networking, 5G and Beyond,
-              Satellite Communication Systems, Network Security, Cognitive Radio
-              Networks, Software-Defined Networking (SDN), Information Theory,
-              Cloud Computing, Network Protocols, Communication Hardware Design,
-              Social Networks Analysis, Multimedia Communication Systems, Edge
-              Computing, Network Virtualization, Quantum Communication, Network
-              Performance Optimization, Green Networking Technologies, Deep
-              Learning for communication
+            <ul style={{ listStyle: "square", display: "flex" }}>
+              <div style={{ minWidth: "50%" }}>
+                <li>Wireless Communication Systems</li>
+                <li>Mobile Networking, 5G and Beyond</li>
+                <li>Satellite Communication Systems</li>
+                <li>Network Security and Network Protocols</li>
+                <li>Cognitive Radio Networks</li>
+                <li>Software-Defined Networking (SDN)</li>
+                <li>Information Theory, Cloud Computing</li>
+              </div>
+              <div>
+                <li>Communication Hardware Design</li>
+                <li>Social Networks Analysis</li>
+                <li>Multimedia Communication Systems</li>
+                <li>Edge Computing & Network Virtualization</li>
+                <li>Quantum Communication, Network Performance Optimization</li>
+                <li>Green Networking Technologies</li>
+                <li>Deep Learning for communication</li>
+              </div>
             </ul>
           </div>
-          <div>
+          <div style={{ margin: "40px" }}>
             <h2 style={{ fontWeight: "bold" }}>
               Track 3: IoT, Smart Grid, Robotics & Control Systems
             </h2>
-            <ul>
-              Internet of Things (IoT), Smart Grid Technologies, Industrial
-              Automation, Robotics and Automation, Control Systems Engineering,
-              Cyber-Physical Systems, Energy Management Systems, Sensor
-              Networks, Autonomous Vehicles, Human-Robot Interaction,
-              Distributed Control Systems, Embedded Systems Design, Renewable
-              Energy Integration, Smart Cities Infrastructure, Home Automation,
-              Intelligent Transportation Systems, Swarm Robotics, Wearable
-              Technology, Teleoperation and Telepresence, Adaptive Control
-              Algorithms, Intelligent Robotics and Control
+            <ul style={{ listStyle: "square", display: "flex" }}>
+              <div style={{ minWidth: "50%" }}>
+                <li>Internet of Things (IoT)</li>
+                <li>Smart Grid Technologies</li>
+                <li>Industrial Automation, Robotics and Automation</li>
+                <li>Control Systems Engineering</li>
+                <li>Cyber-Physical Systems & Energy Management Systems</li>
+                <li>Sensor Networks, Autonomous Vehicles</li>
+                <li>Human-Robot Interaction</li>
+                <li>Distributed Control Systems</li>
+                <li>Embedded Systems Design</li>
+              </div>
+              <div>
+                <li>Renewable Energy Integration</li>
+                <li>Smart Cities Infrastructure</li>
+                <li>Home Automation</li>
+                <li>Intelligent Transportation Systems</li>
+                <li>Swarm Robotics, Wearable Technology</li>
+                <li>Teleoperation and Telepresence</li>
+                <li>Adaptive Control Algorithms</li>
+                <li>Intelligent Robotics and Control</li>
+              </div>
             </ul>
           </div>
-          <div>
+          <div style={{ margin: "40px" }}>
             <h2 style={{ fontWeight: "bold" }}>
               Track 4: RF, Microwave & Optical Communication
             </h2>
-            <ul>
-              Smart Radio Frequency (RF) Engineering, Microwave Engineering,
-              Antenna Design, Radar Systems, Wireless Sensor Networks,
-              Millimeter-Wave Communication, Optical Fiber Communication,
-              Free-Space Optical Communication, Microwave Photonics, RF MEMS
-              (Microelectromechanical Systems), Radio Wave Propagation, RF
-              Circuit Design, Optical Networks, Microwave Remote Sensing,
-              Terahertz Communication, RF Power Amplifiers, Photonic Integrated
-              Circuits, Waveguide Components, RF Filters and Duplexers, Optical
-              Switching and Routing.
+            <ul style={{ listStyle: "square", display: "flex" }}>
+              <div style={{ minWidth: "50%" }}>
+                <li>Smart Radio Frequency (RF) Engineering</li>
+                <li>Microwave Engineering</li>
+                <li>Antenna Design, Radar Systems</li>
+                <li>Wireless Sensor Networks</li>
+                <li>
+                  Millimeter-Wave Communication, Optical Fiber Communication
+                  <li>Free-Space Optical Communication</li>
+                </li>
+                <li>Microwave Photonics</li>
+                <li>RF MEMS (Microelectromechanical Systems)</li>
+                <li>Radio Wave Propagation</li>
+              </div>
+              <div>
+                <li>RF Circuit Design</li>
+                <li>Optical Networks</li>
+                <li>Microwave Remote Sensing</li>
+                <li>Terahertz Communication</li>
+                <li>RF Power Amplifiers</li>
+                <li>Photonic Integrated Circuits</li>
+                <li>Waveguide Components</li>
+                <li>RF Filters and Duplexers</li>
+                <li>Optical Switching and Routing</li>
+              </div>
             </ul>
           </div>
-          <div>
+          <div style={{ margin: "40px" }}>
             <h2 style={{ fontWeight: "bold" }}>
               Track 5: VLSI for Signal Processing & Communication
             </h2>
-            <ul>
-              Digital VLSI Design, Analog VLSI Design, Mixed-Signal VLSI Design,
-              RF Circuit Design, Low-Power VLSI Design, ASIC
-              (Application-Specific Integrated Circuit) Design, FPGA
-              (Field-Programmable Gate Array) Design, VLSI Testing and
-              Verification, SoC (System-on-Chip) Design, Hardware Security,
-              Reconfigurable Computing, VLSI CAD (Computer-Aided Design),
-              High-Level Synthesis, Hardware Acceleration for Signal Processing
-              Algorithms, Clock and Power Distribution Network Design, VLSI
-              Architectures for Communication Systems, RF Front-End Design,
-              Advanced CMOS Technologies, VLSI Design for Wireless
-              Communication, Neuromorphic Engineering.
+            <ul style={{ listStyle: "square", display: "flex" }}>
+              <div style={{ minWidth: "50%" }}>
+                <li>Digital VLSI Design, Analog VLSI Design</li>
+                <li>Mixed-Signal VLSI Design, RF Circuit Design</li>
+                <li>Low-Power VLSI Design</li>
+                <li>ASIC (Application-Specific Integrated Circuit) Design</li>
+                <li>FPGA (Field-Programmable Gate Array) Design</li>
+                <li>VLSI Testing and Verification</li>
+                <li>SoC (System-on-Chip) Design</li>
+                <li>Hardware Security</li>
+                <li>Reconfigurable Computing</li>
+              </div>
+              <div>
+                <li>VLSI CAD (Computer-Aided Design)</li>
+                <li>High-Level Synthesis</li>
+                <li>Hardware Acceleration for Signal Processing Algorithms</li>
+                <li>Clock and Power Distribution Network Design</li>
+                <li>VLSI Architectures for Communication Systems</li>
+                <li>RF Front-End Design</li>
+                <li>Advanced CMOS Technologies</li>
+                <li>VLSI Design for Wireless Communication</li>
+                <li>Neuromorphic Engineering</li>
+              </div>
             </ul>
           </div>
         </div>
