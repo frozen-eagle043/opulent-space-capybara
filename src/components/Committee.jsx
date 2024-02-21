@@ -20,7 +20,7 @@ import sp from "../assets/images/committee/spradhan.jpg";
 import dkv from "../assets/images/committee/deepesh.jpg";
 import arj from "../assets/images/committee/arj.jpg";
 // import ms from "../assets/images/committee/murli.jpg";
-// import ak from "../assets/images/committee/asutosh.jpg";
+import ak from "../assets/images/committee/asutosh.jpg";
 import ps from "../assets/images/committee/PragyaSwami.jpeg";
 import vb from "../assets/images/committee/varun bajaj.png";
 import akb from "../assets/images/committee/Dr Atul Kumar.gif";
@@ -47,6 +47,20 @@ import vtg from "../assets/images/committee/vivek_tiwari jpeg.jpg";
 import opv from "../assets/images/committee/om_prakash.jpg";
 import jt from "../assets/images/committee/joset.jpg";
 import dps from "../assets/images/committee/Dr. Dip Prakash Samajdar.jpg";
+import mfhw from "../assets/images/committee/mohammad_farukh.jpg";
+import pkg from "../assets/images/committee/pinku_ranjan.jpg";
+import vasw from "../assets/images/committee/vasundhra.jpg";
+import egw from "../assets/images/committee/ekta_goel.jpg";
+import ssrg from "../assets/images/committee/santosh_rathore.jpg";
+import gkg from "../assets/images/committee/gaurav_kaushal.jpg";
+import mkbgu from "../assets/images/committee/mk_bhuyan.JPG";
+import nvgga from "../assets/images/committee/nithin.jpg";
+import jrjd from "../assets/images/committee/Jesper Rindom Jensen.jpg";
+import asyg from "../assets/images/committee/amarendra.jpg";
+import pmg from "../assets/images/committee/purnendu.jpg";
+import kvag from "../assets/images/committee/kva.jpg";
+import rsg from "../assets/images/committee/rajendra_sahu.jpg";
+
 const Committee = () => {
   return (
     <div>
@@ -62,13 +76,35 @@ const Committee = () => {
           img={director}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
         />
+        <CardBox name="Dr. ABC" designation="India" img={userPic} link="" />
         <CardBox
-          name="Prof. Mads Græsbøll Christensen"
-          designation="Aalborg University, Denmark"
-          img={mgc}
-          link="https://vbn.aau.dk/en/persons/109164"
+          name="Dr. M. K. Bhuyan"
+          designation="IIT Guwahati, India"
+          img={mkbgu}
+          link="https://www.iitg.ac.in/mkb/"
         />
-        <CardBox name="Prof. XYZ" designation="India" img={userPic} link="" />
+
+        <CardBox name="Dr. DEF" designation="India" img={userPic} link="" />
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>General Co-chairs </h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Nithin V George"
+          designation="IIT Gandhinagar, India"
+          img={nvgga}
+          link="https://iitgn.ac.in/faculty/ee/fac-nithin"
+        />
+        <CardBox
+          name="Dr. Jesper Rindom Jensen"
+          designation="Aalborg University, Denmark"
+          img={jrjd}
+          link="https://jesperrj.blog.aau.dk/"
+        />
+        <CardBox name="Dr. XYZ" designation="India" img={userPic} link="" />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Advisory Committee </h1>
@@ -213,6 +249,54 @@ const Committee = () => {
           img={dps}
           link="http://faculty.iiitdmj.ac.in/faculty/dip.samajdar"
         />
+        <CardBox
+          name="Dr. Mohammad Farukh Hashmi"
+          designation="NIT Warangal, India"
+          img={mfhw}
+          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16880"
+        />
+        <CardBox
+          name="Dr. Pinku Ranjan"
+          designation="ABV-IIITM, India"
+          img={pkg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PINKURANJAN"
+        />
+        <CardBox
+          name="Prof. Vasundhara"
+          designation="NIT Warangal, India"
+          img={vasw}
+          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/17061"
+        />
+        <CardBox
+          name="Dr. Ekta Goel"
+          designation="NIT Warangal, India"
+          img={egw}
+          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/17062"
+        />
+        <CardBox
+          name="Dr. Santosh Singh Rathore"
+          designation="ABV-IIITM, India"
+          img={ssrg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.SantoshSinghRathore"
+        />
+        <CardBox
+          name="Dr. Mahendra Shukla"
+          designation="ABV-IIITM, India"
+          img={msg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
+        />
+        <CardBox
+          name="Dr. Ravi Kant"
+          designation="PDEU Gandhinagar, India"
+          img={rk}
+          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ravi.kant"
+        />
+        <CardBox
+          name="Dr. Gaurav Kaushal"
+          designation="ABV-IIITM, India"
+          img={gkg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.GauravKaushal"
+        />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Publication Chairs </h1>
@@ -226,7 +310,12 @@ const Committee = () => {
           img={dd}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.DeepakKumar"
         />
-
+        <CardBox
+          name="Dr. Asutosh Kar"
+          designation="NIT Jahandar, India"
+          img={ak}
+          link="https://departments.nitj.ac.in/dept/ece/Faculty/6430447238bff038a7808d7e"
+        />
         <CardBox
           name="Dr. Debanjan Sadhya"
           designation="ABV-IIITM, India"
@@ -293,6 +382,44 @@ const Committee = () => {
           designation="PDEU Gandhinagar, India"
           img={rk}
           link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ravi.kant"
+        />
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Hospitality & Facility Chairs </h1>
+      </div>
+
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Amrendra Singh Yadav"
+          designation="ABV-IIITM, India"
+          img={asyg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.AmrendraSingh"
+        />
+        <CardBox
+          name="Dr. Gaurav Pandey"
+          designation="ABV-IIITM, India"
+          img={userPic}
+          link=""
+        />
+        <CardBox
+          name="Dr. Purnendu Mishra"
+          designation="ABV-IIITM, India"
+          img={pmg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Purnedu"
+        />
+        <CardBox
+          name="Prof. K V Arya"
+          designation="ABV-IIITM, India"
+          img={kvag}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.KVArya"
+        />
+        <CardBox
+          name="Prof. Rajendra Sahu"
+          designation="ABV-IIITM, India"
+          img={rsg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Rajendra"
         />
       </div>
 

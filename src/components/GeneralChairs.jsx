@@ -6,8 +6,9 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import director from "../assets/images/committee/director.jpg";
-import mgc from "../assets/images/committee/mads_chris.jpg";
-// import rkm from "../assets/images/committee/ranjan_malik.JPG";
+import mkbgu from "../assets/images/committee/mk_bhuyan.JPG";
+import nvgga from "../assets/images/committee/nithin.jpg";
+import jrjd from "../assets/images/committee/Jesper Rindom Jensen.jpg";
 import userPic from "../assets/images/committee/user.jpg";
 const GeneralChairs = () => {
   return (
@@ -59,6 +60,7 @@ const GeneralChairs = () => {
             </Button>
           </CardActions>
         </Card>
+
         <Card
           sx={{
             borderRadius: "10px",
@@ -70,13 +72,83 @@ const GeneralChairs = () => {
         >
           <CardMedia
             component="img"
-            alt="Prof. Mads Græsbøll Christensen"
+            alt="Dr. M. K. Bhuyan"
             height="300"
-            image={mgc}
+            image={mkbgu}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" center>
-              Prof. Mads Græsbøll Christensen
+              Dr. M. K. Bhuyan
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              IIT Guwahati, India
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button
+              size="small"
+              onClick={() => {
+                window.open("https://www.iitg.ac.in/mkb/");
+              }}
+            >
+              Read More
+            </Button>
+          </CardActions>
+        </Card>
+
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 345,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
+          <CardMedia
+            component="img"
+            alt="Dr. Nithin V George"
+            height="300"
+            image={nvgga}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div" center>
+              Dr. Nithin V George
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              IIT Gandhinagar, India
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button
+              size="small"
+              onClick={() => {
+                window.open("https://iitgn.ac.in/faculty/ee/fac-nithin");
+              }}
+            >
+              Read More
+            </Button>
+          </CardActions>
+        </Card>
+
+        <Card
+          sx={{
+            borderRadius: "10px",
+            boxShadow: "4px 4px #888888",
+            maxWidth: 345,
+            margin: "25px",
+            padding: "25px",
+          }}
+        >
+          <CardMedia
+            component="img"
+            alt="Dr. Jesper Rindom Jensen"
+            height="300"
+            image={jrjd}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div" center>
+              Dr. Jesper Rindom Jensen
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Aalborg University, Denmark
@@ -86,41 +158,7 @@ const GeneralChairs = () => {
             <Button
               size="small"
               onClick={() => {
-                window.open("https://vbn.aau.dk/en/persons/109164");
-              }}
-            >
-              Read More
-            </Button>
-          </CardActions>
-        </Card>
-        <Card
-          sx={{
-            borderRadius: "10px",
-            boxShadow: "4px 4px #888888",
-            maxWidth: 345,
-            margin: "25px",
-            padding: "25px",
-          }}
-        >
-          <CardMedia
-            component="img"
-            alt="Prof. XYZ"
-            height="300"
-            image={userPic}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div" center>
-              Prof. XYZ
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              India
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button
-              size="small"
-              onClick={() => {
-                window.open("");
+                window.open("https://jesperrj.blog.aau.dk/");
               }}
             >
               Read More

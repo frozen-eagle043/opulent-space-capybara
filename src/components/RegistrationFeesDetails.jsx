@@ -4,7 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const PricingComponent = () => {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">CVMI 2023, IIITM Gwalior (with GST)</h2>
+      <h2 className="text-center mb-4">
+        INSPECT 2024, IIITM Gwalior (with GST)
+      </h2>
       <div className="table-responsive">
         <table className="table table-bordered">
           <thead className="thead-dark">

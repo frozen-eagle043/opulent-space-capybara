@@ -7,7 +7,7 @@ const SubmissionComponent = () => {
       <h2 className="text-center mb-4">Final Paper Submission Guidelines</h2>
       <p>
         Please note that the last date for uploading the final camera-ready
-        manuscript is 31-October 2023, 23:59 IST.
+        manuscript is 30-October 2024, 23:59 IST.
       </p>
 
       <p>
@@ -63,18 +63,18 @@ const SubmissionComponent = () => {
         <li>
           For papers in which all authors are employed by a Crown government
           (UK, Canada, and Australia), the copyright notice is:
-          979-8-3503-0514-2/23/$31.00 ©2023 Crown
+          979-8-3503-0514-2/23/$31.00 ©2024 Crown
         </li>
         <li>
           For papers in which all authors are employed by the European Union,
-          the copyright notice is: 979-8-3503-0514-2/23/$31.00 ©2023 European
+          the copyright notice is: 979-8-3503-0514-2/23/$31.00 ©2024 European
           Union
         </li>
         <li>
           For all other papers, the copyright notice is:
-          979-8-3503-0514-2/23/$31.00 ©2023 IEEE
+          979-8-3503-0514-2/23/$31.00 ©2024 IEEE
         </li>
-        <UserInstructionsComponent/>
+        <UserInstructionsComponent />
         <li>
           Before creating PDF, proofread the tex or doc file thoroughly to
           confirm that it requires no revision.
@@ -103,11 +103,11 @@ const SubmissionComponent = () => {
 
       <h3>
         3. Submission of Camera Ready Manuscripts and IEEE eCopyright Form to
-        CVMI-2023
+        INSPECT-2024
       </h3>
       <p>
-        <strong>Step 1:</strong> Login to Microsoft CMT as an author of CVMI2023
-        (
+        <strong>Step 1:</strong> Login to Microsoft CMT as an author of
+        INSPECT2024 (
         <a href="cmt-link" target="_blank" rel="noopener noreferrer">
           here
         </a>
