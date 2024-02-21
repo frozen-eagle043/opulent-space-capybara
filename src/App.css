@@ -265,3 +265,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.call-for-paper-box {
+  min-width: 50%;
+}
+@media screen and (max-width: 1380px) {
+  .call-for-paper-box {
+    min-width: 100%;
+  }
+}

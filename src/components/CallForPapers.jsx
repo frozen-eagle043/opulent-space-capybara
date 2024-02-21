@@ -20,21 +20,23 @@ const CallForPapers = () => {
             padding: "8px",
           }}
         >
-          <b>INSPECT-2024</b>, or{" "}
+          Welcome to the{" "}
           <b>
-            Intelligent Signal Processing and Effective Communication
-            Technologies
+            2024 International Conference on Intelligent Signal Processing and
+            Effective Communication Technologies (INSPECT-2024)
           </b>
-          , is a multidisciplinary event bringing together researchers,
-          academics, and industry professionals. It aims to facilitate the
-          exchange of ideas and recent research findings across various domains.
-          The event covers five main tracks: Signal and Image Processing,
-          Communication Systems & Networking, IoT, Smart Grid, Robotics &
-          Control Systems, RF, Microwave & Optical Communication, and VLSI for
-          Signal Processing & Communication. Each track delves into specific
-          areas such as digital signal processing, wireless communication,
-          robotics, and VLSI design, offering a dynamic platform for
-          collaboration and knowledge sharing among experts in these fields.
+          , to be held in <b>December 2024</b> at Gwalior, India. The conference
+          is sponsored by the <b>IEEE MP Section</b>. The conference is the
+          premier forum for the presentation of new advances and research
+          results in varied disciplines and their associated applications in all
+          aspects of Communication Technology, Signal Processing Informatics,
+          and Machine Learning that consider the improvement and development of
+          quality of human life and better living on earth. In addition to the
+          technical sessions, there will be invited sessions, panel sessions,
+          and keynote addresses. The aim of the conference is to stimulate
+          interaction and convergent among researchers active in the areas of
+          Communication Technology, Signal Processing Informatics, and Machine
+          Learning.
         </div>
         <div
           style={{
@@ -48,8 +50,10 @@ const CallForPapers = () => {
             <h2 style={{ fontWeight: "bold" }}>
               Track 1: Signal and Image Processing
             </h2>
-            <ul style={{ listStyle: "square", display: "flex" }}>
-              <div style={{ minWidth: "50%" }}>
+            <ul
+              style={{ listStyle: "square", display: "flex", flexWrap: "wrap" }}
+            >
+              <div className="call-for-paper-box">
                 <li>Digital Signal Processing (DSP)</li>
                 <li>Image Enhancement and Restoration, Image Compression</li>
                 <li>Pattern Recognition, Computer Vision</li>
@@ -74,8 +78,10 @@ const CallForPapers = () => {
             <h2 style={{ fontWeight: "bold" }}>
               Track 2: Communication Systems & Networking
             </h2>
-            <ul style={{ listStyle: "square", display: "flex" }}>
-              <div style={{ minWidth: "50%" }}>
+            <ul
+              style={{ listStyle: "square", display: "flex", flexWrap: "wrap" }}
+            >
+              <div className="call-for-paper-box">
                 <li>Wireless Communication Systems</li>
                 <li>Mobile Networking, 5G and Beyond</li>
                 <li>Satellite Communication Systems</li>
@@ -99,8 +105,10 @@ const CallForPapers = () => {
             <h2 style={{ fontWeight: "bold" }}>
               Track 3: IoT, Smart Grid, Robotics & Control Systems
             </h2>
-            <ul style={{ listStyle: "square", display: "flex" }}>
-              <div style={{ minWidth: "50%" }}>
+            <ul
+              style={{ listStyle: "square", display: "flex", flexWrap: "wrap" }}
+            >
+              <div className="call-for-paper-box">
                 <li>Internet of Things (IoT)</li>
                 <li>Smart Grid Technologies</li>
                 <li>Industrial Automation, Robotics and Automation</li>
@@ -111,7 +119,7 @@ const CallForPapers = () => {
                 <li>Distributed Control Systems</li>
                 <li>Embedded Systems Design</li>
               </div>
-              <div>
+              <div className="call-for-paper-box">
                 <li>Renewable Energy Integration</li>
                 <li>Smart Cities Infrastructure</li>
                 <li>Home Automation</li>
@@ -127,8 +135,10 @@ const CallForPapers = () => {
             <h2 style={{ fontWeight: "bold" }}>
               Track 4: RF, Microwave & Optical Communication
             </h2>
-            <ul style={{ listStyle: "square", display: "flex" }}>
-              <div style={{ minWidth: "50%" }}>
+            <ul
+              style={{ listStyle: "square", display: "flex", flexWrap: "wrap" }}
+            >
+              <div className="call-for-paper-box">
                 <li>Smart Radio Frequency (RF) Engineering</li>
                 <li>Microwave Engineering</li>
                 <li>Antenna Design, Radar Systems</li>
@@ -158,8 +168,10 @@ const CallForPapers = () => {
             <h2 style={{ fontWeight: "bold" }}>
               Track 5: VLSI for Signal Processing & Communication
             </h2>
-            <ul style={{ listStyle: "square", display: "flex" }}>
-              <div style={{ minWidth: "50%" }}>
+            <ul
+              style={{ listStyle: "square", display: "flex", flexWrap: "wrap" }}
+            >
+              <div className="call-for-paper-box">
                 <li>Digital VLSI Design, Analog VLSI Design</li>
                 <li>Mixed-Signal VLSI Design, RF Circuit Design</li>
                 <li>Low-Power VLSI Design</li>
