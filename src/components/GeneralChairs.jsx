@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import director from "../assets/images/committee/director.jpg";
 import mgc from "../assets/images/committee/mads_chris.jpg";
-import rkm from "../assets/images/committee/ranjan_malik.JPG";
+// import rkm from "../assets/images/committee/ranjan_malik.JPG";
 import userPic from "../assets/images/committee/user.jpg";
 const GeneralChairs = () => {
   return (

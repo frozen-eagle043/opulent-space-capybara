@@ -1,11 +1,11 @@
-import { fontWeight } from "@mui/system";
+// import { fontWeight } from "@mui/system";
 import React from "react";
 
 const CallForPapers = () => {
   return (
     <div
       style={{
-        background: "rgb(255,255,255)",
+         background: "rgb(255,255,255)",
         background:
           "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,222,222,0.6475840336134453) 0%, rgba(255,255,255,1) 0%, rgba(98,151,204,0.4739145658263305) 100%)",
       }}

@@ -1,15 +1,87 @@
 import React from "react";
+import RegistrationFeesDetails from "./RegistrationFeesDetails";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const Registration = () => {
+const RegistrationComponent = () => {
   return (
-    <div style={{ minHeight: "80vh" }}>
-      {" "}
-      <div style={{ margin: "5px", padding: "20px" }}>
-        <h1 style={{ padding: "10px" }}>Registration</h1>
-        <h4>TO BE UPLOADED....</h4>
+    <div className="container mt-5">
+      <h2 className="text-center mb-4">INSPECT2024 Registration</h2>
+      <div className="col">
+        <div className="col-md-6">
+          <h3 className="mb-3">Important Dates:</h3>
+          <p>
+            Deadline for camera-ready submission:{" "}
+            <strong>10 November 2023</strong>
+          </p>
+          <p>
+            Deadline for early bird registration:{" "}
+            <strong>31-October 2023</strong>
+          </p>
+
+          <h3 className="mb-3">Submission Instructions</h3>
+          <p>
+            The account details for payment of Registration fees are given as
+            follows:
+          </p>
+          <ul className="mb-4">
+            <li>Name: ABVIIITMG INSPECT-2024</li>
+            <li>Account Number: 946210110007272</li>
+            <li>
+              Bank Name and Branch: Bank of India, IIITM Campus, Morena link
+              road, Gwalior, M.P. -474003
+            </li>
+            <li>Account Type: Saving</li>
+            <li>MICR Code: 474013010</li>
+            <li>IFSC Code: BKID0009462</li>
+            <li>SWIFT Code: BKIDINBBGWA</li>
+          </ul>
+          <p>
+            Use the following link for International Payments.
+            <br />
+            <a
+              href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+              className="btn btn-primary mt-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              International Payments
+            </a>
+          </p>
+          <p>Instructions: Instructions for International Payments</p>
+          <p>
+            Please enter your paper ID in the remarks column while making the
+            payment.
+          </p>
+
+          <p>
+            After making payment kindly take print/screenshot of your
+            registration receipt.
+          </p>
+
+          <p>
+            Once the registration fees are paid, enter the details in the below
+            registration form and upload the receipt.
+          </p>
+
+          <p>
+            For any queries regarding registration kindly contact Dr. Anjali (
+            <a href="tel:8840348439">88403 48439</a>) or Dr. Vivek Tiwari (
+            <a href="tel:9630246099">96302 46099</a>)
+          </p>
+        </div>
+        <div className="col-md-6">
+          <button
+            className="btn btn-primary mt-4"
+            onClick={() => window.open("https://www.google.com")}
+          >
+            Registration Form
+          </button>
+        </div>
       </div>
+      <h3 className="mb-3">Registration Fees Details</h3>
+      <RegistrationFeesDetails />
     </div>
   );
 };
 
-export default Registration;
+export default RegistrationComponent;
