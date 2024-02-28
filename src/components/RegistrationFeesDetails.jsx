@@ -14,20 +14,21 @@ const PricingComponent = () => {
               <th scope="col">Category</th>
               <th
                 scope="col"
-                colSpan="4"
+                colSpan="2"
                 className="text-center bg-primary text-white"
               >
                 Early Bird Registration
               </th>
               <th
                 scope="col"
-                colSpan="4"
+                colSpan="2"
                 className="text-center bg-warning text-white"
               >
-                Registration
+                Late Registration
               </th>
             </tr>
-            <tr>
+
+            {/* <tr>
               <th scope="col"></th>
               <th
                 scope="col"
@@ -57,67 +58,52 @@ const PricingComponent = () => {
               >
                 Students (10% Deduction)
               </th>
-            </tr>
+            </tr> */}
             <tr>
               <td></td>
-              <td className="bg-light">IAPR/IEEE-SPS</td>
-              <td className="bg-light">Non IAPR/IEEE-SPS</td>
-              <td className="bg-light">IAPR/IEEE-SPS</td>
-              <td className="bg-light">Non IAPR/IEEE-SPS</td>
-              <td className="bg-light">IAPR/IEEE-SPS</td>
-              <td className="bg-light">Non IAPR/IEEE-SPS</td>
-              <td className="bg-light">IAPR/IEEE-SPS</td>
-              <td className="bg-light">Non IAPR/IEEE-SPS</td>
+              <td className="text-center bg-success">IEEE</td>
+              <td className="text-center bg-info">Non-IEEE</td>
+              <td className="text-center bg-success">IEEE</td>
+              <td className="text-center bg-info">Non-IEEE</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="text-center bg-info text-white">
-                Indian Delegates (INR)
-              </td>
-              <td>8260</td>
-              <td>9440</td>
-              <td>7434</td>
-              <td>8496</td>
-              <td>9440</td>
-              <td>10620</td>
-              <td>8496</td>
-              <td>9558</td>
+              <td className="text-center bg-info text-white">Student </td>
+              <td className="text-center">INR 5000</td>
+
+              <td className="text-center">INR 5500</td>
+              <td className="text-center">INR 6000</td>
+              <td className="text-center">INR 6500</td>
             </tr>
-            <tr>
-              <td className="text-center bg-info text-white">Listener</td>
-              <td>2950</td>
-              <td>4130</td>
-              <td>2655</td>
-              <td>3717</td>
-              <td>4130</td>
-              <td>5310</td>
-              <td>3717</td>
-              <td>4779</td>
-            </tr>
+
             <tr>
               <td className="text-center bg-info text-white">
-                Foreign Delegates (US $)
+                Industry/ Academician
               </td>
-              <td>236</td>
-              <td>295</td>
-              <td>177</td>
-              <td>206.5</td>
-              <td>295</td>
-              <td>354</td>
-              <td>236</td>
-              <td>295</td>
+              <td className="text-center">INR 7000</td>
+              <td className="text-center">INR 7500</td>
+              <td className="text-center">INR 8000</td>
+
+              <td className="text-center">INR 8500</td>
+            </tr>
+
+            <tr>
+              <td className="text-center bg-info text-white">
+                International Authors
+              </td>
+              <td colSpan="2" className="text-center">
+                US$ 200
+              </td>
+              <td colSpan="2" className="text-center">
+                US$ 250
+              </td>
             </tr>
             <tr>
-              <td className="text-center bg-info text-white">Listener</td>
-              <td>118</td>
-              <td>177</td>
-              <td>88.5</td>
-              <td>118</td>
-              <td>118</td>
-              <td>177</td>
-              <td>88.5</td>
-              <td>118</td>
+              <td className="text-center bg-info text-white">Attendees</td>
+              <td className="text-center" colspan="4">
+                INR 2000
+              </td>
             </tr>
           </tbody>
         </table>

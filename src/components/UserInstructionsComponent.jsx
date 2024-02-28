@@ -10,7 +10,7 @@ const UserInstructionsTable = () => {
           <tr>
             <th scope="col">First-time users</th>
             <th scope="col">
-              Previous users, but using it the first time for CVMI-2023
+              Previous users, but using it the first time for INSPECT-2024
             </th>
             <th scope="col">Returning users</th>
           </tr>

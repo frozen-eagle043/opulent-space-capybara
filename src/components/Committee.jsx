@@ -60,6 +60,9 @@ import asyg from "../assets/images/committee/amarendra.jpg";
 import pmg from "../assets/images/committee/purnendu.jpg";
 import kvag from "../assets/images/committee/kva.jpg";
 import rsg from "../assets/images/committee/rajendra_sahu.jpg";
+import cwak from "../assets/images/committee/ChangWookAhn.jpg";
+import mpr from "../assets/images/committee/millie_pant.jpg";
+import akg from "../assets/images/committee/AvadhKishor.jpg";
 
 const Committee = () => {
   return (
@@ -76,15 +79,26 @@ const Committee = () => {
           img={director}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
         />
-        <CardBox name="Dr. ABC" designation="India" img={userPic} link="" />
+
+        <CardBox
+          name="Prof. Chang Wook Ahn"
+          designation="GIST, South Korea"
+          img={cwak}
+          link="https://aieng.gist.ac.kr/prog/gsPerson/aieng/P/view.do;jsessionid=CC657C00E75779BB223A05F5D0548C7B"
+        />
+
         <CardBox
           name="Dr. M. K. Bhuyan"
           designation="IIT Guwahati, India"
           img={mkbgu}
           link="https://www.iitg.ac.in/mkb/"
         />
-
-        <CardBox name="Dr. DEF" designation="India" img={userPic} link="" />
+        <CardBox
+          name="Prof. Millie Pant"
+          designation="IIT Roorkee, India"
+          img={mpr}
+          link="https://www.iitr.ac.in/~ASE/millifpt"
+        />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>General Co-chairs </h1>
@@ -93,18 +107,17 @@ const Committee = () => {
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
         <CardBox
-          name="Dr. Nithin V George"
-          designation="IIT Gandhinagar, India"
-          img={nvgga}
-          link="https://iitgn.ac.in/faculty/ee/fac-nithin"
-        />
-        <CardBox
           name="Dr. Jesper Rindom Jensen"
           designation="Aalborg University, Denmark"
           img={jrjd}
           link="https://jesperrj.blog.aau.dk/"
         />
-        <CardBox name="Dr. XYZ" designation="India" img={userPic} link="" />
+        <CardBox
+          name="Dr. Nithin V George"
+          designation="IIT Gandhinagar, India"
+          img={nvgga}
+          link="https://iitgn.ac.in/faculty/ee/fac-nithin"
+        />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Advisory Committee </h1>
@@ -135,175 +148,90 @@ const Committee = () => {
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Technical Program Committee </h1>
       </div>
+      <div style={{ margin: "auto", width: "65%", padding: "10px" }}>
+        <ul
+          style={{
+            listStyle: "square",
+            fontSize: "18px",
+            color: "purple",
+            fontWeight: "500",
+            display: "flex",
+            flexWrap: "wrap",
+          }}
+        >
+          <div style={{ marginRight: "auto" }}>
+            <li>Dr. Binod Prasad, ABV-IIITM, India </li>
+            <li>Dr. Punit Kumar Bhavsar, NIT Nagpur, India</li>
+            <li>Dr. Somanath Pradhan, IIT Patna, India</li>
+            <li>Dr. Deepesh Kumar Verma, IIT (BHU) Varanasi, India</li>
+            <li>Dr. A. R. Jac Fredo, IIT (BHU) Varanasi, India</li>
+            <li>Dr. Om Jee Pnadey, IIT (BHU) Varanasi, India</li>
+            <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
+            <li>Dr. Pragya Swami, ABV-IIITM, India </li>
+            <li>Dr. Varun Bajaj, NIT Bhopal, India</li>
+            <li>Dr. Atul Kumar, NIT Bhopal, India</li>
+            <li>Dr. Yashpal Singh Katariya, PDPM IIITDMJ</li>
+            <li>Dr. Bilal, UTSW, USA</li>
+            <li>Dr. Arvind Kumar, VNIT Nagpur, India</li>
+            <li>Dr. Joydeep Sengupta, VNIT Nagpur, India</li>
+            <li>Dr. Ashwin Kothari, VNIT Nagpur, India</li>
+            <li>Dr. Manish Mandoli, PDEU Gandhinagar, India</li>
+            <li>Dr. Kamal K Garg, PDEU Gandhinagar, India</li>
+            <li>Dr. Om Prakash Verma, NIT Jalandhar</li>
+            <li>Dr. Jose Thankachan, NIT Tiruchirappalli</li>
+            <li>Dr. Deep Prakash Samajhdar, PDPM IIITDMJ</li>
+            <li>Dr. Mohammad Farukh Hashmi, NIT Warangal</li>
 
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Binod Prasad"
-          designation="ABV-IIITM, India"
-          img={bp}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.BinodKumar"
-        />
-        <CardBox
-          name="Dr. Punit Kumar Bhavsar"
-          designation="NIT Nagpur, India"
-          img={pb}
-          link=""
-        />
-        <CardBox
-          name="Dr. Somanath Pradhan"
-          designation="IIT Patna, India"
-          img={sp}
-          link="https://www.iitp.ac.in/index.php/people-2/ee-faculty/2-uncategorised/1435-dr-somanath-pradhan"
-        />
-        <CardBox
-          name="Dr. Deepesh Kumar Verma"
-          designation="IIT (BHU) Varanasi, India"
-          img={dkv}
-          link="https://www.iitbhu.ac.in/dept/bme/people/deepeshbme"
-        />
-        <CardBox
-          name="Dr. A. R. Jac Fredo"
-          designation="IIT (BHU) Varanasi, India
-          "
-          img={arj}
-          link="https://www.iitbhu.ac.in/dept/bme/people/jackbme"
-        />
-        <CardBox
-          name="Dr. Pragya Swami"
-          designation=" ABV-IIITM, India"
-          img={ps}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Pragya"
-        />
-        <CardBox
-          name="Dr. Varun Bajaj"
-          designation="NIT Bhopal, India"
-          img={vb}
-          link="https://www.manit.ac.in/content/dr-varun-bajaj"
-        />
-        <CardBox
-          name="Dr. Atul Kumar"
-          designation="NIT Bhopal, India"
-          img={akb}
-          link="https://www.manit.ac.in/content/dr-atul-kumar"
-        />{" "}
-        <CardBox
-          name="Dr. Yashpal Singh Katariya"
-          designation="PDPM IIITDMJ"
-          img={ysk}
-          link="http://faculty.iiitdmj.ac.in/faculty/yashpalk"
-        />{" "}
-        <CardBox
-          name="Dr. Bilal Mirza
-          "
-          designation="UTSW, USA"
-          img={bm}
-          link="https://www.researchgate.net/profile/Bilal-Mirza-4"
-        />
-        <CardBox
-          name="Dr. Arvind Kumar"
-          designation="VNIT Nagpur, India"
-          img={arvind}
-          link="https://ece.vnit.ac.in/people/arvindkumar/"
-        />
-        <CardBox
-          name="Dr. Joydeep  Sengupta"
-          designation="VNIT Nagpur, India"
-          img={jsn}
-          link="https://ece.vnit.ac.in/people/jsengupta/"
-        />
-        <CardBox
-          name="Dr. Ashwin Kothari"
-          designation="VNIT Nagpur, India"
-          img={ashwin}
-          link="https://ece.vnit.ac.in/people/ashwinkothari/"
-        />
-        <CardBox
-          name="Dr. Manish Mandoli"
-          designation="PDEU Gandhinagar, India"
-          img={mm}
-          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=manish.mandloi"
-        />
-        <CardBox
-          name="Dr. Kamal K Garg"
-          designation="PDEU Gandhinagar, India"
-          img={kkg}
-          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=kamal.garg"
-        />
-        <CardBox
-          name="Dr. Om Prakash Verma"
-          designation="NIT Jalandhar, India"
-          img={opv}
-          link="https://departments.nitj.ac.in/dept/ice/Faculty/6430446638bff038a7807a2f"
-        />
-        <CardBox
-          name="Dr. Jose Thankachan"
-          designation="NIT Tiruchirappalli, India"
-          img={jt}
-          link="https://www.nitt.edu/home/academics/departments/eee/people/faculty/joset/"
-        />
-        <CardBox
-          name="Dr. Deep Prakash Samajhdar"
-          designation="PDPM IIITDMJ, India"
-          img={dps}
-          link="http://faculty.iiitdmj.ac.in/faculty/dip.samajdar"
-        />
-        <CardBox
-          name="Dr. Mohammad Farukh Hashmi"
-          designation="NIT Warangal, India"
-          img={mfhw}
-          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/16880"
-        />
-        <CardBox
-          name="Dr. Pinku Ranjan"
-          designation="ABV-IIITM, India"
-          img={pkg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PINKURANJAN"
-        />
-        <CardBox
-          name="Prof. Vasundhara"
-          designation="NIT Warangal, India"
-          img={vasw}
-          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/17061"
-        />
-        <CardBox
-          name="Dr. Ekta Goel"
-          designation="NIT Warangal, India"
-          img={egw}
-          link="https://wsdc.nitw.ac.in/facultynew/facultyprofile/id/17062"
-        />
-        <CardBox
-          name="Dr. Santosh Singh Rathore"
-          designation="ABV-IIITM, India"
-          img={ssrg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.SantoshSinghRathore"
-        />
-        <CardBox
-          name="Dr. Mahendra Shukla"
-          designation="ABV-IIITM, India"
-          img={msg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
-        />
-        <CardBox
-          name="Dr. Ravi Kant"
-          designation="PDEU Gandhinagar, India"
-          img={rk}
-          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ravi.kant"
-        />
-        <CardBox
-          name="Dr. Gaurav Kaushal"
-          designation="ABV-IIITM, India"
-          img={gkg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.GauravKaushal"
-        />
+            <li>Dr. Pinku Ranjan, ABV-IIITM Gwalior</li>
+            <li>Dr. Vashundra, NIT Warangal</li>
+            <li>Dr. Ekta Goyal, NIT Warangal</li>
+            <li>Dr. Santosh Singh Rathore, ABV-IIITM Gwalior</li>
+            <li>Dr. Mahendra Shukla, ABV-IIITM, India </li>
+          </div>
+          <div>
+            <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
+
+            <li>Dr. Gaurav Kaushal, ABV-IIITM Gwalior, India</li>
+            <li>Dr. Anjali, ABV-IIITM Gwalior, India</li>
+            <li>Dr. Sunil Kumar Jauhar, IIM Kashipur</li>
+            <li>Dr. Nalin Kumar Sharma, IIT Jammu</li>
+            <li>Dr. Anil Kumar, PDPM IIITDMJ</li>
+            <li>Dr. ILA Sharma, MANIT, NIT Jaipur</li>
+            <li>Dr. Satyendra Singh Chouhan, NIT Jaipur </li>
+            <li>Dr. Siddharth Bhalerao, GGIST Jabalpur </li>
+            <li>Dr. Rishi Sinhal, BGI Bhopal</li>
+            <li>Dr. Prateek Rathore, LNMIIT Jaipur</li>
+            <li>Dr. Vinay Bankey, NIT Rourkela</li>
+            <li>Dr. Shikha Maurya, NIT Agartala</li>
+            <li>Dr. Sanjeev Sharma, IIT (BHU) Varanasi</li>
+            <li>Dr. Satyendra Singh Yadav, NIT Meghalaya</li>
+            <li>Dr. Shravan Kumar Bandari, NIT Meghalaya</li>
+            <li>Dr. Abhishek Sarkhel, NIT Meghalaya</li>
+            <li>Dr. Sachin Taran, DTU Delhi</li>
+            <li>Dr. Kapil Gupta, UPES Dehradun</li>
+            <li>Dr. Gaurav Veram, NIT Kurukhetra</li>
+            <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
+            <li>Dr. Arijit Bhattacharjee, NUS Singapore</li>
+            <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
+            <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
+            <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
+            <li>Dr. Shivendra Kumar Pandey, NIT Silchar</li>
+          </div>
+        </ul>
       </div>
+
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Publication Chairs </h1>
       </div>
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
+        <CardBox
+          name="Dr. Mahendra Shukla"
+          designation="ABV-IIITM, India"
+          img={msg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
+        />
         <CardBox
           name="Dr. Deepak Dewangan"
           designation="ABV-IIITM, India"
@@ -459,6 +387,21 @@ const Committee = () => {
       </div>
 
       <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Technical Program Co-chair </h1>
+      </div>
+
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Mahendra Shukla"
+          designation="ABV-IIITM, India"
+          img={msg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
+        />
+      </div>
+
+      <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Finance Chair </h1>
       </div>
 
@@ -481,8 +424,14 @@ const Committee = () => {
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
         <CardBox
+          name="Dr. Avadh Kishor"
+          designation="ABV-IIITM, India"
+          img={akg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Awadh"
+        />
+        <CardBox
           name="Dr. Gaurav Agarwal"
-          designation="Professor, ABV-IIITM, India"
+          designation="ABV-IIITM, India"
           img={ga}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.GauravAgrawal"
         />
@@ -509,7 +458,7 @@ const Committee = () => {
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
         <CardBox
-          name=" Dr. Irshad Ahmad Ansari"
+          name="Dr. I. A. Ansari"
           designation="ABV-IIITM, India"
           img={iaa}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.IrshadAhmad"

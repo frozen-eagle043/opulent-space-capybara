@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const RegistrationComponent = () => {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">INSPECT2024 Registration</h2>
+      <h2 className="text-center mb-4">INSPECT-2024 Registration</h2>
       <div className="col">
         <div className="col-md-6">
           <h3 className="mb-3">Important Dates:</h3>

@@ -38,7 +38,7 @@ export default function Dates() {
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
-                  Submission Deadline: June 15, 2024
+                  Submission Deadline: May 15, 2024
                 </div>
                 <div className="tab-body-content">
                   Notification of Acceptance: July 15, 2024
@@ -50,7 +50,7 @@ export default function Dates() {
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
-                  Submission Deadline: August 15, 2024
+                  Submission Deadline: July 15, 2024
                 </div>
                 <div className="tab-body-content">
                   Notification of Acceptance: October 15, 2024
