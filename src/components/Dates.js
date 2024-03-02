@@ -20,10 +20,10 @@ export default function Dates() {
       <div className="dates-header">
         <h1>Important Dates</h1>
         <div className="marquee">
-          <marquee>
+          <marquee scrollamount="18">
             The INSPECT-2024 (Intelligent Signal Processing and Effective
             Communication Technologies) conference will be held at ABV-IIITM,
-            Gwalior from 7 to 9 December 2024.
+            Gwalior from 7-8 December 2024.
           </marquee>
         </div>
       </div>

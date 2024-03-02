@@ -7,33 +7,51 @@ const RegistrationComponent = () => {
     <div className="container mt-5">
       <h2 className="text-center mb-4">INSPECT-2024 Registration</h2>
       <div className="col">
-        <div className="col-md-6">
-          <h3 className="mb-3">Important Dates:</h3>
+        <div style={{ fontSize: "17px" }} className="col-md-7">
+          <h3 style={{ color: "red" }} className="mb-3">
+            Important Dates
+          </h3>
           <p>
-            Deadline for camera-ready submission:{" "}
-            <strong>30 October 2024</strong>
+            <strong>Deadline for camera-ready submission: </strong>
+            30 October 2024
           </p>
           <p>
-            Deadline for early bird registration:{" "}
-            <strong>15 November 2024</strong>
+            <strong>Deadline for early bird registration: </strong>
+            15 November 2024
           </p>
 
-          <h3 className="mb-3">Submission Instructions</h3>
+          <h3 style={{ color: "red" }} className="mb-3 mt-4">
+            Submission Instructions
+          </h3>
           <p>
             The account details for payment of Registration fees are given as
             follows:
           </p>
           <ul className="mb-4">
-            <li>Name: ABVIIITMG INSPECT CONFERENCE</li>
-            <li>Account Number: 946210110007631</li>
             <li>
-              Bank Name and Branch: Bank of India, IIITM Campus, Morena link
-              road, Gwalior, M.P. -474003
+              <b>Name: </b>
+              ABVIIITMG INSPECT CONFERENCE
             </li>
-            <li>Account Type: Saving</li>
-            <li>MICR Code: 474013010</li>
-            <li>IFSC Code: BKID0009462</li>
-            <li>SWIFT Code: BKIDINBBGWA</li>
+            <li>
+              <b>Account Number: </b>946210110007631
+            </li>
+            <li>
+              <b>Bank Name and Branch: </b>
+              Bank of India, IIITM Campus, Morena link road, Gwalior, M.P.
+              -474003
+            </li>
+            <li>
+              <b>Account Type: </b>Saving
+            </li>
+            <li>
+              <b>MICR Code: </b>474013010
+            </li>
+            <li>
+              <b>IFSC Code: </b>BKID0009462
+            </li>
+            <li>
+              <b>SWIFT Code: </b>BKIDINBBGWA
+            </li>
           </ul>
           <p>
             Use the following link for International Payments.
@@ -78,7 +96,9 @@ const RegistrationComponent = () => {
           </button>
         </div>
       </div>
-      <h3 className="mb-3">Registration Fees Details</h3>
+      <h3 style={{ color: "red" }} className="mb-3 mt-5">
+        Registration Fees Details
+      </h3>
       <RegistrationFeesDetails />
     </div>
   );
