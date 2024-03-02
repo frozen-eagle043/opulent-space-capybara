@@ -1,21 +1,15 @@
 import React from "react";
 import about1 from "../assets/images/about/about1.jpeg";
 import about2 from "../assets/images/about/about2.jpeg";
-// import ImageCard from "./ImageCard";
-//import "./Body.css"; // Only if you have specific styles for Body
+import abv_iiitm from "../assets/images/home_page/abv_iiitm.jpg";
+import "./About.css"; // Import CSS file for styling
 
 const About = () => {
-  //   const images = [
-  //     "https://media.istockphoto.com/id/636208094/photo/tropical-jungle.jpg",
-  //     "https://media.istockphoto.com/id/917911572/photo/standing-woman-on-the-hill-against-mountain-valley.jpg",
-  //     // Add more image URLs as needed
-  //   ];
-
   return (
-    <div style={{ margin: "4px", padding: "20px" }}>
+    <div className="about-container">
       <h1>About Us</h1>
-      <div className="about" style={{ margin: "10px", padding: "20px" }}>
-        <div className="about-text">
+      <div className="about-content">
+        <div className="about-text-start-right">
           <p>
             Indian Institute of Information Technology and Management (IIITM) in
             Gwalior, Madhya Pradesh is an autonomous institute set by Government
@@ -41,6 +35,11 @@ const About = () => {
             Information Technology) in 1999, and Ph.D. and 5-year Dual Post
             Graduate programs in 2000.
           </p>
+          <div className="about-images-start-left">
+            <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" />
+          </div>
+        </div>
+        <div className="about-text-start-left">
           <p>
             All pervasive growth of IT in India was triggered by Software Policy
             in 1986, Electronic Policy in 1985, and Computer Policy in 1984.
@@ -73,10 +72,9 @@ const About = () => {
             driving distance away.
           </p>
         </div>
-        {/* <div className="about-img-sec"> */}
-        {/* <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" /> */}
-        {/* <img src={about1} alt="ABV-IIITM Gwalior" /> */}
-        {/* </div>  */}
+        <div className="about-images-start-right">
+          <img className="about-img" src={abv_iiitm} alt="ABV-IIITM Gwalior" />
+        </div>
       </div>
     </div>
   );

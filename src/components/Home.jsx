@@ -6,10 +6,10 @@ import About from "./About";
 import GeneralChairs from "./GeneralChairs";
 
 import inspect_home from "../assets/images/home_page/inspect_2024.png";
-import abv_iiitm from "../assets/images/home_page/abv_iiitm.jpg";
+import abv_iiitm from "../assets/images/home_page/abv_iiitm1.png";
 // import iiitm_build from "../assets/images/home_page/iiitm_building.png";
 // import fort1 from "../assets/images/home_page/Gwalior_Fort_front.jpg";
-import fort2 from "../assets/images/home_page/gwalior_fort_side.png";
+import fort2 from "../assets/images/home_page/gwalior_fort_side2.png";
 // import conv from "../assets/images/home_page/conv.jpg";
 
 const Home = () => {

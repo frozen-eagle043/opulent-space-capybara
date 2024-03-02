@@ -1,0 +1,92 @@
+/* Overall container styling */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1000px; /* Adjust as needed */
+}
+
+/* About Us heading styling */
+h1 {
+  font-size: 2.5rem; /* Adjust as needed */
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Content section styling */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Text content styling */
+.about-text-start-right,
+.about-text-start-left {
+  flex: 1; /* Allow text sections to share available space equally */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; /* Add smooth transitions */
+}
+
+.about-text-start-right:hover,
+.about-text-start-left:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhance hover effect */
+}
+
+p {
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Image container and animation styling */
+.about-images-start-right,
+.about-images-start-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align images to the right/left for alternating sections */
+  overflow: hidden;
+}
+
+.about-images-start-right img,
+.about-images-start-left img {
+  width: 100%; /* Use width for responsive behavior */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center images horizontally */
+  transition: transform 0.3s ease-in-out; /* Add smooth transitions */
+}
+
+.about-images-start-right:hover img,
+.about-images-start-left:hover img {
+  transform: scale(1.1); /* Zoom in on hover effect */
+}
+
+/* Media queries for responsive behavior */
+@media (max-width: 768px) {
+  /* Change styles for screens smaller than 768px */
+  .about-images-start-right img,
+  .about-images-start-left img {
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+  }
+}
+
+/* Additional style customization (optional) */
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #007bff;
+}

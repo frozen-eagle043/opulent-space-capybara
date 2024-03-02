@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgba(229,0,66,1) 0%, rgba(245,111,201,1) 0%, rgba(114,155,228,1) 100%, rgba(236,50,50,0.6475840336134453) 100%);
+  background: linear-gradient(to right, #e50042 0%, #f56fcb 0%, #729bfa 100%, #ec3232 100%); /* Simplified gradient syntax */
   padding: 1rem;
 }
 
@@ -11,13 +11,14 @@
 
 .navbar-nav .nav-link {
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   color: #fff;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #007bff;
+  color: #46193c; /* Updated hover color */
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .navbar-toggler {
@@ -58,19 +59,10 @@
 
 /* Improved color scheme and hover animations */
 .navbar-brand:hover {
-  color: #007bff;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #46193c;
-  animation: fadeIn 0.3s ease-in-out;
+  color: #007bff; /* Updated hover color */
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0.5; }
+  to { opacity: 1; }
 }
