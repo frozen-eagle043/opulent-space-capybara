@@ -27,7 +27,33 @@ const About = () => {
             and consultancy in areas of information technology (IT) and business
             management. Initially started as IIITM, this institute was prefixed
             with ABV in 2002 to honour the then Prime Minister Atal Bihari
-            Vajpayee.{" "}
+            Vajpayee. The beginning of IIITM could be traced back to 1992, when
+            MHRD (Presently Ministry of Education, Govt. of India) under Dr. P.
+            G. Reddy contemplated setting up of advanced information systems in
+            the likes of IIMs and IITs in different locations of India.
+            Subsequently in 1995, Government of India based on a report prepared
+            by AICTE (All India Council for Technical Education) comprising
+            eminent academicians, policy makers, and professionals decided on
+            establishing national centres focussed on IT and management
+            training. PGDMIT (Post Graduate Diploma in Management and
+            Information Technology) was the maiden course initiated in 1998 with
+            thirty students, followed by PGDIT (Post Graduate Diploma in
+            Information Technology) in 1999, and Ph.D. and 5-year Dual Post
+            Graduate programs in 2000.
+          </p>
+          <p>
+            All pervasive growth of IT in India was triggered by Software Policy
+            in 1986, Electronic Policy in 1985, and Computer Policy in 1984.
+            These three policies in unison led to extensive use of computerised
+            methods across different sectors of business, industries, and public
+            administration thereby necessitating the need for competent
+            professionals at different levels. Infrastructures like Internet,
+            INDONET, NICNET, ERNET, and INFLIBNET were established for
+            supporting this demand for widespread usage of computerised
+            processes. IIITM was set up as an autonomous institute under
+            Societies Registration Act. This centrally funded body run by a
+            Board of Governors aims at offering education, research, training,
+            and consultancy in fields of management and IT in an integrated way.
           </p>
           <p>
             ABV-IIITM is located on Morena Link Road at a distance of about
@@ -47,10 +73,10 @@ const About = () => {
             driving distance away.
           </p>
         </div>
-        <div className="about-img-sec">
-          <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" />
-          {/* <img src={about1} alt="ABV-IIITM Gwalior" /> */}
-        </div>
+        {/* <div className="about-img-sec"> */}
+        {/* <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" /> */}
+        {/* <img src={about1} alt="ABV-IIITM Gwalior" /> */}
+        {/* </div>  */}
       </div>
     </div>
   );

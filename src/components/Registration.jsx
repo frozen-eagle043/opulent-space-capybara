@@ -24,8 +24,8 @@ const RegistrationComponent = () => {
             follows:
           </p>
           <ul className="mb-4">
-            <li>Name: ABVIIITMG INSPECT-2024</li>
-            <li>Account Number: 946210110007272</li>
+            <li>Name: ABVIIITMG INSPECT CONFERENCE</li>
+            <li>Account Number: 946210110007631</li>
             <li>
               Bank Name and Branch: Bank of India, IIITM Campus, Morena link
               road, Gwalior, M.P. -474003

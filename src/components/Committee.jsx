@@ -63,6 +63,7 @@ import rsg from "../assets/images/committee/rajendra_sahu.jpg";
 import cwak from "../assets/images/committee/ChangWookAhn.jpg";
 import mpr from "../assets/images/committee/millie_pant.jpg";
 import akg from "../assets/images/committee/AvadhKishor.jpg";
+import bar from "../assets/images/committee/andr.jpg";
 
 const Committee = () => {
   return (
@@ -126,22 +127,29 @@ const Committee = () => {
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
         <CardBox
-          name="Prof. Geetam Tomar"
-          designation="MP Section Chair"
-          img={secChair}
-          link="http://recsonbhadra.ac.in/college/directorprofile"
-        />
-        <CardBox
           name="Prof. Manisha Pattnaik"
           designation="ABV-IIITM, India"
           img={mp}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik"
         />
         <CardBox
+          name="Prof. Geetam Tomar"
+          designation="MP Section Chair"
+          img={secChair}
+          link="http://recsonbhadra.ac.in/college/directorprofile"
+        />
+
+        <CardBox
           name="Dr. Vivek Tiwari"
           designation="ABV-IIITM, India"
           img={vtg}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Vivek"
+        />
+        <CardBox
+          name="Boris Andrievsky"
+          designation="Saint Petersburg State University"
+          img={bar}
+          link="https://www.ipme.ru/ipme/labs/ccs/andri.htm"
         />
       </div>
 
@@ -187,10 +195,9 @@ const Committee = () => {
             <li>Dr. Ekta Goyal, NIT Warangal</li>
             <li>Dr. Santosh Singh Rathore, ABV-IIITM Gwalior</li>
             <li>Dr. Mahendra Shukla, ABV-IIITM, India </li>
+            <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
           </div>
           <div>
-            <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
-
             <li>Dr. Gaurav Kaushal, ABV-IIITM Gwalior, India</li>
             <li>Dr. Anjali, ABV-IIITM Gwalior, India</li>
             <li>Dr. Sunil Kumar Jauhar, IIM Kashipur</li>
@@ -216,6 +223,7 @@ const Committee = () => {
             <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
             <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
             <li>Dr. Shivendra Kumar Pandey, NIT Silchar</li>
+            <li>Dr. Jawar Singh, IIIT Patna</li>
           </div>
         </ul>
       </div>

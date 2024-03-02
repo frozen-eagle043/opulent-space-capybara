@@ -11,7 +11,9 @@ const PricingComponent = () => {
         <table className="table table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th scope="col">Category</th>
+              <th className="text-center" scope="col">
+                Category
+              </th>
               <th
                 scope="col"
                 colSpan="2"
