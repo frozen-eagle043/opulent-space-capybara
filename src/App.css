@@ -86,9 +86,7 @@ body {
 
 /* Footer.css */
 .footer {
-  background-color: black; /* Blue background color #007acc */
-  background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, #505152 100%, #93b2db 100%);
+  background: linear-gradient(90deg, #747e83, #606b77); /* Gradient from light blue to dark blue */
   color: #fff; /* White text color */
   padding: 2rem;
   display: flex;
@@ -97,7 +95,9 @@ body {
   text-align: left;
 }
 
+
 .footer-content {
+  color: #e0dada;
   font-size: 1.1rem;
   line-height: 1.5;
   width: 48%; /* Adjust the width as needed */
