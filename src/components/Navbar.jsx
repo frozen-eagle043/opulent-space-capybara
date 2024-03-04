@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./NavbarComponent.css";
-// 
+//
 const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" className="custom-navbar">
@@ -19,10 +19,10 @@ const NavbarComponent = () => {
               Submission
             </Nav.Link>
             <Nav.Link href="/dates" className="nav-item">
-              Important Details
+              Important Dates
             </Nav.Link>
             <Nav.Link href="/call-for-paper" className="nav-item">
-              Call For Paper
+              Call For Papers
             </Nav.Link>
             <Nav.Link href="/committee" className="nav-item">
               Committee

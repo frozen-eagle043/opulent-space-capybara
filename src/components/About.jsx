@@ -7,9 +7,12 @@ import "./About.css"; // Import CSS file for styling
 const About = () => {
   return (
     <div className="about-container">
-      <h1>About Us</h1>
+      <h1>About Institute</h1>
       <div className="about-content">
-        <div className="about-text-start-right">
+        <div
+          className="about-text-start-right"
+          style={{ textAlign: "justify" }}
+        >
           <p>
             Indian Institute of Information Technology and Management (IIITM) in
             Gwalior, Madhya Pradesh is an autonomous institute set by Government

@@ -82,9 +82,9 @@ const RegistrationComponent = () => {
           </p>
 
           <p>
-            For any queries regarding registration kindly contact Dr. Anjali (
-            <a href="tel:8840348439">88403 48439</a>) or Dr. Vivek Tiwari (
-            <a href="tel:9630246099">96302 46099</a>)
+            For any queries regarding registration kindly contact Dr. Binod
+            Prasad (<a href="tel:7001940890">7001940890</a>) or Dr. Pragya Swami
+            (<a href="tel:9008391562">9008391562</a>)
           </p>
         </div>
         <div className="col-md-6">

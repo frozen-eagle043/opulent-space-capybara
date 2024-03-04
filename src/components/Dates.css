@@ -58,11 +58,11 @@
 
 .dates-tabs-container {
   width: 100%;
-  max-width: 70%; /* Adjust the max-width as needed */
+  max-width: 50%; /* Adjust the max-width as needed */
   background-color: #fff; /* Set background color for the tabs container */
   border-radius: 8px;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* Centering the tabs */
@@ -85,7 +85,7 @@
   background-color: #007bff;
   color: #fff;
 }
-@media (max-width: 600px) {
+@media (max-width: 1230px) {
   .dates-tabs-container {
     display: flex;
     flex-direction: column;

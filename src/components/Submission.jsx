@@ -51,8 +51,9 @@ const SubmissionComponent = () => {
       <ul>
         <li>
           Add the copyright notice to the bottom left corner of the first page
-          of your source document. If necessary, contact Dr. Debanjan Sadhya at{" "}
-          <a href="mailto:debanjan@iiitm.ac.in">debanjan@iiitm.ac.in</a> for the
+          of your source document. If necessary, contact Dr. Deepak Kumar
+          Dewangan at{" "}
+          <a href="mailto:deepakd@iiitm.ac.in">deepakd@iiitm.ac.in</a> for the
           appropriate copyright notice.
         </li>
         <li>
@@ -63,16 +64,15 @@ const SubmissionComponent = () => {
         <li>
           For papers in which all authors are employed by a Crown government
           (UK, Canada, and Australia), the copyright notice is:
-          979-8-3503-0514-2/23/$31.00 ©2024 Crown
+          XXX-X-XXXX-XXXX-X/XX/XX Crown
         </li>
         <li>
           For papers in which all authors are employed by the European Union,
-          the copyright notice is: 979-8-3503-0514-2/23/$31.00 ©2024 European
-          Union
+          the copyright notice is: XXX-X-XXXX-XXXX-X/XX/XX European Union
         </li>
         <li>
-          For all other papers, the copyright notice is:
-          979-8-3503-0514-2/23/$31.00 ©2024 IEEE
+          For all other papers, the copyright notice is: XXX-X-XXXX-XXXX-X/XX/XX
+          IEEE
         </li>
         <UserInstructionsComponent />
         <li>

@@ -19,16 +19,16 @@ const UserInstructionsTable = () => {
           <tr>
             <td>a. Click “New Users - Click Here”.</td>
             <td>
-              a. Enter 59935X as the Conference ID, your email address, and
+              a. Enter XXXXXX as the Conference ID, your email address, and
               enter the password you used for your old account.
             </td>
             <td>
-              a. Enter 59935X as the Conference ID, email address, and password.
+              a. Enter XXXXXX as the Conference ID, email address, and password.
             </td>
           </tr>
           <tr>
             <td>
-              b. Enter 59935X as the Conference ID, your email address, and
+              b. Enter XXXXXX as the Conference ID, your email address, and
               choose a new password. Continue to enter information as prompted.
             </td>
             <td>

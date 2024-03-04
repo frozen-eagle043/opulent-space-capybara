@@ -30,23 +30,23 @@ export default function Dates() {
       <Box className="dates-tabs-container">
         <TabContext value={value}>
           <TabList onChange={handleChange} aria-label="important date tabs">
-            <Tab label="First Round Submission" value="1" />
-            <Tab label="Second Round Submission" value="2" />
+            <Tab label="Submission & Decision Dates" value="1" />
+            {/* <Tab label="Second Round Submission" value="2" /> */}
             <Tab label="Registration and Camera Ready" value="3" />
           </TabList>
           <TabPanel value="1" className="tab-panel-background">
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
-                  Submission Deadline: May 15, 2024
+                  Submission Deadline: June 30, 2024
                 </div>
                 <div className="tab-body-content">
-                  Notification of Acceptance: July 15, 2024
+                  Notification of Acceptance: Aug 15, 2024
                 </div>
               </div>
             </div>
           </TabPanel>
-          <TabPanel value="2" className="tab-panel-background">
+          {/* <TabPanel value="2" className="tab-panel-background">
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
@@ -57,7 +57,7 @@ export default function Dates() {
                 </div>
               </div>
             </div>
-          </TabPanel>
+          </TabPanel> */}
           <TabPanel value="3" className="tab-panel-background">
             <div className="tab-body">
               <div className="tablist-inner-div">

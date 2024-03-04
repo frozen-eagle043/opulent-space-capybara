@@ -5,7 +5,7 @@ const CallForPapers = () => {
   return (
     <div
       style={{
-         background: "rgb(255,255,255)",
+        background: "rgb(255,255,255)",
         background:
           "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,222,222,0.6475840336134453) 0%, rgba(255,255,255,1) 0%, rgba(98,151,204,0.4739145658263305) 100%)",
       }}
@@ -15,7 +15,7 @@ const CallForPapers = () => {
         <div
           style={{
             fontSize: "18px",
-
+            textAlign: "justify",
             margin: "4px 40px 5px 40px",
             padding: "8px",
           }}
@@ -25,9 +25,9 @@ const CallForPapers = () => {
             2024 International Conference on Intelligent Signal Processing and
             Effective Communication Technologies (INSPECT-2024)
           </b>
-          , to be held in <b>December 2024</b> at Gwalior, India. The conference
-          is sponsored by the <b>IEEE MP Section</b>. The conference is the
-          premier forum for the presentation of new advances and research
+          , to be held during <b> 7-8th December 2024</b> at Gwalior, India. The
+          conference is sponsored by the <b>IEEE MP Section</b>. The conference
+          is the premier forum for the presentation of new advances and research
           results in varied disciplines and their associated applications in all
           aspects of Communication Technology, Signal Processing Informatics,
           and Machine Learning that consider the improvement and development of
