@@ -13,7 +13,7 @@ const About = () => {
           className="about-text-start-right"
           style={{ textAlign: "justify" }}
         >
-          <p>
+          <p style={{ color: "purple", fontSize: "17px", fontWeight: "550" }}>
             Indian Institute of Information Technology and Management (IIITM) in
             Gwalior, Madhya Pradesh is an autonomous institute set by Government
             of India, MHRD (Presently Ministry of Education, Govt. of India) in
@@ -42,8 +42,8 @@ const About = () => {
             <img className="about-img" src={about2} alt="ABV-IIITM Gwalior" />
           </div>
         </div>
-        <div className="about-text-start-left">
-          <p>
+        <div className="about-text-start-left" style={{ textAlign: "justify" }}>
+          <p style={{ color: "purple", fontSize: "17px", fontWeight: "550" }}>
             All pervasive growth of IT in India was triggered by Software Policy
             in 1986, Electronic Policy in 1985, and Computer Policy in 1984.
             These three policies in unison led to extensive use of computerised
@@ -57,7 +57,7 @@ const About = () => {
             Board of Governors aims at offering education, research, training,
             and consultancy in fields of management and IT in an integrated way.
           </p>
-          <p>
+          <p style={{ color: "purple", fontSize: "17px", fontWeight: "550" }}>
             ABV-IIITM is located on Morena Link Road at a distance of about
             3.5km and 8.5km from Gwalior railway station and Rajmata Vijay Raje
             Scindia city airport respectively. Its location at the foothills of
@@ -68,7 +68,7 @@ const About = () => {
             Together with academics it offers an ideal surrounding for
             extra-curricular activities.
           </p>
-          <p>
+          <p style={{ color: "purple", fontSize: "17px", fontWeight: "550" }}>
             The institute is easily accessible by road, and there are cabs and
             auto-rickshaws to commute from railway station or airport. Shopping
             centres and market places are located nearby and about ten minutes

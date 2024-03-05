@@ -12,7 +12,7 @@ import nvgga from "../assets/images/committee/nithin.jpg";
 import jrjd from "../assets/images/committee/Jesper Rindom Jensen.jpg";
 import userPic from "../assets/images/committee/user.jpg";
 import cwak from "../assets/images/committee/ChangWookAhn.jpg";
-import mpr from "../assets/images/committee/millie_pant.jpg";
+import jcu from "../assets/images/committee/jordan_cheer.jpeg";
 
 const GeneralChairs = () => {
   return (
@@ -36,18 +36,17 @@ const GeneralChairs = () => {
           img={cwak}
           link="https://aieng.gist.ac.kr/prog/gsPerson/aieng/P/view.do;jsessionid=CC657C00E75779BB223A05F5D0548C7B"
         />
-
+        <CardBox
+          name="Prof. Jordan Cheer"
+          designation="University of Southampton, UK"
+          img={jcu}
+          link="https://www.southampton.ac.uk/people/5x8fvs/professor-jordan-cheer"
+        />
         <CardBox
           name="Dr. M. K. Bhuyan"
           designation="IIT Guwahati, India"
           img={mkbgu}
           link="https://www.iitg.ac.in/mkb/"
-        />
-        <CardBox
-          name="Prof. Millie Pant"
-          designation="IIT Roorkee, India"
-          img={mpr}
-          link="https://www.iitr.ac.in/~ASE/millifpt"
         />
       </div>
     </div>

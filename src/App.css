@@ -86,7 +86,11 @@ body {
 
 /* Footer.css */
 .footer {
-  background: linear-gradient(90deg, #747e83, #606b77); /* Gradient from light blue to dark blue */
+  background: linear-gradient(
+    90deg,
+    #747e83,
+    #606b77
+  ); /* Gradient from light blue to dark blue */
   color: #fff; /* White text color */
   padding: 2rem;
   display: flex;
@@ -94,7 +98,6 @@ body {
   justify-content: space-between;
   text-align: left;
 }
-
 
 .footer-content {
   color: #e0dada;
@@ -127,6 +130,7 @@ body {
 }
 
 .footer-copyright {
+  color: #fff;
   font-size: 0.9rem;
   margin-top: 1rem;
   width: 100%;

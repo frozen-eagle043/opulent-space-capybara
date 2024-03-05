@@ -43,7 +43,7 @@ const NavbarComponent = () => {
               Registration
             </Nav.Link>
             <Nav.Link href="/award" className="nav-item">
-              Award
+              Awards
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

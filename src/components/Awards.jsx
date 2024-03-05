@@ -27,16 +27,16 @@ const Awards = () => {
         </p>
         <p style={{ fontSize: "18px", textAlign: "justify" }}>
           The conference will also present a prestigious{" "}
-          <b>Best Ph.D. Thesis Award</b>, honoring exceptional doctoral research
-          that has made significant contributions to the field. This award
-          recognizes the culmination of years of dedication and scholarly effort
-          by doctoral candidates in advancing knowledge within their respective
-          areas of study. The recipient of this award exemplifies outstanding
-          research quality, originality, and impact, demonstrating excellence in
-          both theoretical understanding and practical application. The Best
-          Ph.D. Thesis Award underscores the conference's commitment to
-          recognizing and celebrating excellence in doctoral research and its
-          vital role in shaping the future of the discipline.
+          <b>'Best Ph.D. Thesis Award'</b> honoring exceptional doctoral
+          research that has made significant contributions to the field. This
+          award recognizes the culmination of years of dedication and scholarly
+          effort by doctoral candidates in advancing knowledge within their
+          respective areas of study. The recipient of this award exemplifies
+          outstanding research quality, originality, and impact, demonstrating
+          excellence in both theoretical understanding and practical
+          application. The Best Ph.D. Thesis Award underscores the conference's
+          commitment to recognizing and celebrating excellence in doctoral
+          research and its vital role in shaping the future of the discipline.
         </p>
       </div>
     </div>

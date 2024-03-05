@@ -61,9 +61,9 @@ import pmg from "../assets/images/committee/purnendu.jpg";
 import kvag from "../assets/images/committee/kva.jpg";
 import rsg from "../assets/images/committee/rajendra_sahu.jpg";
 import cwak from "../assets/images/committee/ChangWookAhn.jpg";
-import mpr from "../assets/images/committee/millie_pant.jpg";
+import jcu from "../assets/images/committee/jordan_cheer.jpeg";
 import akg from "../assets/images/committee/AvadhKishor.jpg";
-import bar from "../assets/images/committee/andr.jpg";
+import mcau from "../assets/images/committee/Michael_chesnaye.jpg";
 
 const Committee = () => {
   return (
@@ -87,18 +87,17 @@ const Committee = () => {
           img={cwak}
           link="https://aieng.gist.ac.kr/prog/gsPerson/aieng/P/view.do;jsessionid=CC657C00E75779BB223A05F5D0548C7B"
         />
-
+        <CardBox
+          name="Prof. Jordan Cheer"
+          designation="University of Southampton, UK"
+          img={jcu}
+          link="https://www.southampton.ac.uk/people/5x8fvs/professor-jordan-cheer"
+        />
         <CardBox
           name="Dr. M. K. Bhuyan"
           designation="IIT Guwahati, India"
           img={mkbgu}
           link="https://www.iitg.ac.in/mkb/"
-        />
-        <CardBox
-          name="Prof. Millie Pant"
-          designation="IIT Roorkee, India"
-          img={mpr}
-          link="https://www.iitr.ac.in/~ASE/millifpt"
         />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
@@ -123,40 +122,40 @@ const Committee = () => {
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Advisory Committee </h1>
       </div>
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Prof. Manisha Pattnaik"
-          designation="ABV-IIITM, India"
-          img={mp}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik"
-        />
-        <CardBox
-          name="Prof. Geetam Tomar"
-          designation="MP Section Chair"
-          img={secChair}
-          link="http://recsonbhadra.ac.in/college/directorprofile"
-        />
+      <div style={{ margin: "auto", width: "80%", padding: "10px" }}>
+        <ul
+          style={{
+            listStyle: "square",
+            fontSize: "18px",
+            color: "purple",
+            fontWeight: "500",
+            display: "flex",
+            flexWrap: "wrap",
+          }}
+        >
+          <div style={{ marginRight: "auto" }}>
+            <li>Prof. Subramaniam Ganesan, Oakland University, USA</li>
+            <li>Prof. Boris Andrievsky, Russian Academy of Science, Russia</li>
+            <li>Prof. Manisha Pattnaik, ABV-IIITM, India</li>
+            <li>Prof. Geetam Tomar, MP Section Chair</li>
+            <li>
+              Dr. Michael Chesnaye, National Acoustic Laboratories, Australia
+            </li>
 
-        <CardBox
-          name="Dr. Vivek Tiwari"
-          designation="ABV-IIITM, India"
-          img={vtg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Vivek"
-        />
-        <CardBox
-          name="Boris Andrievsky"
-          designation="Saint Petersburg State University"
-          img={bar}
-          link="https://www.ipme.ru/ipme/labs/ccs/andri.htm"
-        />
+            <li>Dr. Vivek Tiwari, ABV-IIITM, India</li>
+            <li>
+              Dr Mohamed Fareq Abdul Malek, University of Wollongong, Dubai
+            </li>
+            <li>Dr. Wilfred Godfrey, ABV-IIITM Gwalior, India</li>
+            <li>Prof. K. K. Pattanaik, ABV-IIITM Gwalior, India</li>
+          </div>
+        </ul>
       </div>
 
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Technical Program Committee </h1>
       </div>
-      <div style={{ margin: "auto", width: "65%", padding: "10px" }}>
+      <div style={{ margin: "auto", width: "80%", padding: "10px" }}>
         <ul
           style={{
             listStyle: "square",
@@ -173,6 +172,8 @@ const Committee = () => {
             <li>Dr. Somanath Pradhan, IIT Patna, India</li>
             <li>Dr. Deepesh Kumar Verma, IIT (BHU) Varanasi, India</li>
             <li>Dr. A. R. Jac Fredo, IIT (BHU) Varanasi, India</li>
+            <li>Dr. SK Jain, IIITDM Jabalpur</li>
+            <li>Dr. Biswajeet Mukhurjee, Delhi University</li>
             <li>Dr. Om Jee Pnadey, IIT (BHU) Varanasi, India</li>
             <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
             <li>Dr. Pragya Swami, ABV-IIITM, India </li>
@@ -180,6 +181,7 @@ const Committee = () => {
             <li>Dr. Atul Kumar, NIT Bhopal, India</li>
             <li>Dr. Yashpal Singh Katariya, PDPM IIITDMJ</li>
             <li>Dr. Bilal, UTSW, USA</li>
+            <li>Dr. Michael Chesnaye, NAL, Australia</li>
             <li>Dr. Arvind Kumar, VNIT Nagpur, India</li>
             <li>Dr. Joydeep Sengupta, VNIT Nagpur, India</li>
             <li>Dr. Ashwin Kothari, VNIT Nagpur, India</li>
@@ -189,7 +191,6 @@ const Committee = () => {
             <li>Dr. Jose Thankachan, NIT Tiruchirappalli</li>
             <li>Dr. Deep Prakash Samajhdar, PDPM IIITDMJ</li>
             <li>Dr. Mohammad Farukh Hashmi, NIT Warangal</li>
-
             <li>Dr. Pinku Ranjan, ABV-IIITM Gwalior</li>
             <li>Dr. Vashundra, NIT Warangal</li>
             <li>Dr. Ekta Goyal, NIT Warangal</li>
@@ -220,10 +221,13 @@ const Committee = () => {
             <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
             <li>Dr. Arijit Bhattacharjee, NUS Singapore</li>
             <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
+            <li>Dr. Praveen Singya, ABV-IIITM Gwalior</li>
+            <li>Dr. Sandesh Jian, ABV-IIITM Gwalior</li>
+            <li>Mr. Jagdish Prajapati, SAMEER R&D DIT, Govermnrt of India</li>
             <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
             <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
             <li>Dr. Shivendra Kumar Pandey, NIT Silchar</li>
-            <li>Dr. Jawar Singh, IIIT Patna</li>
+            <li>Dr. Jawar Singh. IIT Patna</li>
           </div>
         </ul>
       </div>
@@ -312,6 +316,12 @@ const Committee = () => {
           designation="ABV-IIITM, India"
           img={msg}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
+        />
+        <CardBox
+          name="Dr. Michael Chesnaye"
+          designation="NAL, Australia "
+          img={mcau}
+          link="https://www.nal.gov.au/team_members/4504/"
         />
         <CardBox
           name="Dr. Ravi Kant"

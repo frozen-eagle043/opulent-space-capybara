@@ -47,7 +47,7 @@ const CallForPapers = () => {
           }}
         >
           <div style={{ margin: "40px" }}>
-            <h2 style={{ fontWeight: "bold" }}>
+            <h2 style={{ fontWeight: "500", color: "red" }}>
               Track 1: Signal and Image Processing
             </h2>
             <ul
@@ -75,7 +75,7 @@ const CallForPapers = () => {
             </ul>
           </div>
           <div style={{ margin: "40px" }}>
-            <h2 style={{ fontWeight: "bold" }}>
+            <h2 style={{ fontWeight: "500", color: "red" }}>
               Track 2: Communication Systems & Networking
             </h2>
             <ul
@@ -102,7 +102,7 @@ const CallForPapers = () => {
             </ul>
           </div>
           <div style={{ margin: "40px" }}>
-            <h2 style={{ fontWeight: "bold" }}>
+            <h2 style={{ fontWeight: "500", color: "red" }}>
               Track 3: IoT, Smart Grid, Robotics & Control Systems
             </h2>
             <ul
@@ -132,7 +132,7 @@ const CallForPapers = () => {
             </ul>
           </div>
           <div style={{ margin: "40px" }}>
-            <h2 style={{ fontWeight: "bold" }}>
+            <h2 style={{ fontWeight: "500", color: "red" }}>
               Track 4: RF, Microwave & Optical Communication
             </h2>
             <ul
@@ -165,7 +165,7 @@ const CallForPapers = () => {
             </ul>
           </div>
           <div style={{ margin: "40px" }}>
-            <h2 style={{ fontWeight: "bold" }}>
+            <h2 style={{ fontWeight: "500", color: "red" }}>
               Track 5: VLSI for Signal Processing & Communication
             </h2>
             <ul
