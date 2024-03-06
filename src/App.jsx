@@ -33,7 +33,7 @@ function App() {
         <Route path="/dates" element={<Dates />} />
         <Route path="/author-guidelines" element={<AuthGuidelines />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
