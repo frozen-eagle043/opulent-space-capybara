@@ -18,7 +18,7 @@ const GeneralChairs = () => {
   return (
     <div>
       <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Patron & General Chairs </h1>
+        <h1 style={{ padding: "10px" }}>Patron</h1>
       </div>
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
@@ -29,7 +29,13 @@ const GeneralChairs = () => {
           img={director}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas"
         />
-
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>General Chairs</h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
         <CardBox
           name="Prof. Chang Wook Ahn"
           designation="GIST, South Korea"

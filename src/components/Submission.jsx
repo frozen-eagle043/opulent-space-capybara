@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import UserInstructionsComponent from "./UserInstructionsComponent";
 const SubmissionComponent = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" style={{ textAlign: "justify" }}>
       <h2 className="text-center mb-4">Final Paper Submission Guidelines</h2>
       <p>
         Please note that the last date for uploading the final camera-ready

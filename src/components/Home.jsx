@@ -89,7 +89,8 @@ const Home = () => {
         style={{
           fontSize: "18px",
           textAlign: "justify",
-          margin: "4px 40px 5px 40px",
+          margin: "5px 90px 20px 90px",
+
           padding: "8px",
         }}
       >
