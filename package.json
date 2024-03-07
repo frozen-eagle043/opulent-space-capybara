@@ -1,5 +1,6 @@
 {
   "name": "codespaces-react",
+  "homepage": "https://inspect.iiitm.ac.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

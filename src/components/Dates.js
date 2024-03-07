@@ -23,7 +23,7 @@ export default function Dates() {
           <marquee scrollamount="18">
             The INSPECT-2024 (Intelligent Signal Processing and Effective
             Communication Technologies) conference will be held at ABV-IIITM,
-            Gwalior from 7-8 December 2024.
+            Gwalior during 7th and 8th December 2024.
           </marquee>
         </div>
       </div>
