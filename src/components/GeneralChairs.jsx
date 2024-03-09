@@ -49,7 +49,7 @@ const GeneralChairs = () => {
           link="https://www.southampton.ac.uk/people/5x8fvs/professor-jordan-cheer"
         />
         <CardBox
-          name="Dr. M. K. Bhuyan"
+          name="Prof. M. K. Bhuyan"
           designation="IIT Guwahati, India"
           img={mkbgu}
           link="https://www.iitg.ac.in/mkb/"

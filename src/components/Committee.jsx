@@ -100,7 +100,7 @@ const Committee = () => {
           link="https://www.southampton.ac.uk/people/5x8fvs/professor-jordan-cheer"
         />
         <CardBox
-          name="Dr. M. K. Bhuyan"
+          name="Prof. M. K. Bhuyan"
           designation="IIT Guwahati, India"
           img={mkbgu}
           link="https://www.iitg.ac.in/mkb/"
@@ -180,7 +180,7 @@ const Committee = () => {
             <li>Dr. A. R. Jac Fredo, IIT (BHU) Varanasi, India</li>
             <li>Dr. SK Jain, IIITDM Jabalpur</li>
             <li>Dr. Biswajeet Mukhurjee, Delhi University</li>
-            <li>Dr. Om Jee Pnadey, IIT (BHU) Varanasi, India</li>
+            <li>Dr. Om Jee Pandey, IIT (BHU) Varanasi, India</li>
             <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
             <li>Dr. Pragya Swami, ABV-IIITM, India </li>
             <li>Dr. Varun Bajaj, NIT Bhopal, India</li>
@@ -228,7 +228,7 @@ const Committee = () => {
             <li>Dr. Arijit Bhattacharjee, NUS Singapore</li>
             <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
             <li>Dr. Praveen Singya, ABV-IIITM Gwalior</li>
-            <li>Dr. Sandesh Jian, ABV-IIITM Gwalior</li>
+            <li>Dr. Sandesh Jain, ABV-IIITM Gwalior</li>
             <li>Mr. Jagdish Prajapati, SAMEER R&D DIT, Govermnrt of India</li>
             <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
             <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
