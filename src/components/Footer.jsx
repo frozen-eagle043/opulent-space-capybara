@@ -12,7 +12,7 @@ const Footer = () => (
       Atal Bihari Vajpayee Indian Institute of Information Technology and
       Management Gwalior <br />
       Morena Rd, IIITM Campus, Gwalior - 474015, Madhya Pradesh, India <br />
-      Email: inspect2024@iiitm.ac.in <br />
+      Email: inspect_conf@iiitm.ac.in <br />
       Ph. No.: +91-9586288218; +91-9109106995
     </p>
     <ul className="footer-links">

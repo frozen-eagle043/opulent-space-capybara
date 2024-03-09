@@ -123,7 +123,7 @@ const SubmissionComponent = () => {
         </p>
         <p>
           For any clarifications regarding the paper submission guidelines
-          please e-mail: inspect2024@iiitm.ac.in
+          please e-mail: inspect_conf@iiitm.ac.in
         </p>
       </div>
       <div style={{ marginTop: "60px" }}>
