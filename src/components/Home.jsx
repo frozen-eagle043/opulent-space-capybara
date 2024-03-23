@@ -13,31 +13,19 @@ import fort2 from "../assets/images/home_page/gwalior_fort_side2.png";
 // import conv from "../assets/images/home_page/conv.jpg";
 
 const Home = () => {
-  // const [scrollPosition, setScrollPosition] = useState(0);
-  // const handleScroll = () => {
-
-  //   setScrollPosition(window.scrollY);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
-  // Settings for the slider
   const sliderSettings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
 
-  const loc_images = [inspect_home, abv_iiitm, fort2];
-
+  // const loc_images = [inspect_home, abv_iiitm, fort2];
+  const loc_images = [inspect_home];
   return (
     <div>
       <div
@@ -55,7 +43,7 @@ const Home = () => {
               <img
                 src={img}
                 alt="Slide"
-                style={{ width: "100%", height: "700px" }} // {, objectFit: "cover"}
+                style={{ width: "100%", height: "80vh" }} // {, objectFit: "cover"}
               />
             </div>
           ))}
