@@ -17,7 +17,7 @@ const RegistrationComponent = () => {
           </p>
           <p>
             <strong>Deadline for early bird registration: </strong>
-            15 November 2024
+            30 September 2024
           </p>
 
           <h3 style={{ color: "red" }} className="mb-3 mt-4">
@@ -100,6 +100,54 @@ const RegistrationComponent = () => {
         Registration Fees Details
       </h3>
       <RegistrationFeesDetails />
+      <h3 style={{ color: "red" }} className="mb-3 mt-4">
+        Registration Guidelines
+      </h3>
+      <ul className="mb-4">
+        <li>Please note that the fees shown above include GST.</li>
+        <li>
+          Gateway charges <strong>(if any)</strong> must be borne by the
+          participant.
+        </li>
+        <li>
+          The IEEE member discount is only applicable if an active IEEE
+          membership number (along with a scanned copy of the membership card)
+          is provided during registration.
+        </li>
+        <li>
+          Students are defined as full-time students (UG/PG/PhD) enrolled with a
+          university/recognized educational body. A scanned copy of the student
+          ID must be uploaded during registration.
+        </li>
+        <li>
+          At least one of the authors must complete an author registration by
+          the final camera-ready paper submission deadline for their paper to be
+          included in the conference's final program.
+        </li>
+        <li>One author registration covers only one paper.</li>
+        <li>
+          All registrations include admission to all technical sessions and
+          E-proceeding.
+        </li>
+        <li>
+          No refunds will be made (in any case) for any registration category.
+        </li>
+        <li>
+          Registration fee (except for attendees) includes a registration kit,
+          refreshments (morning and evening), 2 lunches, one gala dinner, a
+          presentation slot, a soft copy of the conference proceedings, a
+          presentation certificate, entry to all the technical sessions, and
+          cultural events.
+        </li>
+        <li>
+          A registration kit will be provided only to the offline participants.
+        </li>
+        <li>
+          An attendee's registration includes refreshments (morning and
+          evening), 2 lunches, an attendee certificate, entry to all the
+          technical sessions, and cultural events.
+        </li>
+      </ul>
     </div>
   );
 };

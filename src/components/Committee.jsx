@@ -122,20 +122,32 @@ const Committee = () => {
           }}
         >
           <div style={{ marginRight: "auto" }}>
-            <li>Prof. Subramaniam Ganesan, Oakland University, USA</li>
             <li>Prof. Boris Andrievsky, Russian Academy of Science, Russia</li>
-            <li>Prof. Manisha Pattnaik, ABV-IIITM, India</li>
             <li>Prof. Geetam Tomar, MP Section Chair</li>
+            <li>
+              Professor José Luis Hernandez-Caceres, Cuban Center for
+              Neurosciences, Cuba
+            </li>
+            <li>Prof. K. K. Pattanaik, ABV-IIITM Gwalior, India</li>
+            <li>Prof. Manisha Pattnaik, ABV-IIITM, India</li>
             <li>
               Dr. Michael Chesnaye, National Acoustic Laboratories, Australia
             </li>
-
-            <li>Dr. Vivek Tiwari, ABV-IIITM, India</li>
             <li>
               Dr Mohamed Fareq Abdul Malek, University of Wollongong, Dubai
             </li>
+            <li>Dr. Neeraj Kumar Mishra, Lucknow University</li>
+            <li>Dr. Neeraj Prakash Mishra, CamGraphic SRL Italy</li>
+            <li>Prof. Prabin Kumar Padhy, PDPM IIITMJ Jabalpur</li>
+            <li>
+              Dr. Satyendra Kumar Mishra, Centre Tecnològic de Telecomunicacions
+              de Catalunya, Spain
+            </li>
+            <li>Prof. Subramaniam Ganesan, Oakland University, USA</li>
+            <li>Dr. Vivek Tiwari, ABV-IIITM, India</li>
+            <li>Prof V. K. Gupta, PDPM IIITDMJ Jabalpur</li>
+
             <li>Dr. Wilfred Godfrey, ABV-IIITM Gwalior, India</li>
-            <li>Prof. K. K. Pattanaik, ABV-IIITM Gwalior, India</li>
           </div>
         </ul>
       </div>
@@ -155,67 +167,66 @@ const Committee = () => {
           }}
         >
           <div style={{ marginRight: "auto" }}>
-            <li>Dr. Binod Prasad, ABV-IIITM, India </li>
-            <li>Dr. Punit Kumar Bhavsar, NIT Nagpur, India</li>
-            <li>Dr. Somanath Pradhan, IIT Patna, India</li>
-            <li>Dr. Deepesh Kumar Verma, IIT (BHU) Varanasi, India</li>
             <li>Dr. A. R. Jac Fredo, IIT (BHU) Varanasi, India</li>
-            <li>Dr. SK Jain, IIITDM Jabalpur</li>
-            <li>Dr. Biswajeet Mukhurjee, Delhi University</li>
-            <li>Dr. Om Jee Pandey, IIT (BHU) Varanasi, India</li>
-            <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
-            <li>Dr. Pragya Swami, ABV-IIITM, India </li>
-            <li>Dr. Varun Bajaj, NIT Bhopal, India</li>
-            <li>Dr. Atul Kumar, NIT Bhopal, India</li>
-            <li>Dr. Yashpal Singh Katariya, PDPM IIITDMJ</li>
-            <li>Dr. Bilal, UTSW, USA</li>
-            <li>Dr. Michael Chesnaye, NAL, Australia</li>
+            <li>Dr. Abhishek Sarkhel, NIT Meghalaya</li>
+            <li>Dr. Anil Kumar, PDPM IIITDMJ</li>
+            <li>Dr. Anjali, ABV-IIITM Gwalior, India</li>
+            <li>Dr. Arijit Bhattacharjee, NUS Singapore</li>
             <li>Dr. Arvind Kumar, VNIT Nagpur, India</li>
-            <li>Dr. Joydeep Sengupta, VNIT Nagpur, India</li>
             <li>Dr. Ashwin Kothari, VNIT Nagpur, India</li>
-            <li>Dr. Manish Mandoli, PDEU Gandhinagar, India</li>
-            <li>Dr. Kamal K Garg, PDEU Gandhinagar, India</li>
-            <li>Dr. Om Prakash Verma, NIT Jalandhar</li>
-            <li>Dr. Jose Thankachan, NIT Tiruchirappalli</li>
+            <li>Dr. Atul Kumar, NIT Bhopal, India</li>
+            <li>Dr. Bilal, UTSW, USA</li>
+            <li>Dr. Biswajeet Mukhurjee, Delhi University</li>
             <li>Dr. Deep Prakash Samajhdar, PDPM IIITDMJ</li>
-            <li>Dr. Mohammad Farukh Hashmi, NIT Warangal</li>
-            <li>Dr. Pinku Ranjan, ABV-IIITM Gwalior</li>
-            <li>Dr. Vashundra, NIT Warangal</li>
+            <li>Dr. Deepesh Kumar Verma, IIT (BHU) Varanasi, India</li>
+            <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
             <li>Dr. Ekta Goyal, NIT Warangal</li>
-            <li>Dr. Santosh Singh Rathore, ABV-IIITM Gwalior</li>
-            <li>Dr. Mahendra Shukla, ABV-IIITM, India </li>
-            <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
+            <li>Dr. Gaurav Kaushal, ABV-IIITM Gwalior, India</li>
+            <li>Dr. Gaurav Verma, NIT Kurukhetra</li>
+            <li>Dr. ILA Sharma, MANIT, NIT Jaipur</li>
+            <li>Mr. Jagdish Prajapati, SAMEER R&D DIT, Government of India</li>
+            <li>Dr. Jawar Singh, IIT Patna</li>
+            <li>Dr. Joydeep Sengupta, VNIT Nagpur, India</li>
+            <li>Dr. Jose Thankachan, NIT Tiruchirappalli</li>
+            <li>Dr. Kamal K Garg, PDEU Gandhinagar, India</li>
+            <li>Dr. Kapil Gupta, UPES Dehradun</li>
+            <li>Dr. Mahendra Shukla, ABV-IIITM, India</li>
+            <li>Dr. Manish Mandoli, PDEU Gandhinagar, India</li>
+            <li>Dr. Michael Chesnaye, NAL, Australia</li>
+            <li>Dr. Mohammad Farukh Hashmi, NIT Warangal</li>
+            <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
+            <li>Dr. Nalin Kumar Sharma, IIT Jammu</li>
           </div>
           <div>
-            <li>Dr. Gaurav Kaushal, ABV-IIITM Gwalior, India</li>
-            <li>Dr. Anjali, ABV-IIITM Gwalior, India</li>
-            <li>Dr. Sunil Kumar Jauhar, IIM Kashipur</li>
-            <li>Dr. Nalin Kumar Sharma, IIT Jammu</li>
-            <li>Dr. Anil Kumar, PDPM IIITDMJ</li>
-            <li>Dr. ILA Sharma, MANIT, NIT Jaipur</li>
-            <li>Dr. Satyendra Singh Chouhan, NIT Jaipur </li>
-            <li>Dr. Siddharth Bhalerao, GGIST Jabalpur </li>
-            <li>Dr. Rishi Sinhal, BGI Bhopal</li>
+            <li>Dr. Om Jee Pandey, IIT (BHU) Varanasi, India</li>
+            <li>Dr. Om Prakash Verma, NIT Jalandhar</li>
+            <li>Dr. Pinku Ranjan, ABV-IIITM Gwalior</li>
+            <li>Dr. Pragya Swami, ABV-IIITM, India</li>
             <li>Dr. Prateek Rathore, LNMIIT Jaipur</li>
-            <li>Dr. Vinay Bankey, NIT Rourkela</li>
-            <li>Dr. Shikha Maurya, NIT Agartala</li>
-            <li>Dr. Sanjeev Sharma, IIT (BHU) Varanasi</li>
-            <li>Dr. Satyendra Singh Yadav, NIT Meghalaya</li>
-            <li>Dr. Shravan Kumar Bandari, NIT Meghalaya</li>
-            <li>Dr. Abhishek Sarkhel, NIT Meghalaya</li>
-            <li>Dr. Sachin Taran, DTU Delhi</li>
-            <li>Dr. Kapil Gupta, UPES Dehradun</li>
-            <li>Dr. Gaurav Veram, NIT Kurukhetra</li>
-            <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
-            <li>Dr. Arijit Bhattacharjee, NUS Singapore</li>
-            <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
             <li>Dr. Praveen Singya, ABV-IIITM Gwalior</li>
-            <li>Dr. Sandesh Jain, ABV-IIITM Gwalior</li>
-            <li>Mr. Jagdish Prajapati, SAMEER R&D DIT, Govermnrt of India</li>
-            <li>Dr. Dhananjoy Bhakta, IIIT Ranchi</li>
+            <li>Dr. Punit Kumar Bhavsar, NIT Nagpur, India</li>
+            <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
+            <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
+            <li>Dr. Rishi Sinhal, BGI Bhopal</li>
+            <li>Dr. Sachin Taran, DTU Delhi</li>
+            <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
+            <li>Dr. Santosh Singh Rathore, ABV-IIITM Gwalior</li>
+            <li>Dr. Sanjeev Sharma, IIT (BHU) Varanasi</li>
+            <li>Dr. Satyendra Singh Chouhan, NIT Jaipur</li>
+            <li>Dr. Satyendra Singh Yadav, NIT Meghalaya</li>
+
+            <li>Dr. Shravan Kumar Bandari, NIT Meghalaya</li>
             <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
+            <li>Dr. Shikha Maurya, NIT Agartala</li>
             <li>Dr. Shivendra Kumar Pandey, NIT Silchar</li>
-            <li>Dr. Jawar Singh. IIT Patna</li>
+            <li>Dr. Siddharth Bhalerao, GGIST Jabalpur</li>
+            <li>Dr. SK Jain, IIITDM Jabalpur</li>
+            <li>Dr. Somanath Pradhan, IIT Patna, India</li>
+            <li>Dr. Sunil Kumar Jauhar, IIM Kashipur</li>
+            <li>Dr. Varun Bajaj, NIT Bhopal, India</li>
+            <li>Dr. Vashundra, NIT Warangal</li>
+            <li>Dr. Vinay Bankey, NIT Rourkela</li>
+            <li>Dr. Yashpal Singh Katariya, PDPM IIITDMJ</li>
           </div>
         </ul>
       </div>
