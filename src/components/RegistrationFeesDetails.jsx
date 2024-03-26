@@ -71,23 +71,25 @@ const PricingComponent = () => {
           </thead>
           <tbody>
             <tr>
-              <td className="text-center bg-info text-white">Student </td>
-              <td className="text-center">INR 5000</td>
+              <td className="text-center bg-info text-white">
+                Student (UG/ PG/ PhD){" "}
+              </td>
+              <td className="text-center">INR 7000</td>
 
-              <td className="text-center">INR 5500</td>
-              <td className="text-center">INR 6000</td>
-              <td className="text-center">INR 6500</td>
+              <td className="text-center">INR 7500</td>
+              <td className="text-center">INR 8000</td>
+              <td className="text-center">INR 8500</td>
             </tr>
 
             <tr>
               <td className="text-center bg-info text-white">
-                Industry/ Academician
+                Academician/ Industry participants
               </td>
-              <td className="text-center">INR 7000</td>
-              <td className="text-center">INR 7500</td>
-              <td className="text-center">INR 8000</td>
-
               <td className="text-center">INR 8500</td>
+              <td className="text-center">INR 9000</td>
+              <td className="text-center">INR 9500</td>
+
+              <td className="text-center">INR 10000</td>
             </tr>
 
             <tr>
@@ -102,7 +104,9 @@ const PricingComponent = () => {
               </td>
             </tr>
             <tr>
-              <td className="text-center bg-info text-white">Attendees</td>
+              <td className="text-center bg-info text-white">
+                Attendees (without Kit)
+              </td>
               <td className="text-center" colspan="4">
                 INR 2000
               </td>

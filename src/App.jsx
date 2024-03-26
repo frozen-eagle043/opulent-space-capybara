@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Dates from "./components/Dates";
 import AuthGuidelines from "./components/AuthGuidelines";
 import Committee from "./components/Committee";
+import StudentGrant from "./components/StudentGrant";
 // import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
 // import { useState, useEffect } from "react";
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/submission" element={<Submission />} />
         <Route path="/registration" element={<Registration />} />
+        <Route path="/student-grant" element={<StudentGrant />} />
         <Route path="/committee" element={<Committee />} />
         <Route path="/award" element={<Awards />} />
         <Route path="/call-for-paper" element={<CallForPapers />} />

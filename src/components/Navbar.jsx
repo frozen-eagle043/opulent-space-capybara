@@ -1,12 +1,21 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./NavbarComponent.css";
+import logo from "../assets/images/home_page/inspect_logo.png";
+
 //
 const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" className="custom-navbar">
       <Container fluid>
         <Navbar.Brand href="/" className="ml-2 logo">
+          <img
+            alt=""
+            src={logo}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{" "}
           INSPECT 2024
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -42,6 +51,10 @@ const NavbarComponent = () => {
             <Nav.Link href="/registration" className="nav-item">
               Registration
             </Nav.Link>
+            <Nav.Link href="/student-grant" className="nav-item">
+              Student Grant
+            </Nav.Link>
+
             <Nav.Link href="/award" className="nav-item">
               Awards
             </Nav.Link>
