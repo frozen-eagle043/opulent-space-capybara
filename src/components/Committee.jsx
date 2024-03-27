@@ -20,7 +20,8 @@ import ak from "../assets/images/committee/asutosh.jpg";
 import rk from "../assets/images/committee/ravi.kant_photo.jpg";
 import ds from "../assets/images/committee/debanjan.JPG";
 import dd from "../assets/images/committee/deepak_dewangan.png";
-// import mb from "../assets/images/committee/mahuabhatt.jpg";
+import mpg from "../assets/images/committee/manishapattanaik.jpg";
+import mb from "../assets/images/committee/mahuabhatt.jpg";
 import bj from "../assets/images/committee/Biswabandhu Jana.jpg";
 // import nsp from "../assets/images/committee/nsp.jpg";
 import jeeva from "../assets/images/committee/jeevaraj.jpg";
@@ -108,6 +109,29 @@ const Committee = () => {
         />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Organizing Chair </h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Prof. Manisha Pattanaik
+
+          "
+          designation="ABV-IIITM, India"
+          img={mpg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik"
+        />
+        <CardBox
+          name="Prof. Mahua Bhattacharya
+
+          "
+          designation="ABV-IIITM, India"
+          img={mb}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahua"
+        />
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Advisory Committee </h1>
       </div>
       <div style={{ margin: "auto", width: "80%", padding: "10px" }}>
@@ -176,6 +200,7 @@ const Committee = () => {
             <li>Dr. Ashwin Kothari, VNIT Nagpur, India</li>
             <li>Dr. Atul Kumar, NIT Bhopal, India</li>
             <li>Dr. Bilal, UTSW, USA</li>
+            <li>Dr. Binod Prasad, ABV-IIITM, India</li>
             <li>Dr. Biswajeet Mukhurjee, Delhi University</li>
             <li>Dr. Deep Prakash Samajhdar, PDPM IIITDMJ</li>
             <li>Dr. Deepesh Kumar Verma, IIT (BHU) Varanasi, India</li>
@@ -209,6 +234,7 @@ const Committee = () => {
             <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
             <li>Dr. Rishi Sinhal, BGI Bhopal</li>
             <li>Dr. Sachin Taran, DTU Delhi</li>
+            <li>Dr. Sandesh Jain, ABV-IIITM Gwalior</li>
             <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
             <li>Dr. Santosh Singh Rathore, ABV-IIITM Gwalior</li>
             <li>Dr. Sanjeev Sharma, IIT (BHU) Varanasi</li>
