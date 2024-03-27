@@ -13,11 +13,11 @@ const RegistrationComponent = () => {
           </h3>
           <p>
             <strong>Deadline for camera-ready submission: </strong>
-            30 October 2024
+            25 September 2024
           </p>
           <p>
             <strong>Deadline for early bird registration: </strong>
-            30 September 2024
+            10 October 2024
           </p>
 
           <h3 style={{ color: "red" }} className="mb-3 mt-4">

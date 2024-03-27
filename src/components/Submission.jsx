@@ -135,7 +135,7 @@ const SubmissionComponent = () => {
         </h2>
         <p>
           Please note that the last date for uploading the final camera-ready
-          manuscript is 30-October 2024, 23:59 IST.
+          manuscript is 25 September 2024, 23:59 IST.
         </p>
         <p>
           At least one author must complete registration before uploading the

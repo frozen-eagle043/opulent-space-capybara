@@ -62,13 +62,13 @@ export default function Dates() {
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
-                  Early Bird Registration: September 30, 2024
+                  Camera Ready Submission Deadline: September 25, 2024
+                </div>
+                <div className="tab-body-content">
+                  Early Bird Registration: October 10, 2024
                 </div>
                 <div className="tab-body-content">
                   Late Registration Deadline: October 30, 2024
-                </div>
-                <div className="tab-body-content">
-                  Camera Ready Submission Deadline: October 30, 2024
                 </div>
               </div>
             </div>
