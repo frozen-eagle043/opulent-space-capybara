@@ -12,11 +12,11 @@ const NavbarComponent = () => {
           <img
             alt=""
             src={logo}
-            width="30"
-            height="30"
+            width="120"
+            height="40"
             className="d-inline-block align-top"
           />{" "}
-          INSPECT 2024
+          {/* INSPECT 2024 */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

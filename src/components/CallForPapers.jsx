@@ -1,5 +1,6 @@
 // import { fontWeight } from "@mui/system";
 import React from "react";
+import paper_call from "../assets/docs/Paper_call.pdf";
 
 const CallForPapers = () => {
   return (
@@ -20,6 +21,18 @@ const CallForPapers = () => {
             padding: "8px",
           }}
         >
+          <div
+            style={{
+              marginBottom: "20px",
+              fontSize: "20px",
+              fontWeight: "500",
+            }}
+          >
+            INSPECT-2024 Call for Papers -{" "}
+            <a href={paper_call} target="_blank">
+              Download
+            </a>
+          </div>
           Welcome to the{" "}
           <b>
             2024 International Conference on Intelligent Signal Processing and
