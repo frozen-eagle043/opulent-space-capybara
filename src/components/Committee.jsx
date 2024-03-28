@@ -47,6 +47,7 @@ import cwak from "../assets/images/committee/ChangWookAhn.jpg";
 import jcu from "../assets/images/committee/jordan_cheer.jpeg";
 import akg from "../assets/images/committee/AvadhKishor.jpg";
 import mcau from "../assets/images/committee/Michael_chesnaye.jpg";
+import gpg from "../assets/images/committee/Gaurav_pandey.jpeg";
 
 const Committee = () => {
   return (
@@ -371,7 +372,7 @@ const Committee = () => {
         <CardBox
           name="Dr. Gaurav Pandey"
           designation="ABV-IIITM, India"
-          img={userPic}
+          img={gpg}
           link=""
         />
         <CardBox
