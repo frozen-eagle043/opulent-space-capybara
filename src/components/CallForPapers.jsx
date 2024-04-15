@@ -38,17 +38,17 @@ const CallForPapers = () => {
             2024 International Conference on Intelligent Signal Processing and
             Effective Communication Technologies (INSPECT-2024)
           </b>
-          , to be held during <b> 7-8th December 2024</b> at Gwalior, India. The
-          conference is the premier forum for the presentation of new advances
-          and research results in varied disciplines and their associated
-          applications in all aspects of Communication Technology, Signal
-          Processing Informatics, and Machine Learning that consider the
-          improvement and development of quality of human life and better living
-          on earth. In addition to the technical sessions, there will be invited
-          sessions, panel sessions, and keynote addresses. The aim of the
-          conference is to stimulate interaction and convergent among
-          researchers active in the areas of Communication Technology, Signal
-          Processing Informatics, and Machine Learning.
+          , to be held from <b>7-8th December 2024</b> at Gwalior, India. The
+          conference is sponsored by the IEEE MP Section. This conference is the
+          premier forum for the presentation of new advances and research
+          results in varied disciplines and their associated applications in all
+          aspects of Communication Technology, Signal Processing Informatics,
+          and Machine Learning that consider the improvement and development of
+          quality of human life and better living on earth. In addition to the
+          technical sessions, there will be invited sessions, panel sessions,
+          and keynote addresses. The conference aims to stimulate interaction
+          and convergent among researchers active in the areas of Communication
+          Technology, Signal Processing Informatics, and Machine Learning.
         </div>
         <div
           style={{

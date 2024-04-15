@@ -21,7 +21,7 @@ export default function Dates() {
         <h1>Important Dates</h1>
         <div className="marquee">
           <marquee scrollamount="18">
-            The INSPECT-2024 (Intelligent Signal Processing and Effective
+            The INSPECT-2024 (INtelligent Signal Processing and Effective
             Communication Technologies) conference will be held at ABV-IIITM,
             Gwalior during 7th and 8th December 2024.
           </marquee>
