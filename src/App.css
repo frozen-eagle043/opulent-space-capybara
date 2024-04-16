@@ -273,6 +273,37 @@ body {
 .call-for-paper-box {
   min-width: 50%;
 }
+
+.blink_me {
+  font-size: 32px;
+  animation-name: blink;
+  width: 280px;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: violet;
+  }
+  20% {
+    color: indigo;
+  }
+  40% {
+    color: blue;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
 @media screen and (max-width: 1380px) {
   .call-for-paper-box {
     min-width: 100%;
