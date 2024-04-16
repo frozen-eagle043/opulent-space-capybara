@@ -84,8 +84,23 @@ const Home = () => {
       >
         Welcome to the{" "}
         <b>
+          <style>
+        {`
+        @keyframes flash {
+          0% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        `}
+      </style>
           2024 International Conference on Intelligent Signal Processing and
-          Effective Communication Technologies (INSPECT-2024) [HYBRID MODE]
+          Effective Communication Technologies (INSPECT-2024) <b style="animation: flash 1s infinite;">HYBRID MODE</b>
         </b>
         , to be held from <b>7-8th December 2024</b> at Gwalior, India. The
         conference is sponsored by the IEEE MP Section. This conference is the
