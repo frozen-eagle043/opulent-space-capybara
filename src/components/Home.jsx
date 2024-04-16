@@ -71,6 +71,7 @@ const Home = () => {
           }}
         >
           (INSPECT 2024)
+          <span class="blink_me"> "Hybrid Mode"</span>
         </h1>
       </div>
       <div
@@ -86,7 +87,6 @@ const Home = () => {
         <b>
           2024 International Conference on Intelligent Signal Processing and
           Effective Communication Technologies (INSPECT 2024)
-            <span class="blink_me"> "Hybrid Mode"</span>
         </b>
         , to be held from <b>7-8th December 2024</b> at Gwalior, India. The
         conference is sponsored by the IEEE MP Section. This conference is the
