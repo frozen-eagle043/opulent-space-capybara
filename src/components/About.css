@@ -90,3 +90,23 @@ a {
 a:hover {
   color: #007bff;
 }
+
+.ieee-img {
+  margin-left: 55px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+.ieee-text {
+  width: 60%; /* Set max-width to 100% for smaller screens */
+}
+
+@media (max-width: 1195px) {
+  /* Change styles for screens smaller than 768px */
+  .ieee-text {
+    width: 100%; /* Set max-width to 100% for smaller screens */
+  }
+  .ieee-img {
+    margin: 0px;
+  }
+}

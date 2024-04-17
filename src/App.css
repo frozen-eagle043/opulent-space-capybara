@@ -35,6 +35,11 @@ h1 {
   color: #333;
 }
 
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
 /* Additional styling for smooth scrolling and visual appeal */
 body {
   min-height: calc(100vh-34px);

@@ -6,11 +6,9 @@ import About from "./About";
 import GeneralChairs from "./GeneralChairs";
 
 import inspect_home from "../assets/images/home_page/inspect_2024.png";
-import abv_iiitm from "../assets/images/home_page/abv_iiitm1.png";
-// import iiitm_build from "../assets/images/home_page/iiitm_building.png";
-// import fort1 from "../assets/images/home_page/Gwalior_Fort_front.jpg";
-import fort2 from "../assets/images/home_page/gwalior_fort_side2.png";
-// import conv from "../assets/images/home_page/conv.jpg";
+
+import City from "./City";
+import Conference from "./Conference";
 
 const Home = () => {
   const sliderSettings = {
@@ -63,16 +61,18 @@ const Home = () => {
             fontWeight: "bold",
           }}
         >
-          Intelligent Signal Processing and Effective Communication Technologies
-        </h1>
-        <h1
+          International Conference INSPECT-2024{" "}
+          <span class="blink_me"> (Hybrid Mode)</span>
+        </h1>{" "}
+        <h3>to be held from 7-8th December 2024 at ABV-IIITM Gwalior, India</h3>
+        {/* <h1
           style={{
             fontWeight: "bold",
           }}
         >
           (INSPECT 2024)
           <span class="blink_me"> "Hybrid Mode"</span>
-        </h1>
+        </h1> */}
       </div>
       <div
         style={{
@@ -83,25 +83,25 @@ const Home = () => {
           padding: "8px",
         }}
       >
-        Welcome to the{" "}
+        We are thrilled to announce the{" "}
         <b>
-          2024 International Conference on Intelligent Signal Processing and
-          Effective Communication Technologies (INSPECT 2024)
+          International Conference on Intelligent Signal Processing and
+          Effective Communication Technologies (INSPECT-2024)
         </b>
-        , to be held from <b>7-8th December 2024</b> at Gwalior, India. The
-        conference is sponsored by the IEEE MP Section. This conference is the
-        premier forum for the presentation of new advances and research results
-        in varied disciplines and their associated applications in all aspects
-        of Communication Technology, Signal Processing Informatics, and Machine
-        Learning that consider the improvement and development of quality of
-        human life and better living on earth. In addition to the technical
-        sessions, there will be invited sessions, panel sessions, and keynote
-        addresses. The conference aims to stimulate interaction and convergent
-        among researchers active in the areas of Communication Technology,
-        Signal Processing Informatics, and Machine Learning.
+        , to be held in a groundbreaking hybrid format, seamlessly blending
+        in-person and virtual participation. Mark your calendars for{" "}
+        <b>7-8 December 2024</b>, as we embark on a journey to explore,
+        innovate, and connect with global leaders in Intelligent Signal
+        Processing and Effective Communication Technologies.
+      </div>
+      <div>
+        <Conference />
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <City />
       </div>
       <div>
         <GeneralChairs />
