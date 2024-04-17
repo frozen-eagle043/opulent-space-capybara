@@ -59,7 +59,12 @@ const SubmissionComponent = () => {
             margin: "10px",
           }}
         >
-          <Button style={{ borderRadius: "20px" }} href="#" size="lg" center>
+          <Button
+            style={{ borderRadius: "20px" }}
+            href="https://cmt3.research.microsoft.com/INSPECT2024/Track/1/Submission/Create"
+            size="lg"
+            center
+          >
             Submit a Paper
           </Button>
         </div>

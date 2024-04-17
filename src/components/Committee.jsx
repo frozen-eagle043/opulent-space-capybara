@@ -15,7 +15,7 @@ import gs from "../assets/images/committee/Gaurav_Image.jpg";
 import ga from "../assets/images/committee/gauravagrawal.jpg";
 import pb from "../assets/images/committee/punit-photo-231x300.jpg";
 import sp from "../assets/images/committee/spradhan.jpg";
-
+import gkg from "../assets/images/committee/gaurav_kaushal.jpg";
 import ak from "../assets/images/committee/asutosh.jpg";
 import rk from "../assets/images/committee/ravi.kant_photo.jpg";
 import ds from "../assets/images/committee/debanjan.JPG";
@@ -48,7 +48,9 @@ import jcu from "../assets/images/committee/jordan_cheer.jpeg";
 import akg from "../assets/images/committee/AvadhKishor.jpg";
 import mcau from "../assets/images/committee/Michael_chesnaye.jpg";
 import gpg from "../assets/images/committee/Gaurav_pandey.jpeg";
-
+import ssrg from "../assets/images/committee/sanotsh_rathore.jpg";
+import sds from "../assets/images/committee/suman_deb.png";
+import ps from "../assets/images/committee/pragya.jpeg";
 const Committee = () => {
   return (
     <div>
@@ -149,34 +151,30 @@ const Committee = () => {
           <div style={{ marginRight: "auto" }}>
             <li>Prof. Boris Andrievsky, Russian Academy of Science, Russia</li>
             <li>Prof. Geetam Tomar, MP Section Chair</li>
-            <li>
-              Professor José Luis Hernandez-Caceres, Cuban Center for
-              Neurosciences, Cuba
-            </li>
+            <li>Professor José Luis Hernandez-Caceres, Cuban Center for</li>
+            Neurosciences, Cuba
             <li>Prof. K. K. Pattanaik, ABV-IIITM Gwalior, India</li>
-            <li>Prof. Manisha Pattnaik, ABV-IIITM, India</li>
             <li>
               Dr. Michael Chesnaye, National Acoustic Laboratories, Australia
             </li>
             <li>
               Dr Mohamed Fareq Abdul Malek, University of Wollongong, Dubai
             </li>
-            <li>Dr. Neeraj Kumar Mishra, Lucknow University</li>
+            <li>Dr. Neeraj Kumar Mishra, Lucknow University, India</li>
             <li>Dr. Neeraj Prakash Mishra, CamGraphic SRL Italy</li>
-            <li>Prof. Prabin Kumar Padhy, PDPM IIITMJ Jabalpur</li>
-            <li>
-              Dr. Satyendra Kumar Mishra, Centre Tecnològic de Telecomunicacions
-              de Catalunya, Spain
-            </li>
+          </div>
+          <div>
+            <li>Prof. Prabin Kumar Padhy, PDPM IIITMJ Jabalpur, India</li>
+            <li>Dr. Satyendra Kumar Mishra, Centre Tecnològic de</li>
+            Telecomunicacions de Catalunya, Spain
             <li>Prof. Subramaniam Ganesan, Oakland University, USA</li>
-            <li>Dr. Vivek Tiwari, ABV-IIITM, India</li>
-            <li>Prof V. K. Gupta, PDPM IIITDMJ Jabalpur</li>
-
+            <li>Vincenzo Piuri, IEEE Region 8 Director, Universita' degli</li>
+            Studi di Milano, Dipartimento di Informatica
+            <li>Prof V. K. Gupta, PDPM IIITDMJ Jabalpur, India</li>
             <li>Dr. Wilfred Godfrey, ABV-IIITM Gwalior, India</li>
           </div>
         </ul>
       </div>
-
       <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Technical Program Committee </h1>
       </div>
@@ -259,6 +257,102 @@ const Committee = () => {
       </div>
 
       <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Website and Publicity Chairs </h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Biswabandhu Jana"
+          designation="ABV-IIITM, India"
+          img={bj}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Biswabandhu"
+        />
+        <CardBox
+          name="Dr. Jeevaraj S"
+          designation="ABV-IIITM, India"
+          img={jeeva}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.JeevarajS"
+        />
+        <CardBox
+          name="Dr. Somanath Pradhan"
+          designation="IIT Patna, India"
+          img={sp}
+          link="https://www.iitp.ac.in/index.php/people-2/ee-faculty/2-uncategorised/1435-dr-somanath-pradhan"
+        />
+
+        <CardBox
+          name="Dr. Michael Chesnaye"
+          designation="NAL, Australia "
+          img={mcau}
+          link="https://www.nal.gov.au/team_members/4504/"
+        />
+      </div>
+
+      <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Registration Chairs </h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Pragya Swami"
+          designation=" ABV-IIITM, India"
+          img={ps}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Pragya"
+        />
+        <CardBox
+          name="Dr. Pinku Ranjan"
+          designation="ABV-IIITM, India"
+          img={pkg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PINKURANJAN"
+        />
+        <CardBox
+          name="Dr. Amrendra Singh Yadav"
+          designation="ABV-IIITM, India"
+          img={asyg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.AmrendraSingh"
+        />
+        <CardBox
+          name="Dr. Debanjan Sadhya"
+          designation="ABV-IIITM, India"
+          img={ds}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Devanjan"
+        />
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
+        <h1 style={{ padding: "10px" }}>Hospitality & Facility Chairs </h1>
+      </div>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        <CardBox
+          name="Dr. Gaurav Pandey"
+          designation="ABV-IIITM, India"
+          img={gpg}
+          link=""
+        />
+        <CardBox
+          name="Dr. Deepak Dewangan"
+          designation="ABV-IIITM, India"
+          img={dd}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.DeepakKumar"
+        />
+        <CardBox
+          name="Dr. Purnendu Mishra"
+          designation="ABV-IIITM, India"
+          img={pmg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Purnedu"
+        />
+
+        <CardBox
+          name="Prof. Rajendra Sahu"
+          designation="ABV-IIITM, India"
+          img={rsg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Rajendra"
+        />
+      </div>
+      <div style={{ margin: "5px", padding: "10px" }}>
         <h1 style={{ padding: "10px" }}>Publication Chairs </h1>
       </div>
       <div
@@ -271,10 +365,10 @@ const Committee = () => {
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
         />
         <CardBox
-          name="Dr. Deepak Dewangan"
+          name="Dr. Vivek Tiwari"
           designation="ABV-IIITM, India"
-          img={dd}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.DeepakKumar"
+          img={vtg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Vivek"
         />
         <CardBox
           name="Dr. Asutosh Kar"
@@ -282,132 +376,7 @@ const Committee = () => {
           img={ak}
           link="https://departments.nitj.ac.in/dept/ece/Faculty/6430447238bff038a7808d7e"
         />
-        <CardBox
-          name="Dr. Debanjan Sadhya"
-          designation="ABV-IIITM, India"
-          img={ds}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Devanjan"
-        />
-        <CardBox
-          name="Dr. Punit Kumar Bhavsar"
-          designation="NIT Nagpur, India"
-          img={pb}
-          link=""
-        />
-      </div>
 
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Web Chairs </h1>
-      </div>
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Debanjan Sadhya"
-          designation="ABV-IIITM, India"
-          img={ds}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Devanjan"
-        />
-
-        <CardBox
-          name="Dr. Biswabandhu Jana"
-          designation="ABV-IIITM, India"
-          img={bj}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Biswabandhu"
-        />
-      </div>
-
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Publicity Chairs </h1>
-      </div>
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Somanath Pradhan"
-          designation="IIT Patna, India"
-          img={sp}
-          link="https://www.iitp.ac.in/index.php/people-2/ee-faculty/2-uncategorised/1435-dr-somanath-pradhan"
-        />
-
-        <CardBox
-          name="Dr. Jeevaraj"
-          designation="ABV-IIITM, India"
-          img={jeeva}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.JeevarajS"
-        />
-
-        <CardBox
-          name="Dr. Mahendra Shukla"
-          designation="ABV-IIITM, India"
-          img={msg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
-        />
-        <CardBox
-          name="Dr. Michael Chesnaye"
-          designation="NAL, Australia "
-          img={mcau}
-          link="https://www.nal.gov.au/team_members/4504/"
-        />
-        <CardBox
-          name="Dr. Ravi Kant"
-          designation="PDEU Gandhinagar, India"
-          img={rk}
-          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ravi.kant"
-        />
-      </div>
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Hospitality & Facility Chairs </h1>
-      </div>
-
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Amrendra Singh Yadav"
-          designation="ABV-IIITM, India"
-          img={asyg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.AmrendraSingh"
-        />
-        <CardBox
-          name="Dr. Gaurav Pandey"
-          designation="ABV-IIITM, India"
-          img={gpg}
-          link=""
-        />
-        <CardBox
-          name="Dr. Purnendu Mishra"
-          designation="ABV-IIITM, India"
-          img={pmg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Purnedu"
-        />
-        <CardBox
-          name="Prof. K V Arya"
-          designation="ABV-IIITM, India"
-          img={kvag}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.KVArya"
-        />
-        <CardBox
-          name="Prof. Rajendra Sahu"
-          designation="ABV-IIITM, India"
-          img={rsg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Rajendra"
-        />
-      </div>
-
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Special Session Chairs </h1>
-      </div>
-
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Vinal Patel"
-          designation="ABV-IIITM, India"
-          img={vp}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
-        />
         <CardBox
           name="Dr. Punit Kumar Bhavsar"
           designation="NIT Nagpur, India"
@@ -416,9 +385,8 @@ const Committee = () => {
         />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Technical Program Chair</h1>
+        <h1 style={{ padding: "10px" }}>Technical Chairs</h1>
       </div>
-
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
@@ -428,27 +396,30 @@ const Committee = () => {
           img={bp}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.BinodKumar"
         />
-      </div>
 
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Technical Program Co-chair </h1>
-      </div>
-
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
         <CardBox
-          name="Dr. Mahendra Shukla"
+          name="Dr. Santosh Singh Rathore"
           designation="ABV-IIITM, India"
-          img={msg}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Mahendra"
+          img={ssrg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.SantoshSinghRathore"
+        />
+
+        <CardBox
+          name="Dr. Ravi Kant"
+          designation="PDEU Gandhinagar, India"
+          img={rk}
+          link="https://orsp.pdpu.ac.in/adminfacviewprofile.aspx?facid=ravi.kant"
+        />
+        <CardBox
+          name="Dr. Suman Deb"
+          designation="NIT Surat, India"
+          img={sds}
+          link="https://scholar.google.co.in/citations?user=ALZA_psAAAAJ&hl=en"
         />
       </div>
-
       <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Finance Chair </h1>
+        <h1 style={{ padding: "10px" }}>Finance Chairs </h1>
       </div>
-
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
@@ -458,20 +429,17 @@ const Committee = () => {
           img={gs}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Gaurav"
         />
-      </div>
-
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Finance Co-chair </h1>
-      </div>
-
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
         <CardBox
           name="Dr. Avadh Kishor"
           designation="ABV-IIITM, India"
           img={akg}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Awadh"
+        />
+        <CardBox
+          name="Dr. Gaurav Kaushal"
+          designation="ABV-IIITM, India"
+          img={gkg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.GauravKaushal"
         />
         <CardBox
           name="Dr. Gaurav Agarwal"
@@ -481,23 +449,8 @@ const Committee = () => {
         />
       </div>
       <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Conference/Organizing Secretary </h1>
+        <h1 style={{ padding: "10px" }}>Conference Chairs </h1>
       </div>
-
-      <div
-        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <CardBox
-          name="Dr. Vinal Patel"
-          designation="ABV-IIITM, India"
-          img={vp}
-          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
-        />
-      </div>
-      <div style={{ margin: "5px", padding: "10px" }}>
-        <h1 style={{ padding: "10px" }}>Conference Chair </h1>
-      </div>
-
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
@@ -506,6 +459,12 @@ const Committee = () => {
           designation="ABV-IIITM, India"
           img={iaa}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.IrshadAhmad"
+        />
+        <CardBox
+          name="Dr. Vinal Patel"
+          designation="ABV-IIITM, India"
+          img={vp}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinalPatel"
         />
       </div>
     </div>
