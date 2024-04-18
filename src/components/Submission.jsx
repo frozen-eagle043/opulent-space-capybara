@@ -145,8 +145,8 @@ const SubmissionComponent = () => {
         </p>
         <p>
           At least one author must complete registration before uploading the
-          final manuscript. See the{" "}
-          <a href="registration-link">Registration Page</a> for details.
+          final manuscript. See the <a href="registration">Registration Page</a>{" "}
+          for details.
         </p>
         <h3>1. Preparation of Camera Ready Manuscript</h3>
         <ul>

@@ -168,7 +168,9 @@ const Committee = () => {
             <li>Dr. Satyendra Kumar Mishra, Centre Tecnològic de</li>
             Telecomunicacions de Catalunya, Spain
             <li>Prof. Subramaniam Ganesan, Oakland University, USA</li>
-            <li>Vincenzo Piuri, IEEE Region 8 Director, Universita' degli</li>
+            <li>
+              Prof. Vincenzo Piuri, IEEE Region 8 Director, Universita' degli
+            </li>
             Studi di Milano, Dipartimento di Informatica
             <li>Prof V. K. Gupta, PDPM IIITDMJ Jabalpur, India</li>
             <li>Dr. Wilfred Godfrey, ABV-IIITM Gwalior, India</li>
