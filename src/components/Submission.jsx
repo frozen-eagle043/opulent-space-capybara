@@ -49,7 +49,8 @@ const SubmissionComponent = () => {
         <p>
           For you to be able to access the submission system as an author,
           reviewer, program committee member, session chair, etc., you need to
-          create an account on <a href="#">(link will be provided later)</a>.
+          create an account on Microsoft CMT using the Submit button given
+          below:
         </p>
         <div
           style={{
@@ -154,7 +155,7 @@ const SubmissionComponent = () => {
             Authors are requested to submit using the IEEE conference template.
             The IEEE paper template can be downloaded from{" "}
             <a
-              href="ieee-template-link"
+              href="https://www.ieee.org/conferences/publishing/templates.html"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -238,7 +239,11 @@ const SubmissionComponent = () => {
         <p>
           <strong>Step 1:</strong> Login to Microsoft CMT as an author of
           INSPECT2024 (
-          <a href="cmt-link" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://cmt3.research.microsoft.com/INSPECT2024/Track/1/Submission/Create"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             here
           </a>
           ) and click the link to submit the eCopyright form. Then follow the
@@ -256,7 +261,11 @@ const SubmissionComponent = () => {
         <p>
           <strong>Step 3:</strong> For detailed instructions on how to submit
           IEEE eCopyright form and Camera-Ready Copy on Microsoft CMT, click{" "}
-          <a href="instructions-link" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://cmt3.research.microsoft.com/docs/help/cheat-sheets/ecf-copyright.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             here
           </a>
           .
