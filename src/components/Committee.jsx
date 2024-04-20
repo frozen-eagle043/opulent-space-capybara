@@ -51,6 +51,7 @@ import gpg from "../assets/images/committee/Gaurav_pandey.jpeg";
 import ssrg from "../assets/images/committee/sanotsh_rathore.jpg";
 import sds from "../assets/images/committee/suman_deb.png";
 import ps from "../assets/images/committee/pragya.jpeg";
+import jdg from "../assets/images/committee/jdhar.jpg";
 const Committee = () => {
   return (
     <div>
@@ -124,6 +125,14 @@ const Committee = () => {
           designation="ABV-IIITM, India"
           img={mpg}
           link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik"
+        />
+        <CardBox
+          name="Prof. Joydip Dhar
+
+          "
+          designation="ABV-IIITM, India"
+          img={jdg}
+          link="https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.JoydeepDhar"
         />
         <CardBox
           name="Prof. Mahua Bhattacharya
