@@ -158,10 +158,12 @@ const Committee = () => {
           }}
         >
           <div style={{ marginRight: "auto" }}>
+            <li>Prof. Aditya Trivedi, ABV-IIITM Gwalior, India</li>
             <li>Prof. Boris Andrievsky, Russian Academy of Science, Russia</li>
             <li>Prof. Geetam Tomar, MP Section Chair</li>
             <li>Professor José Luis Hernandez-Caceres, Cuban Center for</li>
             Neurosciences, Cuba
+            <li>Prof. Karm Veer Arya, ABV-IIITM Gwalior, India</li>
             <li>Prof. K. K. Pattanaik, ABV-IIITM Gwalior, India</li>
             <li>
               Dr. Michael Chesnaye, National Acoustic Laboratories, Australia
@@ -170,9 +172,9 @@ const Committee = () => {
               Dr Mohamed Fareq Abdul Malek, University of Wollongong, Dubai
             </li>
             <li>Dr. Neeraj Kumar Mishra, Lucknow University, India</li>
-            <li>Dr. Neeraj Prakash Mishra, CamGraphic SRL Italy</li>
           </div>
           <div>
+            <li>Dr. Neeraj Prakash Mishra, CamGraphic SRL Italy</li>
             <li>Prof. Prabin Kumar Padhy, PDPM IIITMJ Jabalpur, India</li>
             <li>Dr. Satyendra Kumar Mishra, Centre Tecnològic de</li>
             Telecomunicacions de Catalunya, Spain
@@ -229,20 +231,23 @@ const Committee = () => {
             <li>Dr. Manish Mandoli, PDEU Gandhinagar, India</li>
             <li>Dr. Michael Chesnaye, NAL, Australia</li>
             <li>Dr. Mohammad Farukh Hashmi, NIT Warangal</li>
+            <li>Dr. Mridul Gupta, Graphic Era University, Dehradun, India</li>
             <li>Dr. Mussart Ali, King Faisal University, Saudi Arabia</li>
             <li>Dr. Nalin Kumar Sharma, IIT Jammu</li>
+            <li>Dr. Om Jee Pandey, IIT (BHU) Varanasi, India</li>
           </div>
           <div>
-            <li>Dr. Om Jee Pandey, IIT (BHU) Varanasi, India</li>
             <li>Dr. Om Prakash Verma, NIT Jalandhar</li>
             <li>Dr. Pinku Ranjan, ABV-IIITM Gwalior</li>
             <li>Dr. Pragya Swami, ABV-IIITM, India</li>
             <li>Dr. Prateek Rathore, LNMIIT Jaipur</li>
             <li>Dr. Praveen Singya, ABV-IIITM Gwalior</li>
+            <li>Dr. Priyanka Paliwal, MANIT Bhopal, India</li>
             <li>Dr. Punit Kumar Bhavsar, NIT Nagpur, India</li>
             <li>Dr. Ravi Kant, PDEU Gandhinagar, India</li>
             <li>Dr. Ripudaman Singh, IIIT Guwahati</li>
             <li>Dr. Rishi Sinhal, BGI Bhopal</li>
+            <li>Dr. Robin Singh Bhadoria, NIT Hamirpur, India</li>
             <li>Dr. Sachin Taran, DTU Delhi</li>
             <li>Dr. Sandesh Jain, ABV-IIITM Gwalior</li>
             <li>Dr. Sankalita Vishwas, NIT Hamirpur</li>
@@ -250,13 +255,14 @@ const Committee = () => {
             <li>Dr. Sanjeev Sharma, IIT (BHU) Varanasi</li>
             <li>Dr. Satyendra Singh Chouhan, NIT Jaipur</li>
             <li>Dr. Satyendra Singh Yadav, NIT Meghalaya</li>
-
             <li>Dr. Shravan Kumar Bandari, NIT Meghalaya</li>
             <li>Dr. Shashi Kant Sharma, IIIT Ranchi</li>
             <li>Dr. Shikha Maurya, NIT Agartala</li>
             <li>Dr. Shivendra Kumar Pandey, NIT Silchar</li>
             <li>Dr. Siddharth Bhalerao, GGIST Jabalpur</li>
             <li>Dr. SK Jain, IIITDM Jabalpur</li>
+            <li>Dr. Smith Khare, The Maersk Mc-Kinney Moller</li>
+            Institute, University of Southern Denmark
             <li>Dr. Somanath Pradhan, IIT Patna, India</li>
             <li>Dr. Sunil Kumar Jauhar, IIM Kashipur</li>
             <li>Dr. Varun Bajaj, NIT Bhopal, India</li>

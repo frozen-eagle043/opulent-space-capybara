@@ -85,8 +85,8 @@ const Home = () => {
       >
         We are thrilled to announce the{" "}
         <b>
-          International Conference on Intelligent Signal Processing and
-          Effective Communication Technologies (INSPECT-2024)
+          2024 IEEE International Conference on Intelligent Signal Processing
+          and Effective Communication Technologies (INSPECT)
         </b>
         , to be held in a groundbreaking hybrid format, seamlessly blending
         in-person and virtual participation. Mark your calendars for{" "}
