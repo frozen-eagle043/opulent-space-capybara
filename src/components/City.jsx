@@ -11,7 +11,7 @@ const City = () => {
           className="about-text-start-right"
           style={{ textAlign: "justify" }}
         >
-          <p style={{ color: "purple", fontSize: "17px", fontWeight: "550" }}>
+          <p style={{ color: "purple", fontSize: "17px", fontWeight: "549" }}>
             Nestled in the heart of India, Gwalior stands as a vibrant city rich
             in history, culture, and architectural marvels. Known for its
             majestic Gwalior Fort, adorned with intricate carvings and
