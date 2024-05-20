@@ -35,7 +35,9 @@ const Footer = () => (
     <p className="footer-copyright">
       Designed & Developed by: <strong>(ABV-IIITM Gwalior Students)</strong>{" "}
       <br />© 2024 All rights reserved.
-    </p>
+      <br/><div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>Total visitors:
+<img src="https://www.coolseotools.com/website-visitor-counter/count/&style=style1&show=p&num=5&uid=z2"  title="Web Counter" alt="AtoZSEOTools Web Counter" style={{height:"20px", marginLeft:"5px"}}/>
+    </div></p>
     {/* <p className="footer-links">
       <a href="/accommodation">Accommodation</a> |{" "}
       <a href="/fellowship">Fellowship</a> | <a href="/sponsor">Sponsor</a> |{" "}
