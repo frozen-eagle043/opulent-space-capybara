@@ -43,6 +43,9 @@ export default function Dates() {
                 <div className="tab-body-content">
                   Notification of Acceptance: September 10, 2024
                 </div>
+                <div className="tab-body-content">
+                  Early Bird Registration: 20 days from acceptance email / October 10, 2024 (Whichever is earlier)
+                </div>
               </div>
             </div>
           </TabPanel>
