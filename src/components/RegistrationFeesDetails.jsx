@@ -83,7 +83,7 @@ const PricingComponent = () => {
 
             <tr>
               <td className="text-center bg-info text-white">
-                Academician/ Industry participants
+                Academician/ Industry participant
               </td>
               <td className="text-center">INR 8500</td>
               <td className="text-center">INR 9000</td>
@@ -91,10 +91,20 @@ const PricingComponent = () => {
 
               <td className="text-center">INR 10000</td>
             </tr>
-
             <tr>
               <td className="text-center bg-info text-white">
-                International Authors
+                Author from SAARC* countries
+              </td>
+              <td colSpan="2" className="text-center">
+                US$ 100
+              </td>
+              <td colSpan="2" className="text-center">
+                US$ 125
+              </td>
+            </tr>
+            <tr>
+              <td className="text-center bg-info text-white">
+                International Author
               </td>
               <td colSpan="2" className="text-center">
                 US$ 200
@@ -105,11 +115,22 @@ const PricingComponent = () => {
             </tr>
             <tr>
               <td className="text-center bg-info text-white">
-                Attendees (without Kit)
+                Attendee (without Kit)
               </td>
               <td className="text-center" colspan="4">
                 INR 2000
               </td>
+            </tr>
+            <tr>
+              <td className="text-center bg-info text-white">
+                Co-Author (without Kit)
+              </td>
+              <td className="text-center" colspan="4">
+                INR 2000
+              </td>
+            </tr>
+            <tr>
+              <td>* Its member states are Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka. <a href="https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation">Know More</a></td>
             </tr>
           </tbody>
         </table>

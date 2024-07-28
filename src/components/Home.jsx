@@ -5,7 +5,7 @@ import Slider from "react-slick"; // Importing the Slider component
 import About from "./About";
 import GeneralChairs from "./GeneralChairs";
 
-import inspect_home from "../assets/images/home_page/inspect_2024.png";
+import inspect_home from "../assets/images/home_page/inspect_2024_2.png";
 
 import City from "./City";
 import Conference from "./Conference";

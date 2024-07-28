@@ -7,7 +7,7 @@ const RegistrationComponent = () => {
     <div className="container mt-5">
       <h2 className="text-center mb-4">INSPECT-2024 Registration</h2>
       <div className="col">
-        <div style={{ fontSize: "17px" }} className="col-md-7">
+        <div style={{ fontSize: "17px" }} className="col-md-8">
           <h3 style={{ color: "red" }} className="mb-3">
             Important Dates
           </h3>
@@ -17,7 +17,7 @@ const RegistrationComponent = () => {
           </p>
           <p>
             <strong>Deadline for early bird registration: </strong>
-            10 October 2024
+            20 days from acceptance email / October 10, 2024 (Whichever is earlier)
           </p>
 
           <h3 style={{ color: "red" }} className="mb-3 mt-4">
@@ -90,7 +90,7 @@ const RegistrationComponent = () => {
         <div className="col-md-6">
           <button
             className="btn btn-primary mt-4"
-            onClick={() => window.open("https://www.google.com")}
+            onClick={() => window.open("https://forms.gle/ydY4uThxNGZwAn3Y6")}
           >
             Registration Form
           </button>
@@ -105,6 +105,7 @@ const RegistrationComponent = () => {
       </h3>
       <ul className="mb-4">
         <li>Please note that the fees shown above include GST.</li>
+        <li>Please note that the fees shown above applies for an individual person.</li>
         <li>
           Gateway charges <strong>(if any)</strong> must be borne by the
           participant.
@@ -146,6 +147,9 @@ const RegistrationComponent = () => {
           An attendee's registration includes refreshments (morning and
           evening), 2 lunches, an attendee certificate, entry to all the
           technical sessions, and cultural events.
+        </li>
+        <li>
+        A co-author registration includes a presentation slot (along with presenting author), a presentation certificate, entry to all the technical sessions, and cultural events.
         </li>
       </ul>
     </div>

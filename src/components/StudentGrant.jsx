@@ -43,7 +43,7 @@ const StudentGrant = () => {
           </h4>
           <p>
             Complete the form here -{" "}
-            <a href="/student-grant">(Link will be provided later)</a>
+            <a href="https://forms.gle/HHyeDiharSkpLrQW9">Click Here</a>
           </p>
           <p>
             The following documents will be required to submit the above form:
