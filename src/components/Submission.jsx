@@ -102,7 +102,7 @@ const SubmissionComponent = () => {
           </a>
         </p>
         <p>
-          Submission Deadline: <b>August 15, 2024</b>
+          Submission Deadline: <b>August 31, 2024</b>
         </p>
         <p>
           Accepted papers will be assigned to a regular technical session. All

@@ -44,6 +44,9 @@ export default function Dates() {
                   Extended Deadline: August 15, 2024
                 </div>
                 <div className="tab-body-content">
+                  Final Deadline: August 31, 2024
+                </div>
+                <div className="tab-body-content">
                   Notification of Acceptance: September 10, 2024
                 </div>
                 <div className="tab-body-content">
