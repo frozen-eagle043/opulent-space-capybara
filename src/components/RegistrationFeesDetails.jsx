@@ -130,7 +130,7 @@ const PricingComponent = () => {
               </td>
             </tr>
             <tr>
-              <td>* Its member states are Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka. <a href="https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation">Know More</a></td>
+              <td>* Its member states are Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, Pakistan, and Sri Lanka. <a href="https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation">Know More</a></td>
             </tr>
           </tbody>
         </table>

@@ -13,7 +13,7 @@ const RegistrationComponent = () => {
           </h3>
           <p>
             <strong>Deadline for camera-ready submission: </strong>
-            25 September 2024
+            30 September 2024
           </p>
           <p>
             <strong>Deadline for early bird registration: </strong>

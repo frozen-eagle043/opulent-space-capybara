@@ -32,7 +32,7 @@ export default function Dates() {
           <TabList onChange={handleChange} aria-label="important date tabs">
             <Tab label="Submission & Decision Dates" value="1" />
             {/* <Tab label="Second Round Submission" value="2" /> */}
-            <Tab label="Registration and Camera Ready" value="3" />
+            {/* <Tab label="Registration and Camera Ready" value="3" /> */}
           </TabList>
           <TabPanel value="1" className="tab-panel-background">
             <div className="tab-body">
@@ -41,16 +41,25 @@ export default function Dates() {
                   Submission Deadline: <strike>July 31, 2024</strike>
                 </div>
                 <div className="tab-body-content">
-                  Extended Deadline: August 15, 2024
+                  Extended Deadline: <strike>August 15, 2024</strike>
                 </div>
                 <div className="tab-body-content">
-                  Final Deadline: August 31, 2024
+                  Final Deadline: <strike>August 31, 2024</strike>
                 </div>
                 <div className="tab-body-content">
                   Notification of Acceptance: September 10, 2024
                 </div>
                 <div className="tab-body-content">
                   Early Bird Registration: 20 days from acceptance email / October 10, 2024 (Whichever is earlier)
+                </div>
+                <div className="tab-body-content">
+                  Camera Ready Submission Deadline: September 30, 2024
+                </div>
+                <div className="tab-body-content">
+                  Early Bird Registration: October 10, 2024
+                </div>
+                <div className="tab-body-content">
+                  Late Registration Deadline: October 30, 2024
                 </div>
               </div>
             </div>
@@ -67,7 +76,7 @@ export default function Dates() {
               </div>
             </div>
           </TabPanel> */}
-          <TabPanel value="3" className="tab-panel-background">
+          {/* <TabPanel value="3" className="tab-panel-background">
             <div className="tab-body">
               <div className="tablist-inner-div">
                 <div className="tab-body-content">
@@ -81,7 +90,7 @@ export default function Dates() {
                 </div>
               </div>
             </div>
-          </TabPanel>
+          </TabPanel> */}
         </TabContext>
       </Box>
     </div>
